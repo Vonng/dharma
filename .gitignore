@@ -1,0 +1,8 @@
+.hugo_build.lock
+public/
+resources/
+node_modules/
+tmp/
+.idea/
+dharam.iml
+_vendor

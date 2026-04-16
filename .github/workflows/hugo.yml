@@ -1,0 +1,91 @@
+name: Build and deploy GitHub Pages
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  build:
+    if: github.event_name == 'workflow_dispatch' || github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    env:
+      GO_VERSION: 1.26.2
+      HUGO_VERSION: 0.160.1
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Setup Go
+        uses: actions/setup-go@v6
+        with:
+          go-version: ${{ env.GO_VERSION }}
+          cache: false
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v6
+
+      - name: Install Hugo
+        run: |
+          curl -sLJO "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
+          mkdir -p "${HOME}/.local/hugo"
+          tar -C "${HOME}/.local/hugo" -xf "hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
+          rm "hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
+          echo "${HOME}/.local/hugo" >> "${GITHUB_PATH}"
+
+      - name: Verify installations
+        run: |
+          echo "Go: $(go version)"
+          echo "Hugo: $(hugo version)"
+
+      - name: Cache restore
+        id: cache-restore
+        uses: actions/cache/restore@v5
+        with:
+          path: ${{ runner.temp }}/hugo_cache
+          key: hugo-${{ runner.os }}-${{ hashFiles('hugo.yaml', 'go.mod', 'go.sum') }}-${{ github.sha }}
+          restore-keys: |
+            hugo-${{ runner.os }}-${{ hashFiles('hugo.yaml', 'go.mod', 'go.sum') }}-
+            hugo-${{ runner.os }}-
+
+      - name: Build site
+        run: hugo build --gc --minify --cacheDir "${{ runner.temp }}/hugo_cache"
+
+      - name: Cache save
+        if: steps.cache-restore.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v5
+        with:
+          path: ${{ runner.temp }}/hugo_cache
+          key: ${{ steps.cache-restore.outputs.cache-primary-key }}
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: ./public
+
+  deploy:
+    if: github.event_name == 'workflow_dispatch' || github.ref_name == github.event.repository.default_branch
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

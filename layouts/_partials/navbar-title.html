@@ -1,0 +1,13 @@
+{{- $logoPath := .Site.Params.navbar.logo.path | default "images/logo.svg" -}}
+{{- $logoLink := .Site.Params.navbar.logo.link | default .Site.Home.RelPermalink -}}
+{{- $logoWidth := .Site.Params.navbar.logo.width | default "24" -}}
+{{- $logoHeight := .Site.Params.navbar.logo.height | default "24" -}}
+{{- $logoDarkPath := .Site.Params.navbar.logo.dark | default $logoPath -}}
+
+<a class="cd-navbar-brand hx:ltr:mr-auto hx:rtl:ml-auto hx:hover:opacity-80" href="{{ $logoLink }}">
+  <img class="hx:block hx:dark:hidden" src="{{ $logoPath | relURL }}" alt="{{ .Site.Title }}" height="{{ $logoHeight }}" width="{{ $logoWidth }}" />
+  <img class="hx:hidden hx:dark:block" src="{{ $logoDarkPath | relURL }}" alt="{{ .Site.Title }}" height="{{ $logoHeight }}" width="{{ $logoWidth }}" />
+  <span class="cd-brand-lockup" title="{{ .Site.Title }}">
+    <span class="cd-brand-cn">赛博经藏</span>
+  </span>
+</a>
