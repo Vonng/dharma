@@ -67,8 +67,10 @@ html.dark body {
 }
 
 .content h1 {
-  margin-top: 0.2rem;
-  font-size: clamp(2.3rem, 4vw, 3.4rem);
+  margin-top: 0.15rem;
+  font-size: clamp(1.75rem, 2.35vw, 2.2rem);
+  line-height: 1.12;
+  letter-spacing: 0;
 }
 
 .content h2 {
@@ -117,9 +119,8 @@ html.dark body {
 }
 
 .content table {
-  display: block;
+  display: table;
   width: 100%;
-  overflow-x: auto;
   margin: 2rem 0;
   border: 1px solid var(--cd-border);
   border-collapse: collapse;
@@ -144,7 +145,9 @@ html.dark body {
   padding: 0.9rem 1rem;
   border-right: 1px solid var(--cd-border);
   border-bottom: 1px solid var(--cd-border);
-  white-space: nowrap;
+  vertical-align: top;
+  white-space: normal;
+  overflow-wrap: anywhere;
 }
 
 .content th:last-child,
@@ -228,6 +231,39 @@ html.dark .content tbody tr:nth-child(even) {
   font-size: 1rem;
   font-weight: 700;
   letter-spacing: 0.08em;
+}
+
+.hextra-nav-container {
+  --cd-header-surface: rgba(247, 241, 231, 0.82);
+  --cd-header-shadow: 0 12px 28px rgba(66, 50, 22, 0.08);
+  border-bottom: 1px solid rgba(152, 115, 41, 0.1);
+}
+
+html.dark .hextra-nav-container {
+  --cd-header-surface: rgba(18, 21, 27, 0.82);
+  --cd-header-shadow: 0 14px 30px rgba(0, 0, 0, 0.26);
+  border-bottom-color: rgba(207, 164, 74, 0.12);
+}
+
+.hextra-nav-container-blur {
+  background: linear-gradient(180deg, rgba(252, 249, 243, 0.94), var(--cd-header-surface)) !important;
+  box-shadow: var(--cd-header-shadow), inset 0 -1px 0 rgba(152, 115, 41, 0.06) !important;
+  backdrop-filter: blur(18px);
+}
+
+.hextra-nav-container .hextra-search-input {
+  border: 1px solid rgba(152, 115, 41, 0.12);
+  background: rgba(255, 248, 236, 0.72);
+}
+
+.hextra-nav-container .hextra-search-input:focus-visible {
+  border-color: rgba(152, 115, 41, 0.24);
+  background: rgba(255, 251, 244, 0.96);
+}
+
+html.dark .hextra-nav-container .hextra-search-input {
+  border-color: rgba(207, 164, 74, 0.16);
+  background: rgba(28, 33, 41, 0.7);
 }
 
 .hextra-sidebar-container .hextra-scrollbar {
@@ -321,29 +357,36 @@ html.dark .content tbody tr:nth-child(even) {
   color: var(--cd-ink);
 }
 
+.hextra-toc {
+  width: clamp(19rem, 24vw, 23rem);
+  padding-inline: 0.2rem;
+}
+
 .hextra-toc > .hextra-scrollbar {
-  top: calc(var(--navbar-height) + 1rem);
+  top: calc(var(--navbar-height) + 1.1rem);
   margin-inline: 0;
-  padding: 1.15rem 1rem 0;
-  border: 1px solid var(--cd-border);
-  border-radius: 1.35rem;
-  background: var(--cd-panel);
-  box-shadow: var(--cd-panel-shadow);
-  backdrop-filter: blur(18px);
+  padding: 0.35rem 0 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  backdrop-filter: none;
 }
 
 .hextra-toc p {
   color: var(--cd-muted);
-  font-size: 0.74rem;
+  margin-bottom: 0.7rem;
+  padding-inline-start: 0.75rem;
+  font-size: 0.62rem;
   font-weight: 700;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
 }
 
 .hextra-toc ul {
   display: flex;
   flex-direction: column;
-  gap: 0.2rem;
+  gap: 0.08rem;
 }
 
 .hextra-toc li {
@@ -352,50 +395,42 @@ html.dark .content tbody tr:nth-child(even) {
 
 .hextra-toc a {
   display: block;
-  padding-block: 0.48rem;
-  padding-inline-start: 0.85rem;
-  padding-inline-end: 0.85rem;
+  padding-block: 0.36rem;
+  padding-inline-start: 0.75rem;
+  padding-inline-end: 0.4rem;
   color: var(--cd-muted);
-  line-height: 1.45;
-  transition: background-color 0.18s ease, color 0.18s ease, transform 0.18s ease, box-shadow 0.18s ease;
-}
-
-.hextra-toc a[class*="hx:ltr:pl-4"] {
-  padding-inline-start: 1.4rem;
-}
-
-.hextra-toc a[class*="hx:ltr:pl-8"] {
-  padding-inline-start: 1.95rem;
-}
-
-.hextra-toc a[class*="hx:ltr:pl-12"] {
-  padding-inline-start: 2.5rem;
+  font-size: 0.76rem;
+  font-weight: 500;
+  line-height: 1.32;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: background-color 0.18s ease, color 0.18s ease, box-shadow 0.18s ease;
 }
 
 .hextra-toc a:hover,
 .hextra-toc a:focus-visible {
-  background: var(--cd-gold-soft);
+  background: rgba(152, 115, 41, 0.08);
   color: var(--cd-ink);
-  transform: translateX(2px);
 }
 
 .hextra-toc a.hextra-toc-active {
-  background: linear-gradient(90deg, rgba(152, 115, 41, 0.18), rgba(152, 115, 41, 0.06));
+  background: linear-gradient(90deg, rgba(152, 115, 41, 0.14), rgba(152, 115, 41, 0));
   color: var(--cd-ink) !important;
   box-shadow: inset 2px 0 0 var(--cd-gold);
 }
 
 .hextra-toc > .hextra-scrollbar > div:last-child {
-  margin-top: 1rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  border-top: 1px solid var(--cd-border);
-  background: linear-gradient(180deg, rgba(246, 240, 226, 0), var(--cd-panel-strong) 26%);
+  margin-top: 0.8rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.25rem;
+  border-top: 0;
+  background: transparent;
   box-shadow: none;
 }
 
 html.dark .hextra-toc > .hextra-scrollbar > div:last-child {
-  background: linear-gradient(180deg, rgba(15, 18, 23, 0), var(--cd-panel-strong) 26%);
+  background: transparent;
 }
 
 #backToTop {
@@ -404,6 +439,7 @@ html.dark .hextra-toc > .hextra-scrollbar > div:last-child {
   gap: 0.35rem;
   padding: 0.25rem 0;
   color: var(--cd-muted);
+  font-size: 0.68rem;
 }
 
 #backToTop:hover {
@@ -475,6 +511,7 @@ html.dark .hextra-toc > .hextra-scrollbar > div:last-child {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 0.18rem;
   min-height: 5.1rem;
   padding: 0.78rem 1rem 0.82rem;
@@ -482,6 +519,7 @@ html.dark .hextra-toc > .hextra-scrollbar > div:last-child {
   border-radius: 1.1rem;
   background: var(--cd-surface);
   box-shadow: var(--cd-shadow);
+  text-align: center;
   text-decoration: none;
   transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
 }
