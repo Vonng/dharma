@@ -59,7 +59,7 @@ toc: false
         <a class="cd-node cd-node-vedanta" href="vedanta/"><span>卷四</span>梵</a>
         <a class="cd-node cd-node-abrahamic" href="abrahamic/"><span>卷五</span>神</a>
         <a class="cd-node cd-node-zoroastrianism" href="zoroastrianism/"><span>卷六</span>火</a>
-        <a class="cd-node cd-node-gnosticism" href="gnosticism/"><span>卷七</span>识</a>
+        <a class="cd-node cd-node-gnosticism" href="gnosticism/"><span>卷七</span>知</a>
         <div class="cd-core">
           <span>七个问题</span>
           <strong>七卷经藏</strong>
