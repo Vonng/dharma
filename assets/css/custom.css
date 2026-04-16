@@ -288,18 +288,7 @@ html.dark .hextra-nav-container .hextra-search-input {
 }
 
 .hextra-sidebar-container [data-toggle-animation="show"] {
-  margin: 1rem;
-  padding: 0.45rem;
-  border: 1px solid var(--cd-border);
-  border-radius: 1.15rem;
-  background: var(--cd-panel);
-  box-shadow: var(--cd-panel-shadow);
-  backdrop-filter: blur(18px);
-}
-
-.hextra-sidebar-container [data-toggle-animation="show"] > div {
-  flex: 1 1 auto;
-  min-width: 0;
+  display: none;
 }
 
 .hextra-theme-toggle {
@@ -481,6 +470,10 @@ html.dark .hextra-toc > .hextra-scrollbar > div:last-child {
   font-size: clamp(3.2rem, 7vw, 5.8rem);
   line-height: 0.95;
   letter-spacing: 0.03em;
+}
+
+html[lang^="en"] .cd-hero h1 {
+  font-size: clamp(2.2rem, 5vw, 3.6rem);
 }
 
 .cd-tagline {

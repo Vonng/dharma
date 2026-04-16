@@ -37,6 +37,10 @@ languages:
           weight: 2
           params:
             type: search
+        - name: 语言
+          weight: 3
+          params:
+            type: language-switch
       sidebar:
         - identifier: author
           name: 作者：Vonng
@@ -58,6 +62,10 @@ languages:
           weight: 2
           params:
             type: search
+        - name: Language
+          weight: 3
+          params:
+            type: language-switch
       sidebar:
         - identifier: author
           name: "Author: Vonng"
@@ -100,10 +108,10 @@ params:
 
   theme:
     default: system
-    displayToggle: true
+    displayToggle: false
 
   footer:
-    enable: true
+    enable: false
     displayCopyright: false
     displayPoweredBy: false
     width: wide

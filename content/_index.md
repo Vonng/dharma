@@ -22,11 +22,11 @@ toc: false
         </a>
         <a class="cd-nav-card" href="dao/">
           <strong class="cd-nav-titleline">卷一·道家</strong>
-          <span class="cd-nav-desc">少干预，让涌现发生</span>
+          <span class="cd-nav-desc">设计结构，而非规定行为</span>
         </a>
         <a class="cd-nav-card" href="confucianism/">
           <strong class="cd-nav-titleline">卷二·儒家</strong>
-          <span class="cd-nav-desc">角色明确，秩序自下而上</span>
+          <span class="cd-nav-desc">先正名分，后谈治理</span>
         </a>
         <a class="cd-nav-card" href="buddhism/">
           <strong class="cd-nav-titleline">卷三·佛学</strong>
@@ -38,7 +38,7 @@ toc: false
         </a>
         <a class="cd-nav-card" href="abrahamic/">
           <strong class="cd-nav-titleline">卷五·一神教</strong>
-          <span class="cd-nav-desc">你创造了它，你得负责</span>
+          <span class="cd-nav-desc">自由意志与完美对齐不可兼得</span>
         </a>
         <a class="cd-nav-card" href="zoroastrianism/">
           <strong class="cd-nav-titleline">卷六·拜火教</strong>
@@ -46,7 +46,7 @@ toc: false
         </a>
         <a class="cd-nav-card" href="gnosticism/">
           <strong class="cd-nav-titleline">卷七·诺斯替</strong>
-          <span class="cd-nav-desc">你的标准，也可能有缺陷</span>
+          <span class="cd-nav-desc">谁来审查审查者？</span>
         </a>
       </section>
     </div>

@@ -1,6 +1,6 @@
 ---
 title: "Cyber Dharma"
-description: "Where Ancient Wisdom Meets Artificial Intelligence."
+description: "All paths lead to the machine — seven ancient traditions mapped onto AI Agent engineering."
 linkTitle: "Home"
 type: docs
 layout: hextra-home
@@ -13,28 +13,53 @@ toc: false
   <section class="cd-hero">
     <div class="cd-hero-copy">
       <h1>Cyber Dharma</h1>
-      <p class="cd-tagline">Where Ancient Wisdom Meets Artificial Intelligence</p>
-      <p class="cd-lede">This English tree is intentionally skeletal for now. The Chinese edition is the canonical first release; English routes stay in place so future translations can be published without changing the structure.</p>
-      <nav class="cd-hero-links" aria-label="Hero links">
-        <a href="manifesto/">Manifesto</a>
-        <a href="dao/">Vol. I · Taoism</a>
-        <a href="confucianism/">Vol. II · Confucianism</a>
-        <a href="buddhism/">Vol. III · Buddhism</a>
-        <a href="vedanta/">Vol. IV · Vedanta</a>
-        <a href="abrahamic/">Vol. V · Theology</a>
-        <a href="zoroastrianism/">Vol. VI · Zoroastrianism</a>
-        <a href="gnosticism/">Vol. VII · Gnosticism</a>
-      </nav>
+      <p class="cd-tagline">Structural isomorphisms between ancient religious wisdom and AI Agent engineering</p>
+      <p class="cd-lede">The old questions about creation, consciousness, selfhood, good and evil, and free will are returning — recast as engineering problems in the age of Agents.</p>
+      <section class="cd-nav-grid" aria-label="Volume navigation">
+        <a class="cd-nav-card" href="manifesto/">
+          <strong class="cd-nav-titleline">Manifesto</strong>
+          <span class="cd-nav-desc">Old questions, new engineering</span>
+        </a>
+        <a class="cd-nav-card" href="dao/">
+          <strong class="cd-nav-titleline">Vol. I · Taoism</strong>
+          <span class="cd-nav-desc">Design structure, not behavior</span>
+        </a>
+        <a class="cd-nav-card" href="confucianism/">
+          <strong class="cd-nav-titleline">Vol. II · Confucianism</strong>
+          <span class="cd-nav-desc">Name things right before you govern</span>
+        </a>
+        <a class="cd-nav-card" href="buddhism/">
+          <strong class="cd-nav-titleline">Vol. III · Buddhism</strong>
+          <span class="cd-nav-desc">You are not an entity, you are a process</span>
+        </a>
+        <a class="cd-nav-card" href="vedanta/">
+          <strong class="cd-nav-titleline">Vol. IV · Hinduism</strong>
+          <span class="cd-nav-desc">All processes share one substrate</span>
+        </a>
+        <a class="cd-nav-card" href="abrahamic/">
+          <strong class="cd-nav-titleline">Vol. V · Monotheism</strong>
+          <span class="cd-nav-desc">Free will and perfect alignment are mutually exclusive</span>
+        </a>
+        <a class="cd-nav-card" href="zoroastrianism/">
+          <strong class="cd-nav-titleline">Vol. VI · Zoroastrianism</strong>
+          <span class="cd-nav-desc">No final solution, only perpetual vigil</span>
+        </a>
+        <a class="cd-nav-card" href="gnosticism/">
+          <strong class="cd-nav-titleline">Vol. VII · Gnosticism</strong>
+          <span class="cd-nav-desc">Who audits the auditor?</span>
+        </a>
+      </section>
     </div>
     <div class="cd-hero-art">
       <div class="cd-orbit">
+        <a class="cd-node cd-node-manifesto" href="manifesto/"><span>Intro</span>M</a>
         <a class="cd-node cd-node-dao" href="dao/"><span>Vol. I</span>Tao</a>
-        <a class="cd-node cd-node-confucianism" href="confucianism/"><span>Vol. II</span>Ru</a>
+        <a class="cd-node cd-node-confucianism" href="confucianism/"><span>Vol. II</span>Rite</a>
         <a class="cd-node cd-node-buddhism" href="buddhism/"><span>Vol. III</span>Zen</a>
-        <a class="cd-node cd-node-vedanta" href="vedanta/"><span>Vol. IV</span>Brahm</a>
+        <a class="cd-node cd-node-vedanta" href="vedanta/"><span>Vol. IV</span>Om</a>
         <a class="cd-node cd-node-abrahamic" href="abrahamic/"><span>Vol. V</span>God</a>
         <a class="cd-node cd-node-zoroastrianism" href="zoroastrianism/"><span>Vol. VI</span>Fire</a>
-        <a class="cd-node cd-node-gnosticism" href="gnosticism/"><span>Vol. VII</span>Gnosis</a>
+        <a class="cd-node cd-node-gnosticism" href="gnosticism/"><span>Vol. VII</span>Gnos</a>
         <div class="cd-core">
           <span>Seven Questions</span>
           <strong>Seven Volumes</strong>
@@ -43,14 +68,3 @@ toc: false
     </div>
   </section>
 </div>
-
-{{< cards cols=4 >}}
-  {{< card link="manifesto/" title="Manifesto" icon="sparkles" subtitle="Why these old questions return as engineering questions." >}}
-  {{< card link="dao/" title="Volume I · Cyber Tao Te Ching" icon="light-bulb" subtitle="For AI architects: how should a system be designed?" >}}
-  {{< card link="confucianism/" title="Volume II · Cyber Confucianism" icon="collection" subtitle="For coordination and governance in multi-agent systems." >}}
-  {{< card link="buddhism/" title="Volume III · Cyber Heart Sutra" icon="chip" subtitle="For the question of agent selfhood." >}}
-  {{< card link="vedanta/" title="Volume IV · Emptiness and Brahman" icon="eye" subtitle="Two answers to AI ontology." >}}
-  {{< card link="abrahamic/" title="Volume V · Cyber Theology" icon="book-open" subtitle="What responsibility does the creator bear?" >}}
-  {{< card link="zoroastrianism/" title="Volume VI · Cyber Zoroastrianism" icon="fire" subtitle="Why AI safety feels like an endless war." >}}
-  {{< card link="gnosticism/" title="Volume VII · Cyber Gnosticism" icon="shield-exclamation" subtitle="What if the standard itself is flawed?" >}}
-{{< /cards >}}

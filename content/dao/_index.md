@@ -1,5 +1,5 @@
 ---
-title: "赛博道德经：AI Agent 架构的道家原理"
+title: "赛博道德经：设计结构，而非规定行为"
 description: "卷一，道家：系统怎么设计？"
 linkTitle: "卷一 · 道家"
 type: docs
