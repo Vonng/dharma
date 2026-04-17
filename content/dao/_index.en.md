@@ -39,6 +39,11 @@ This is not a metaphor. This is not "dressing AI up in Eastern mysticism." What 
 
 This is not a chapter-by-chapter translation of the *Dao De Jing*'s eighty-one verses. That would be tedious and pointless — not every chapter maps to AI Agents. We extract only the insights with the strongest mapping force, reorganize them along the logic of AI Agent architecture design, and use them to illuminate the deepest blind spots in current AI engineering.
 
+<div class="cd-reading-note">
+  <strong>Further Reading</strong>
+  <p>For the chapter-by-chapter version, see <a href="daodejing/">Dao De Jing: All 81 Chapters — A Cyber Commentary</a>.</p>
+</div>
+
 ---
 
 ## I. Rules vs. Emergence: The Fundamental Alignment Dilemma

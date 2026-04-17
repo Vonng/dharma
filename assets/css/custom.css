@@ -210,6 +210,40 @@ html.dark .content tbody tr:nth-child(even) {
   font-size: 0.9rem;
 }
 
+.cd-reading-note {
+  margin: 2rem 0;
+  padding: 1rem 1.2rem;
+  border: 1px solid var(--cd-border);
+  border-radius: 1rem;
+  background: var(--cd-panel);
+  box-shadow: 0 12px 32px rgba(66, 50, 22, 0.08);
+}
+
+.cd-reading-note strong {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: var(--cd-ink);
+  font-family: var(--cd-serif);
+  font-size: 1rem;
+}
+
+.cd-reading-note p {
+  margin: 0;
+  color: var(--cd-muted);
+}
+
+.cd-colophon {
+  margin: 2.6rem 0 0;
+  text-align: center;
+  color: var(--cd-muted);
+  line-height: 1.9;
+}
+
+.cd-colophon em {
+  font-style: normal;
+  font-family: var(--cd-serif);
+}
+
 .cd-navbar-brand {
   display: inline-flex;
   align-items: center;

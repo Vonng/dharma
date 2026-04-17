@@ -21,13 +21,13 @@ No need to over-engineer on day one. v1 just needs to carry the mapping table, s
 
 | Tradition | Religious Concept | AI / Engineering Concept | Volume |
 | --- | --- | --- | --- |
-| Taoism | Wu Wei | Minimal-intervention architecture | [Vol. I](/dao) |
-| Confucianism | Rectification of Names | API type safety | [Vol. II](/confucianism) |
-| Buddhism | Five Aggregates (Skandhas) | Five-layer Agent processing stack | [Vol. III](/buddhism) |
-| Vedanta | Brahman | Ground truth / ontological substrate | [Vol. IV](/vedanta) |
-| Abrahamic | The Fall | Alignment problem as parable | [Vol. V](/abrahamic) |
-| Zoroastrianism | Cosmic dualism of good and evil | Perpetual security adversarialism | [Vol. VI](/zoroastrianism) |
-| Gnosticism | The forged world | Wrong training distribution | [Vol. VII](/gnosticism) |
+| Taoism | Wu Wei | Minimal-intervention architecture | [Vol. I](../dao/) |
+| Confucianism | Rectification of Names | API type safety | [Vol. II](../confucianism/) |
+| Buddhism | Five Aggregates (Skandhas) | Five-layer Agent processing stack | [Vol. III](../buddhism/) |
+| Vedanta | Brahman | Ground truth / ontological substrate | [Vol. IV](../vedanta/) |
+| Abrahamic | The Fall | Alignment problem as parable | [Vol. V](../abrahamic/) |
+| Zoroastrianism | Cosmic dualism of good and evil | Perpetual security adversarialism | [Vol. VI](../zoroastrianism/) |
+| Gnosticism | The forged world | Wrong training distribution | [Vol. VII](../gnosticism/) |
 
 ## Browsing Modes
 

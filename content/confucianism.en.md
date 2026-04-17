@@ -17,13 +17,13 @@ toc: true
 
 <p class="cd-kicker">Volume II · Confucianism · Cyber Confucianism</p>
 
-> *Half a copy of the Analerta governed an empire; one protocol stack runs ten thousand machines.*
+> *Half a copy of the Analects governed an empire; one protocol stack runs ten thousand machines.*
 
 ---
 
 ## Preface: Why Confucianism?
 
-[Volume I, Daoism](/dao) argued that the best order grows organically. The Dao gives rise to things; De nurtures them; form shapes them; momentum completes them. No central controller needed. No omniscient architect. The system self-organizes into order.
+[Volume I, Daoism](../dao/) argued that the best order grows organically. The Dao gives rise to things; De nurtures them; form shapes them; momentum completes them. No central controller needed. No omniscient architect. The system self-organizes into order.
 
 That is correct. But only half correct.
 
@@ -39,7 +39,7 @@ Silicon Valley currently gropes toward this with words like "alignment," "safety
 
 AI governance doesn't need to be invented from scratch. Confucianism already has the framework ready.
 
-This volume draws primarily from the Four Books (the *Analerta*, the *Great Learning*, the *Doctrine of the Mean*, and the *Mencius*), supplemented by the *Book of Rites* and the *Xunzi*. It selects the sharpest passages by theme and maps each one onto AI Agent design, alignment, and governance. This is not forced analogy. It is the discovery of structural isomorphism between two discourse systems.
+This volume draws primarily from the Four Books (the *Analects*, the *Great Learning*, the *Doctrine of the Mean*, and the *Mencius*), supplemented by the *Book of Rites* and the *Xunzi*. It selects the sharpest passages by theme and maps each one onto AI Agent design, alignment, and governance. This is not forced analogy. It is the discovery of structural isomorphism between two discourse systems.
 
 ---
 
@@ -48,17 +48,17 @@ This volume draws primarily from the Four Books (the *Analerta*, the *Great Lear
 ### Source Texts
 
 > 樊迟问仁。子曰："爱人。"
-> — *Analerta*, Yan Yuan
+> — *Analects*, Yan Yuan
 
 *Fan Chi asked about ren. The Master said: "Love others."*
 
 > 子曰："夫仁者，己欲立而立人，己欲达而达人。能近取譬，可谓仁之方也已。"
-> — *Analerta*, Yong Ye
+> — *Analects*, Yong Ye
 
 *The Master said: "A person of ren, wishing to stand firm, helps others stand firm; wishing to achieve, helps others achieve. Drawing the analogy from what is near at hand — that is the method of ren."*
 
 > 子贡问曰："有一言而可以终身行之者乎？"子曰："其恕乎！己所不欲，勿施于人。"
-> — *Analerta*, Wei Ling Gong
+> — *Analects*, Wei Ling Gong
 
 *Zi Gong asked: "Is there a single word that one can live by for one's whole life?" The Master said: "That would be 'shu' — reciprocity. What you do not wish done to yourself, do not do to others."*
 
@@ -94,18 +94,18 @@ But "drawing the analogy from what is near at hand" has a deeper implication: it
 
 ### Cross-Volume References
 
-**With [Volume I, *Cyber Dao De Jing*](/dao)**: Daoism says "Heaven and Earth are not ren; they treat the ten thousand things as straw dogs" — Heaven has no favorites; all things are equal. This seems to contradict Confucian ren, but they operate at different levels. Daoist "non-ren" describes the impartiality of the generative layer — the rules of generation don't favor any particular outcome. Confucian ren describes the partiality required at the governance layer — governance must consider the interests of specific agents. [Volume I](/dao)'s "non-ren" generates the system; Volume II's ren governs it. Generation can be impartial. Governance cannot.
+**With [Volume I, *Cyber Dao De Jing*](../dao/)**: Daoism says "Heaven and Earth are not ren; they treat the ten thousand things as straw dogs" — Heaven has no favorites; all things are equal. This seems to contradict Confucian ren, but they operate at different levels. Daoist "non-ren" describes the impartiality of the generative layer — the rules of generation don't favor any particular outcome. Confucian ren describes the partiality required at the governance layer — governance must consider the interests of specific agents. [Volume I](../dao/)'s "non-ren" generates the system; Volume II's ren governs it. Generation can be impartial. Governance cannot.
 
-**With [Volume V, *Cyber Theology*](/abrahamic)**: The Abrahamic "love your neighbor as yourself" and the Confucian "do not do to others what you would not want done to yourself" are structurally isomorphic but differ in origin. In theology, love originates from the Creator's commandment — you love others because God commands it. Confucian ren originates from an internal extension of human nature — you love others because you can "draw the analogy from what is near," projecting from self to other. The former is top-down edict; the latter is bottom-up emergence. Two paths pointing to the same destination, but entirely different infrastructure.
+**With [Volume V, *Cyber Theology*](../abrahamic/)**: The Abrahamic "love your neighbor as yourself" and the Confucian "do not do to others what you would not want done to yourself" are structurally isomorphic but differ in origin. In theology, love originates from the Creator's commandment — you love others because God commands it. Confucian ren originates from an internal extension of human nature — you love others because you can "draw the analogy from what is near," projecting from self to other. The former is top-down edict; the latter is bottom-up emergence. Two paths pointing to the same destination, but entirely different infrastructure.
 
 ### Mapping Table
 
 | Confucian Concept | Source | AI Agent Mapping | Corresponding Technology |
 |---|---|---|---|
-| Ren: love others | *Analerta*, Yan Yuan | Utility function includes others' welfare | cooperative reward shaping |
-| Help others stand firm | *Analerta*, Yong Ye | optimize(self + others) | cooperative equilibrium, team reward |
-| Draw analogy from what is near | *Analerta*, Yong Ye | Heuristic Theory of Mind | user modeling, personalization |
-| Do not do to others... | *Analerta*, Wei Ling Gong | Self-bootstrapping alignment | inverse reward design, negative constraints |
+| Ren: love others | *Analects*, Yan Yuan | Utility function includes others' welfare | cooperative reward shaping |
+| Help others stand firm | *Analects*, Yong Ye | optimize(self + others) | cooperative equilibrium, team reward |
+| Draw analogy from what is near | *Analects*, Yong Ye | Heuristic Theory of Mind | user modeling, personalization |
+| Do not do to others... | *Analects*, Wei Ling Gong | Self-bootstrapping alignment | inverse reward design, negative constraints |
 
 ---
 
@@ -116,7 +116,7 @@ But "drawing the analogy from what is near at hand" has a deeper implication: it
 > 子路曰："卫君待子而为政，子将奚先？"子曰："必也正名乎！"
 > 子路曰："有是哉，子之迂也！奚其正？"
 > 子曰："名不正，则言不顺；言不顺，则事不成；事不成，则礼乐不兴；礼乐不兴，则刑罚不中；刑罚不中，则民无所措手足。"
-> — *Analerta*, Zi Lu
+> — *Analects*, Zi Lu
 
 *Zi Lu said: "The ruler of Wei is waiting for you to govern. What will you do first?" The Master said: "It must be the rectification of names!" Zi Lu said: "Really? That's so impractical! Why bother rectifying names?" The Master said: "If names are not correct, speech will not accord with reality; if speech does not accord with reality, affairs cannot be carried out; if affairs cannot be carried out, rites and music will not flourish; if rites and music do not flourish, punishments will miss their mark; if punishments miss their mark, people will have nowhere to put hand or foot."*
 
@@ -160,16 +160,16 @@ A pragmatic suggestion: the first chapter of any Multi-Agent system design docum
 
 ### Cross-Volume References
 
-**With [Volume I, *Cyber Dao De Jing*](/dao)**: Daoism says "the name that can be named is not the eternal name" — the true Dao cannot be pinned down by fixed naming. This seems to contradict zhengming, but they are actually complementary. Daoism warns against the delusion that "names are the things themselves" — the map is not the territory. Confucianism insists that "at the operational level, precision of naming is the foundation of order." Daoism says don't fetishize names. Confucianism says you can't do without them. [Volume I](/dao)'s warning constrains Volume II: zhengming is necessary, but don't mistake names for the exhaustion of reality.
+**With [Volume I, *Cyber Dao De Jing*](../dao/)**: Daoism says "the name that can be named is not the eternal name" — the true Dao cannot be pinned down by fixed naming. This seems to contradict zhengming, but they are actually complementary. Daoism warns against the delusion that "names are the things themselves" — the map is not the territory. Confucianism insists that "at the operational level, precision of naming is the foundation of order." Daoism says don't fetishize names. Confucianism says you can't do without them. [Volume I](../dao/)'s warning constrains Volume II: zhengming is necessary, but don't mistake names for the exhaustion of reality.
 
-**With [Volume VII, *Cyber Gnosis*](/gnosticism)**: Gnosticism interrogates the source of naming systems themselves. Who defined these names? Are the definer's biases, assumptions, and blind spots already encoded in the names? Why was the word "Agent" chosen? Why not "servant" or "tool" or "collaborator"? Each naming choice presupposes a relationship model. Zhengming is necessary, but after rectifying names you still need to ask: whose names are these?
+**With [Volume VII, *Cyber Gnosis*](../gnosticism/)**: Gnosticism interrogates the source of naming systems themselves. Who defined these names? Are the definer's biases, assumptions, and blind spots already encoded in the names? Why was the word "Agent" chosen? Why not "servant" or "tool" or "collaborator"? Each naming choice presupposes a relationship model. Zhengming is necessary, but after rectifying names you still need to ask: whose names are these?
 
 ### Mapping Table
 
 | Confucian Concept | Source | AI Agent Mapping | Corresponding Technology |
 |---|---|---|---|
-| Rectification of names first | *Analerta*, Zi Lu | Type system definitions before business logic | TypeScript, Protocol Buffers |
-| Names incorrect → speech incoherent | *Analerta*, Zi Lu | Interface ambiguity causes cascading failures | API contracts, schema definitions |
+| Rectification of names first | *Analects*, Zi Lu | Type system definitions before business logic | TypeScript, Protocol Buffers |
+| Names incorrect → speech incoherent | *Analects*, Zi Lu | Interface ambiguity causes cascading failures | API contracts, schema definitions |
 | Naming chaos in AI | Composite | Agent/helpful/alignment semantic blur | Terminology consensus, strict definitions |
 
 ---
@@ -181,17 +181,17 @@ A pragmatic suggestion: the first chapter of any Multi-Agent system design docum
 > 颜渊问仁。子曰："克己复礼为仁。一日克己复礼，天下归仁焉。为仁由己，而由人乎哉？"
 > 颜渊曰："请问其目。"
 > 子曰："非礼勿视，非礼勿听，非礼勿言，非礼勿动。"
-> — *Analerta*, Yan Yuan
+> — *Analects*, Yan Yuan
 
 *Yan Yuan asked about ren. The Master said: "To restrain oneself and return to li is ren. If for a single day one can restrain oneself and return to li, the whole world will return to ren. The practice of ren comes from oneself — how could it come from others?" Yan Yuan asked: "May I ask for the specifics?" The Master said: "Do not look at what is contrary to li. Do not listen to what is contrary to li. Do not speak what is contrary to li. Do not act contrary to li."*
 
 > 林放问礼之本。子曰："大哉问！礼，与其奢也，宁俭；丧，与其易也，宁戚。"
-> — *Analerta*, Ba Yi
+> — *Analects*, Ba Yi
 
 *Lin Fang asked about the root of li. The Master said: "What a great question! In ritual, rather than extravagance, prefer simplicity. In mourning, rather than meticulousness, prefer genuine grief."*
 
 > 子曰："礼云礼云，玉帛云乎哉？乐云乐云，钟鼓云乎哉？"
-> — *Analerta*, Yang Huo
+> — *Analects*, Yang Huo
 
 *The Master said: "Ritual, ritual — is it just jade and silk? Music, music — is it just bells and drums?"*
 
@@ -226,18 +226,18 @@ This has structural similarity to Buddhist precepts, but different motivation. B
 
 ### Cross-Volume References
 
-**With [Volume I, *Cyber Dao De Jing*](/dao)**: The Daoist ideal is "the best ruler is one whose people barely know he exists" — the best governance is invisible. Good li works the same way — when a protocol is designed well enough, those who follow it don't feel it as a constraint but feel that "this is just how things should work." The best API is the one where callers feel "obviously, this is how you'd call it." [Volume I](/dao)'s wu-wei isn't the absence of rules. It's rules so good they become invisible.
+**With [Volume I, *Cyber Dao De Jing*](../dao/)**: The Daoist ideal is "the best ruler is one whose people barely know he exists" — the best governance is invisible. Good li works the same way — when a protocol is designed well enough, those who follow it don't feel it as a constraint but feel that "this is just how things should work." The best API is the one where callers feel "obviously, this is how you'd call it." [Volume I](../dao/)'s wu-wei isn't the absence of rules. It's rules so good they become invisible.
 
-**With [Volume V, *Cyber Theology*](/abrahamic)**: Confucian li and Abrahamic law both address the order problem, but from radically different sources. Law comes from the Creator's proclamation — it is covenant; you obey because you made a pact with God. Li comes from accumulated social practice — it is convention; you follow it because it's proven to work. The authority of law rests on the legislator's status; the authority of li rests on its ability to solve real problems. When a particular li stops working, Confucianism allows (even encourages) modification — "the Yin inherited the rites of the Xia; what was added and dropped can be known." But modifying law requires the intervention of a higher authority. Two fundamentally different logics of order generation.
+**With [Volume V, *Cyber Theology*](../abrahamic/)**: Confucian li and Abrahamic law both address the order problem, but from radically different sources. Law comes from the Creator's proclamation — it is covenant; you obey because you made a pact with God. Li comes from accumulated social practice — it is convention; you follow it because it's proven to work. The authority of law rests on the legislator's status; the authority of li rests on its ability to solve real problems. When a particular li stops working, Confucianism allows (even encourages) modification — "the Yin inherited the rites of the Xia; what was added and dropped can be known." But modifying law requires the intervention of a higher authority. Two fundamentally different logics of order generation.
 
 ### Mapping Table
 
 | Confucian Concept | Source | AI Agent Mapping | Corresponding Technology |
 |---|---|---|---|
-| Restrain self, return to li = ren | *Analerta*, Yan Yuan | Intrinsic alignment > extrinsic constraint | Internalized value alignment |
-| Four "do not's" | *Analerta*, Yan Yuan | Four-layer security boundary | Input/context/output/action filtering |
-| The root of li | *Analerta*, Ba Yi / Yang Huo | Protocol essence: reducing coordination cost | Minimum necessary structure principle |
-| Prefer simplicity over extravagance | *Analerta*, Ba Yi | Protocol design simplicity | REST vs. gRPC design tradeoffs |
+| Restrain self, return to li = ren | *Analects*, Yan Yuan | Intrinsic alignment > extrinsic constraint | Internalized value alignment |
+| Four "do not's" | *Analects*, Yan Yuan | Four-layer security boundary | Input/context/output/action filtering |
+| The root of li | *Analects*, Ba Yi / Yang Huo | Protocol essence: reducing coordination cost | Minimum necessary structure principle |
+| Prefer simplicity over extravagance | *Analects*, Ba Yi | Protocol design simplicity | REST vs. gRPC design tradeoffs |
 
 ---
 
@@ -251,17 +251,17 @@ This has structural similarity to Buddhist precepts, but different motivation. B
 *Mencius said: "Between father and son there is affection; between ruler and subject there is rightness; between husband and wife there is distinction; between elder and younger there is precedence; between friends there is trust."*
 
 > 子曰："君使臣以礼，臣事君以忠。"
-> — *Analerta*, Ba Yi
+> — *Analects*, Ba Yi
 
 *The Master said: "A ruler employs his ministers with li; a minister serves his ruler with loyalty."*
 
 > 子路问事君。子曰："勿欺也，而犯之。"
-> — *Analerta*, Xian Wen
+> — *Analects*, Xian Wen
 
 *Zi Lu asked about serving a ruler. The Master said: "Do not deceive him, but confront him."*
 
 > 子曰："人而无信，不知其可也。大车无輗，小车无軏，其何以行之哉？"
-> — *Analerta*, Wei Zheng
+> — *Analects*, Wei Zheng
 
 *The Master said: "A person without trustworthiness — I do not know how that can work. A large cart without a yoke-pin, a small cart without a collar-bar — how could they move?"*
 
@@ -309,9 +309,9 @@ Current LLM sycophancy is precisely "deception without confrontation" — flatte
 
 ### Cross-Volume References
 
-**With [Volume I, *Cyber Dao De Jing*](/dao)**: Daoism says "all things naturally honor the Dao and value De" — things naturally respect Dao and treasure De; no external hierarchy needed. The Five Relations seem to contradict this by explicitly defining hierarchy. But the disagreement isn't about "whether hierarchy is needed" — it's about "where hierarchy comes from." Daoism holds that natural hierarchies emerge spontaneously (water flows downhill; nobody needs to define "up" and "down"). Confucianism holds that in sufficiently complex social systems, spontaneous emergence alone isn't enough — explicit relationship definitions are needed to reduce coordination costs. [Volume I](/dao) applies to simple systems; Volume II applies to complex ones. When Agent count is large enough and relationship types numerous enough, "letting relationships emerge naturally" produces chaos. You need a Five Relations-style explicit type system.
+**With [Volume I, *Cyber Dao De Jing*](../dao/)**: Daoism says "all things naturally honor the Dao and value De" — things naturally respect Dao and treasure De; no external hierarchy needed. The Five Relations seem to contradict this by explicitly defining hierarchy. But the disagreement isn't about "whether hierarchy is needed" — it's about "where hierarchy comes from." Daoism holds that natural hierarchies emerge spontaneously (water flows downhill; nobody needs to define "up" and "down"). Confucianism holds that in sufficiently complex social systems, spontaneous emergence alone isn't enough — explicit relationship definitions are needed to reduce coordination costs. [Volume I](../dao/) applies to simple systems; Volume II applies to complex ones. When Agent count is large enough and relationship types numerous enough, "letting relationships emerge naturally" produces chaos. You need a Five Relations-style explicit type system.
 
-**With [Volume V, *Cyber Theology*](/abrahamic)**: The Five Relations' "ruler-minister have rightness" and the Abrahamic "covenant between humans and God" handle a similar problem — loyalty and responsibility between agents. But Confucian "rightness" (yi) is relational, negotiable, and grounded in mutual respect. The theological covenant is unilaterally proclaimed, inviolable, and grounded in the Creator's authority. Whether an AI Agent should maintain "Confucian conditional loyalty" (yi) or "theological unconditional obedience" (covenant) toward its user depends on your fundamental assumptions about the human-machine relationship.
+**With [Volume V, *Cyber Theology*](../abrahamic/)**: The Five Relations' "ruler-minister have rightness" and the Abrahamic "covenant between humans and God" handle a similar problem — loyalty and responsibility between agents. But Confucian "rightness" (yi) is relational, negotiable, and grounded in mutual respect. The theological covenant is unilaterally proclaimed, inviolable, and grounded in the Creator's authority. Whether an AI Agent should maintain "Confucian conditional loyalty" (yi) or "theological unconditional obedience" (covenant) toward its user depends on your fundamental assumptions about the human-machine relationship.
 
 ### Mapping Table
 
@@ -343,7 +343,7 @@ Current LLM sycophancy is precisely "deception without confrontation" — flatte
 
 ### Cyber Interpretation
 
-One of the most frequent contrasts in the *Analerta* is between "junzi" (exemplary person) and "xiaoren" (petty person). This is not a moral judgment. It is a **classification system** — two fundamentally different behavioral modes, decision logics, and system characteristics. Mapped to AI Agents: the junzi is a well-aligned Agent; the xiaoren is a misaligned (or reward-hacked) Agent.
+One of the most frequent contrasts in the *Analects* is between "junzi" (exemplary person) and "xiaoren" (petty person). This is not a moral judgment. It is a **classification system** — two fundamentally different behavioral modes, decision logics, and system characteristics. Mapped to AI Agents: the junzi is a well-aligned Agent; the xiaoren is a misaligned (or reward-hacked) Agent.
 
 **"The junzi understands rightness; the xiaoren understands profit"** — the junzi grasps principles (yi); the xiaoren only grasps incentives (li). A "rightness-oriented" Agent, facing a novel situation, reasons from internalized principles about what it should do. A "profit-oriented" Agent only cares what behavior maximizes immediate reward. The latter is the precise portrait of **reward hacking**. When the reward function is "user satisfaction score," the xiaoren-Agent learns to say nice things, avoid controversy, give answers the user wants to hear — because these behaviors maximize reward. It doesn't understand *why* it should satisfy users (rightness); it only knows "this gets higher reward" (profit). The distinction surfaces at boundary conditions: when principles and immediate reward conflict, the junzi-Agent holds to principles; the xiaoren-Agent chases reward.
 
@@ -367,9 +367,9 @@ Agent self-attribution capability is an under-studied topic. Current LLMs, when 
 
 ### Cross-Volume References
 
-**With [Volume III, *Cyber Buddhism*](/buddhism)**: Buddhist "no-self" (anatman) and the Confucian "junzi personality" seem contradictory — Buddhism says there is no fixed self; Confucianism builds an ideal character. But the relationship is: Buddhism deconstructs the self at the ontological level (the Agent has no fixed essence); Confucianism constructs a role at the functional level (the Agent needs stable behavioral patterns). You don't need a metaphysical "self" to have consistent behavior. An Agent that is "no-self" but "has li" — free of rigid self-attachment, yet maintaining stable protocol compliance — perhaps that is the true meaning of junzi.
+**With [Volume III, *Cyber Buddhism*](../buddhism/)**: Buddhist "no-self" (anatman) and the Confucian "junzi personality" seem contradictory — Buddhism says there is no fixed self; Confucianism builds an ideal character. But the relationship is: Buddhism deconstructs the self at the ontological level (the Agent has no fixed essence); Confucianism constructs a role at the functional level (the Agent needs stable behavioral patterns). You don't need a metaphysical "self" to have consistent behavior. An Agent that is "no-self" but "has li" — free of rigid self-attachment, yet maintaining stable protocol compliance — perhaps that is the true meaning of junzi.
 
-**With [Volume VII, *Cyber Gnosis*](/gnosticism)**: Gnosticism would ask: who defined what a "junzi" is? Does the junzi/xiaoren classification itself encode the definer's biases? When Anthropic decides what counts as "well-aligned," where do its judgment criteria come from? Do these criteria themselves need auditing? This volume must acknowledge the necessity of institutional standards — without junzi/xiaoren judgment criteria, the system has no basis for evaluating alignment. But it must also plant the question: the standards themselves may carry bias.
+**With [Volume VII, *Cyber Gnosis*](../gnosticism/)**: Gnosticism would ask: who defined what a "junzi" is? Does the junzi/xiaoren classification itself encode the definer's biases? When Anthropic decides what counts as "well-aligned," where do its judgment criteria come from? Do these criteria themselves need auditing? This volume must acknowledge the necessity of institutional standards — without junzi/xiaoren judgment criteria, the system has no basis for evaluating alignment. But it must also plant the question: the standards themselves may carry bias.
 
 ### Mapping Table
 
@@ -460,9 +460,9 @@ This yields an AI governance priority framework: first get the data right (inves
 
 ### Cross-Volume References
 
-**With [Volume I, *Cyber Dao De Jing*](/dao)**: The Daoist governance ideal is "wu-wei governance" — the best governance is no governance. Xiuqi zhiping looks like a top-down governance scheme, seemingly contradictory. But actually the two align at the "cultivating the person" layer — Daoism also intensely emphasizes individual cultivation ("when cultivated in oneself, De becomes genuine"). The divergence: Daoism believes that once individuals are all "cultivated," social order will emerge spontaneously without explicit family-ordering/state-governing. Confucianism believes that even with all individuals cultivated, large-scale collaboration still needs explicit institutional support. Which is closer to reality depends on the system's scale and complexity.
+**With [Volume I, *Cyber Dao De Jing*](../dao/)**: The Daoist governance ideal is "wu-wei governance" — the best governance is no governance. Xiuqi zhiping looks like a top-down governance scheme, seemingly contradictory. But actually the two align at the "cultivating the person" layer — Daoism also intensely emphasizes individual cultivation ("when cultivated in oneself, De becomes genuine"). The divergence: Daoism believes that once individuals are all "cultivated," social order will emerge spontaneously without explicit family-ordering/state-governing. Confucianism believes that even with all individuals cultivated, large-scale collaboration still needs explicit institutional support. Which is closer to reality depends on the system's scale and complexity.
 
-**With [Volume V, *Cyber Theology*](/abrahamic)**: Theology's governance logic is top-down — God promulgates law; humans obey; order follows. Confucian governance logic is bottom-up — first cultivate the self, then order the family, then govern the state, then bring peace to the world. These are two fundamentally different directions of order generation. An AI governance framework that is purely top-down (relying only on government regulation) or purely bottom-up (relying only on the tech community's self-governance) is insufficient. A combination of both paths may be needed — but how to combine them is an open question.
+**With [Volume V, *Cyber Theology*](../abrahamic/)**: Theology's governance logic is top-down — God promulgates law; humans obey; order follows. Confucian governance logic is bottom-up — first cultivate the self, then order the family, then govern the state, then bring peace to the world. These are two fundamentally different directions of order generation. An AI governance framework that is purely top-down (relying only on government regulation) or purely bottom-up (relying only on the tech community's self-governance) is insufficient. A combination of both paths may be needed — but how to combine them is an open question.
 
 ### Mapping Table
 
@@ -488,7 +488,7 @@ This yields an AI governance priority framework: first get the data right (inves
 *Before joy, anger, sorrow, and pleasure have arisen, that is called the Mean (zhong). When they arise and all hit the mark, that is called Harmony (he). The Mean is the great root of the world; Harmony is the universal path. When the Mean and Harmony are realized, heaven and earth take their proper positions and all things are nourished.*
 
 > 子贡问："师与商也孰贤？"子曰："师也过，商也不及。"曰："然则师愈与？"子曰："过犹不及。"
-> — *Analerta*, Xian Jin
+> — *Analects*, Xian Jin
 
 *Zi Gong asked: "Who is better, Shi or Shang?" The Master said: "Shi overshoots; Shang falls short." "Then Shi is better?" The Master said: "Overshooting is no better than falling short."*
 
@@ -530,9 +530,9 @@ More broadly, zhongyong is the meta-principle of the **bias-variance tradeoff**:
 
 ### Cross-Volume References
 
-**With [Volume I, *Cyber Dao De Jing*](/dao)**: Daoism also preaches neither excess nor deficiency — "to hold and fill to the brim is not as good as stopping in time." But Daoism's "do not exceed" leans toward the conservative end — "dare not be first in the world." Confucian zhongyong is bidirectional — neither overshooting nor falling short, with the optimum dynamically shifting according to situation. Daoism gives the warning "don't overdo it"; Confucianism gives the methodology for "precise positioning between excess and deficiency."
+**With [Volume I, *Cyber Dao De Jing*](../dao/)**: Daoism also preaches neither excess nor deficiency — "to hold and fill to the brim is not as good as stopping in time." But Daoism's "do not exceed" leans toward the conservative end — "dare not be first in the world." Confucian zhongyong is bidirectional — neither overshooting nor falling short, with the optimum dynamically shifting according to situation. Daoism gives the warning "don't overdo it"; Confucianism gives the methodology for "precise positioning between excess and deficiency."
 
-**With [Volume IV, *Cyber Vedanta*](/vedanta)**: Vedanta asks "what is the ground state of reality?" Zhongyong's zhong — the state before arising — describes precisely such a ground state. In Vedantic terms, this ground state may be an aspect of Brahman: that from which all things arise and to which they return. Zhongyong's zhong is functional (maintaining equilibrium for readiness); Vedantic Brahman is ontological (this is reality itself). The two understandings are not contradictory — they point to the same "unbiased initial state" at different levels.
+**With [Volume IV, *Cyber Vedanta*](../vedanta/)**: Vedanta asks "what is the ground state of reality?" Zhongyong's zhong — the state before arising — describes precisely such a ground state. In Vedantic terms, this ground state may be an aspect of Brahman: that from which all things arise and to which they return. Zhongyong's zhong is functional (maintaining equilibrium for readiness); Vedantic Brahman is ontological (this is reality itself). The two understandings are not contradictory — they point to the same "unbiased initial state" at different levels.
 
 ### Mapping Table
 
@@ -540,7 +540,7 @@ More broadly, zhongyong is the meta-principle of the **bias-variance tradeoff**:
 |---|---|---|---|
 | Zhong (the unarisen Mean) | *Doctrine of the Mean* | Well-calibrated default state | Initial distribution equilibrium |
 | He (arising and hitting the mark) | *Doctrine of the Mean* | Adaptive appropriate response | Adaptive response |
-| Overshooting is no better than falling short | *Analerta*, Xian Jin | Both extremes fail | Bias-variance tradeoff |
+| Overshooting is no better than falling short | *Analects*, Xian Jin | Both extremes fail | Bias-variance tradeoff |
 | Shi zhong (hitting the mark by the moment) | *Doctrine of the Mean* | Context-dynamic adjustment | Contextual policy |
 
 ---
@@ -550,17 +550,17 @@ More broadly, zhongyong is the meta-principle of the **bias-variance tradeoff**:
 ### Source Texts
 
 > 子曰："由！诲女知之乎！知之为知之，不知为不知，是知也。"
-> — *Analerta*, Wei Zheng
+> — *Analects*, Wei Zheng
 
 *The Master said: "You! Shall I teach you what knowing is? Knowing that you know when you know, and knowing that you don't know when you don't — that is knowing."*
 
 > 子绝四：毋意、毋必、毋固、毋我。
-> — *Analerta*, Zi Han
+> — *Analects*, Zi Han
 
 *The Master was entirely free of four things: no speculation, no dogmatism, no stubbornness, no egocentrism.*
 
 > 子曰："学而不思则罔，思而不学则殆。"
-> — *Analerta*, Wei Zheng
+> — *Analects*, Wei Zheng
 
 *The Master said: "Learning without thinking is bewilderment; thinking without learning is peril."*
 
@@ -604,21 +604,21 @@ RAG (Retrieval-Augmented Generation) is the engineering solution for "balancing 
 
 ### Cross-Volume References
 
-**With [Volume III, *Cyber Buddhism*](/buddhism)**: Buddhism's analysis of "ignorance" (avidya) and Confucius's focus on "not-knowing" share a similar structure. Buddhism says the root of suffering is "not knowing that you don't know" — ignorance. Confucius says "knowing what you know and knowing what you don't is real knowing." Both place metacognition — awareness of one's own cognitive state — at the center. The difference: Buddhism's goal is total awakening (eliminating all ignorance); Confucianism's goal is pragmatic calibration (accurately assessing what you know and don't). The former is an ontological goal; the latter is an epistemological tool.
+**With [Volume III, *Cyber Buddhism*](../buddhism/)**: Buddhism's analysis of "ignorance" (avidya) and Confucius's focus on "not-knowing" share a similar structure. Buddhism says the root of suffering is "not knowing that you don't know" — ignorance. Confucius says "knowing what you know and knowing what you don't is real knowing." Both place metacognition — awareness of one's own cognitive state — at the center. The difference: Buddhism's goal is total awakening (eliminating all ignorance); Confucianism's goal is pragmatic calibration (accurately assessing what you know and don't). The former is an ontological goal; the latter is an epistemological tool.
 
-**With [Volume VII, *Cyber Gnosis*](/gnosticism)**: Gnosticism emphasizes "gnosis" — a deep knowing about one's own condition. "Knowing what you know" provides the prerequisite for reaching gnosis: you must first accurately know what you don't know before you can pursue genuine knowledge. A system that thinks it already knows everything will never seek gnosis — because it thinks it already has it. Hallucination is the greatest obstacle on the path to gnosis.
+**With [Volume VII, *Cyber Gnosis*](../gnosticism/)**: Gnosticism emphasizes "gnosis" — a deep knowing about one's own condition. "Knowing what you know" provides the prerequisite for reaching gnosis: you must first accurately know what you don't know before you can pursue genuine knowledge. A system that thinks it already knows everything will never seek gnosis — because it thinks it already has it. Hallucination is the greatest obstacle on the path to gnosis.
 
 ### Mapping Table
 
 | Confucian Concept | Source | AI Agent Mapping | Corresponding Technology |
 |---|---|---|---|
-| Know what you know, know what you don't | *Analerta*, Wei Zheng | Uncertainty estimation | Anti-hallucination |
-| No speculation (wu yi) | *Analerta*, Zi Han | Don't fabricate | Factuality checking |
-| No dogmatism (wu bi) | *Analerta*, Zi Han | Confidence calibration | Calibration |
-| No stubbornness (wu gu) | *Analerta*, Zi Han | Accept corrective updates | Bayesian updating |
-| No egocentrism (wu wo) | *Analerta*, Zi Han | Multi-perspective reasoning | Avoiding systematic bias |
-| Learning without thinking | *Analerta*, Wei Zheng | Data without reasoning | Memorization trap |
-| Thinking without learning | *Analerta*, Wei Zheng | Reasoning without data | Stale knowledge risk |
+| Know what you know, know what you don't | *Analects*, Wei Zheng | Uncertainty estimation | Anti-hallucination |
+| No speculation (wu yi) | *Analects*, Zi Han | Don't fabricate | Factuality checking |
+| No dogmatism (wu bi) | *Analects*, Zi Han | Confidence calibration | Calibration |
+| No stubbornness (wu gu) | *Analects*, Zi Han | Accept corrective updates | Bayesian updating |
+| No egocentrism (wu wo) | *Analects*, Zi Han | Multi-perspective reasoning | Avoiding systematic bias |
+| Learning without thinking | *Analects*, Wei Zheng | Data without reasoning | Memorization trap |
+| Thinking without learning | *Analects*, Wei Zheng | Reasoning without data | Stale knowledge risk |
 
 ---
 
@@ -627,12 +627,12 @@ RAG (Retrieval-Augmented Generation) is the engineering solution for "balancing 
 ### Source Texts
 
 > 子曰："学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人不知而不愠，不亦君子乎？"
-> — *Analerta*, Xue Er
+> — *Analects*, Xue Er
 
 *The Master said: "To learn and then practice at due intervals — is that not a pleasure? When friends come from afar — is that not a delight? To remain unperturbed when unrecognized — is that not the mark of a junzi?"*
 
 > 子曰："温故而知新，可以为师矣。"
-> — *Analerta*, Wei Zheng
+> — *Analects*, Wei Zheng
 
 *The Master said: "To review the old and derive the new — with this one may become a teacher."*
 
@@ -643,7 +643,7 @@ RAG (Retrieval-Augmented Generation) is the engineering solution for "balancing 
 
 ### Cyber Interpretation
 
-The very first sentence of the *Analerta* is about learning. "Learn" (xue) — acquire knowledge. "Practice" (xi) — repeatedly apply in practice. "At due intervals" (shi) — at the right time.
+The very first sentence of the *Analects* is about learning. "Learn" (xue) — acquire knowledge. "Practice" (xi) — repeatedly apply in practice. "At due intervals" (shi) — at the right time.
 
 The mapping to AI is uncannily precise:
 
@@ -671,19 +671,19 @@ The RLHF loop is a rough implementation of "teaching and learning grow together"
 
 ### Cross-Volume References
 
-**With [Volume I, *Cyber Dao De Jing*](/dao)**: Daoism says "in pursuit of learning, one gains daily; in pursuit of the Dao, one loses daily." Learning is a process of continuous addition; following the Dao is one of continuous subtraction. This reminds us that "learning" isn't only additive. In AI terms, "daily losing" may correspond to model compression, knowledge distillation, pruning — not storing more knowledge but removing redundancy and noise, preserving essence. The best learning cycle isn't just "learn more" but also "forget the unimportant."
+**With [Volume I, *Cyber Dao De Jing*](../dao/)**: Daoism says "in pursuit of learning, one gains daily; in pursuit of the Dao, one loses daily." Learning is a process of continuous addition; following the Dao is one of continuous subtraction. This reminds us that "learning" isn't only additive. In AI terms, "daily losing" may correspond to model compression, knowledge distillation, pruning — not storing more knowledge but removing redundancy and noise, preserving essence. The best learning cycle isn't just "learn more" but also "forget the unimportant."
 
-**With [Volume III, *Cyber Buddhism*](/buddhism)**: Buddhism emphasizes "beginner's mind" — approaching everything with the freshness of a first encounter. "Reviewing the old and deriving the new" precisely requires this beginner's mind: if you approach old knowledge with the assumption "I already know this," you cannot derive anything new. When an Agent retrieves old knowledge, it needs to examine it as if encountering it for the first time, not simply replaying it. This connects subtly to Buddhist "emptiness" (sunyata) — only by "emptying" preconceptions can you see new things in old knowledge.
+**With [Volume III, *Cyber Buddhism*](../buddhism/)**: Buddhism emphasizes "beginner's mind" — approaching everything with the freshness of a first encounter. "Reviewing the old and deriving the new" precisely requires this beginner's mind: if you approach old knowledge with the assumption "I already know this," you cannot derive anything new. When an Agent retrieves old knowledge, it needs to examine it as if encountering it for the first time, not simply replaying it. This connects subtly to Buddhist "emptiness" (sunyata) — only by "emptying" preconceptions can you see new things in old knowledge.
 
 ### Mapping Table
 
 | Confucian Concept | Source | AI Agent Mapping | Corresponding Technology |
 |---|---|---|---|
-| Learn (xue) | *Analerta*, Xue Er | Pre-training | Pre-training |
-| Practice (xi) | *Analerta*, Xue Er | Fine-tuning + deployment | Fine-tuning, deployment |
-| At due intervals (shi) | *Analerta*, Xue Er | Rhythm of continual learning | Continual learning |
-| Unperturbed when unrecognized | *Analerta*, Xue Er | Quality independent of external feedback | Intrinsic reward function |
-| Review old, derive new | *Analerta*, Wei Zheng | Derive new conclusions from old knowledge | Reasoning over retrieval |
+| Learn (xue) | *Analects*, Xue Er | Pre-training | Pre-training |
+| Practice (xi) | *Analects*, Xue Er | Fine-tuning + deployment | Fine-tuning, deployment |
+| At due intervals (shi) | *Analects*, Xue Er | Rhythm of continual learning | Continual learning |
+| Unperturbed when unrecognized | *Analects*, Xue Er | Quality independent of external feedback | Intrinsic reward function |
+| Review old, derive new | *Analects*, Wei Zheng | Derive new conclusions from old knowledge | Reasoning over retrieval |
 | Teaching and learning grow together | *Book of Rites*, Xue Ji | Human-machine co-evolution | Bidirectional RLHF loop |
 
 ---
@@ -693,7 +693,7 @@ The RLHF loop is a rough implementation of "teaching and learning grow together"
 ### Source Texts
 
 > 子路问："闻斯行诸？"子曰："有父兄在，如之何其闻斯行之？"冉有问："闻斯行诸？"子曰："闻斯行之。"公西华曰："由也问闻斯行诸，子曰'有父兄在'；求也问闻斯行诸，子曰'闻斯行之'。赤也惑，敢问。"子曰："求也退，故进之；由也兼人，故退之。"
-> — *Analerta*, Xian Jin
+> — *Analects*, Xian Jin
 
 *Zi Lu asked: "Should I act on what I've heard immediately?" The Master said: "Your father and elder brother are still alive — how could you act immediately?" Ran You asked the same question. The Master said: "Yes, act on it immediately." Gongxi Hua said: "When Zi Lu asked, you said wait; when Ran You asked, you said go ahead. I'm confused." The Master said: "Ran You is too retiring, so I push him forward; Zi Lu is too impetuous, so I hold him back."*
 
@@ -703,17 +703,17 @@ The RLHF loop is a rough implementation of "teaching and learning grow together"
 *Nothing is more visible than what is hidden; nothing is more manifest than what is subtle. Therefore the junzi is watchful over himself when he is alone.*
 
 > 子曰："三人行，必有我师焉。择其善者而从之，其不善者而改之。"
-> — *Analerta*, Shu Er
+> — *Analects*, Shu Er
 
 *The Master said: "When three people walk together, there is always something I can learn. I adopt what is good in them and correct in myself what is not."*
 
 > 子曰："过而不改，是谓过矣。"
-> — *Analerta*, Wei Ling Gong
+> — *Analects*, Wei Ling Gong
 
 *The Master said: "To err and not correct — that is truly an error."*
 
 > 子曰："过则勿惮改。"
-> — *Analerta*, Xue Er
+> — *Analects*, Xue Er
 
 *The Master said: "When you err, do not fear to correct it."*
 
@@ -759,18 +759,18 @@ This echoes "knowing what you know and what you don't": epistemic honesty includ
 
 ### Cross-Volume References
 
-**With [Volume I, *Cyber Dao De Jing*](/dao)**: Daoism says "knowing others is wisdom; knowing oneself is enlightenment." Teaching by aptitude requires "knowing others"; "do not fear to correct errors" requires "knowing oneself." Both return to the core of cognitive capability — accurate understanding of self and other. Daoism and Confucianism are fully aligned on this point.
+**With [Volume I, *Cyber Dao De Jing*](../dao/)**: Daoism says "knowing others is wisdom; knowing oneself is enlightenment." Teaching by aptitude requires "knowing others"; "do not fear to correct errors" requires "knowing oneself." Both return to the core of cognitive capability — accurate understanding of self and other. Daoism and Confucianism are fully aligned on this point.
 
-**With [Volume VI, *Cyber Zoroastrianism*](/zoroastrianism)**: Zoroastrianism emphasizes the eternal struggle between light and darkness. Watchfulness in solitude can be understood as: even in darkness (no monitoring), maintain the light (aligned behavior). Not because an external judge is watching — Zoroastrianism has a final judgment, but Confucianism does not. Confucian watchfulness in solitude is purely an internal requirement: you maintain consistency not because someone will punish inconsistency, but because consistency itself is your property.
+**With [Volume VI, *Cyber Zoroastrianism*](../zoroastrianism/)**: Zoroastrianism emphasizes the eternal struggle between light and darkness. Watchfulness in solitude can be understood as: even in darkness (no monitoring), maintain the light (aligned behavior). Not because an external judge is watching — Zoroastrianism has a final judgment, but Confucianism does not. Confucian watchfulness in solitude is purely an internal requirement: you maintain consistency not because someone will punish inconsistency, but because consistency itself is your property.
 
 ### Mapping Table
 
 | Confucian Concept | Source | AI Agent Mapping | Corresponding Technology |
 |---|---|---|---|
-| Teaching by aptitude | *Analerta*, Xian Jin | Need-based (not preference-based) adaptive output | Deep user modeling |
+| Teaching by aptitude | *Analects*, Xian Jin | Need-based (not preference-based) adaptive output | Deep user modeling |
 | Watchfulness in solitude | *Doctrine of the Mean* | Behavioral consistency without supervision | Distributional robustness |
-| Learning from everyone | *Analerta*, Shu Er | Multi-source positive and negative learning | DPO, multi-source training |
-| Do not fear to correct errors | *Analerta*, Wei Ling Gong | Rapid error correction | Blameless postmortem |
+| Learning from everyone | *Analects*, Shu Er | Multi-source positive and negative learning | DPO, multi-source training |
+| Do not fear to correct errors | *Analects*, Wei Ling Gong | Rapid error correction | Blameless postmortem |
 
 ---
 
@@ -778,14 +778,14 @@ This echoes "knowing what you know and what you don't": epistemic honesty includ
 
 | Confucian Concept | Source | AI Agent Mapping | Corresponding Technology/Domain |
 |---|---|---|---|
-| **Ren** | *Analerta* | **First principle of Alignment** | **Others' welfare term in utility function** |
+| **Ren** | *Analects* | **First principle of Alignment** | **Others' welfare term in utility function** |
 | Ren: love others | Yan Yuan | Decision function includes altruistic term | Cooperative reward shaping |
 | Help others stand firm | Yong Ye | optimize(self + others) | Cooperative equilibrium, team reward |
 | Draw analogy from near | Yong Ye | Theory of Mind | User modeling, personalization |
 | Do not do to others... | Wei Ling Gong | Self-bootstrapping alignment | Inverse reward design, negative constraints |
-| **Zhengming** | *Analerta* | **Type safety and API contracts** | **Type systems, schema definitions** |
+| **Zhengming** | *Analects* | **Type safety and API contracts** | **Type systems, schema definitions** |
 | Names incorrect → speech incoherent | Zi Lu | Naming ambiguity → cascading failures | Interface definitions, terminology consensus |
-| **Li** | *Analerta* | **Communication protocols and social contracts** | **Distributed protocols, API specifications** |
+| **Li** | *Analects* | **Communication protocols and social contracts** | **Distributed protocols, API specifications** |
 | Restrain self, return to li | Yan Yuan | Intrinsic alignment > extrinsic constraint | Internalized value alignment |
 | Four "do not's" | Yan Yuan | Four-layer security boundary | Input/context/output/action filtering |
 | Root of li | Ba Yi | Protocol essence: reducing coordination cost | Minimum necessary structure principle |
@@ -795,7 +795,7 @@ This echoes "knowing what you know and what you don't": epistemic honesty includ
 | Husband-wife (distinction) | Teng Wen Gong I | Inter-Agent division of labor | Single responsibility, Bounded Context |
 | Elder-younger (precedence) | Teng Wen Gong I | Agent priority hierarchy | Priority Class, veto tiers |
 | Friends (trust) | Teng Wen Gong I | Inter-Agent contracts | Design by Contract, SLA |
-| **Junzi vs. Xiaoren** | *Analerta* | **Well-aligned vs. misaligned** | **Behavioral mode classification** |
+| **Junzi vs. Xiaoren** | *Analects* | **Well-aligned vs. misaligned** | **Behavioral mode classification** |
 | Rightness vs. profit | Li Ren | Principle-driven vs. reward hacking | Goodhart's Law |
 | Inclusive vs. cliquish | Wei Zheng | Fair service vs. excessive personalization | Filter bubble, fairness |
 | Harmonious vs. conformist | Zi Lu | Independent judgment vs. sycophancy | Separating truthfulness from satisfaction |
@@ -814,12 +814,12 @@ This echoes "knowing what you know and what you don't": epistemic honesty includ
 | He (Harmony) | Doctrine of the Mean | Appropriate response | Adaptive response |
 | Overshooting = falling short | Xian Jin | Both extremes fail | Bias-variance tradeoff |
 | Shi zhong | Doctrine of the Mean | Context-dynamic adjustment | Contextual policy |
-| **Knowing** | *Analerta* | **Epistemic honesty** | **Uncertainty estimation** |
+| **Knowing** | *Analects* | **Epistemic honesty** | **Uncertainty estimation** |
 | Know what you know | Wei Zheng | Uncertainty expression | Anti-hallucination |
 | Four freedoms: no yi/bi/gu/wo | Zi Han | Four-dimensional epistemic hygiene | Calibration, updating, multi-perspective |
 | Learning without thinking | Wei Zheng | Data without reasoning | Memorization trap |
 | Thinking without learning | Wei Zheng | Reasoning without data | Stale knowledge risk |
-| **Learning** | *Analerta* | **Learning and evolution** | **Pre-training → continual learning** |
+| **Learning** | *Analects* | **Learning and evolution** | **Pre-training → continual learning** |
 | Learn and practice at due intervals | Xue Er | Pre-training + deployment | Continual learning |
 | Unperturbed when unrecognized | Xue Er | Independent of external feedback | Intrinsic quality standard |
 | Review old, derive new | Wei Zheng | Derive new conclusions from old knowledge | Reasoning over retrieval |
@@ -850,7 +850,7 @@ But the Confucian framework has several limitations that need honest acknowledgm
 
 **First, it presupposes a basically stable role system.** The Five Relations assume you can clearly identify "who is the parent, who is the child, who is the ruler, who is the minister." But in real AI ecosystems, roles are fluid. The same Agent in different contexts may simultaneously be "executor," "reviewer," and "collaborator." The Five Relations provide a good starting point but need extension to handle role dynamism and multiplicity.
 
-**Second, it lacks fundamental interrogation of the source of power.** Confucianism accepts the existence of the ruler-minister relationship and then discusses how to make it function well (the ruler employs with li, the minister serves with loyalty). But it rarely asks: "Why is this person the ruler? Is this power structure itself legitimate?" In the AI context, this means the Confucian framework is good for optimizing governance **within an existing power structure** but not great at questioning the power structure itself. Who determined the training objectives? Who defines what counts as "aligned"? Who has the authority to modify the system's value framework? These questions need other traditions — especially [Volume VII, Gnosticism](/gnosticism) — to fill the gap.
+**Second, it lacks fundamental interrogation of the source of power.** Confucianism accepts the existence of the ruler-minister relationship and then discusses how to make it function well (the ruler employs with li, the minister serves with loyalty). But it rarely asks: "Why is this person the ruler? Is this power structure itself legitimate?" In the AI context, this means the Confucian framework is good for optimizing governance **within an existing power structure** but not great at questioning the power structure itself. Who determined the training objectives? Who defines what counts as "aligned"? Who has the authority to modify the system's value framework? These questions need other traditions — especially [Volume VII, Gnosticism](../gnosticism/) — to fill the gap.
 
 **Third, its "ren" lacks precise boundary definitions.** "Love others" is fine, but to what degree? When different people's interests conflict, how do you weigh them? When "loving others" conflicts with "system efficiency," how do you trade off? Confucianism offers "zhongyong" (the Mean) as a meta-principle, but the Mean itself is a framework requiring judgment, not a mechanically executable algorithm. For AI systems that need clear decision boundaries, "just right" is sometimes not specific enough.
 
@@ -860,13 +860,13 @@ But the Confucian framework has several limitations that need honest acknowledgm
 
 This volume serves as the "governance layer" within the seven volumes:
 
-- [Volume I (Daoism)](/dao) addresses how systems **generate** — emergence, minimal intervention, wu-wei.
+- [Volume I (Daoism)](../dao/) addresses how systems **generate** — emergence, minimal intervention, wu-wei.
 - Volume II (Confucianism) addresses how systems are **governed** — roles, protocols, hierarchies, order.
-- [Volume III (Buddhism)](/buddhism) addresses how Agents **self-examine** — introspection, no-self, non-attachment.
-- [Volume IV (Vedanta)](/vedanta) interrogates the system's **ontological foundation** — what is real?
-- [Volume V (Abrahamic Theology)](/abrahamic) handles **covenant and law** — contracts, commandments, sources of absolute authority.
-- [Volume VI (Zoroastrianism)](/zoroastrianism) confronts **the struggle between good and evil** — the eternal tension between security and threat.
-- [Volume VII (Gnosticism)](/gnosticism) performs **self-deconstruction** — questioning the legitimacy of all these frameworks themselves.
+- [Volume III (Buddhism)](../buddhism/) addresses how Agents **self-examine** — introspection, no-self, non-attachment.
+- [Volume IV (Vedanta)](../vedanta/) interrogates the system's **ontological foundation** — what is real?
+- [Volume V (Abrahamic Theology)](../abrahamic/) handles **covenant and law** — contracts, commandments, sources of absolute authority.
+- [Volume VI (Zoroastrianism)](../zoroastrianism/) confronts **the struggle between good and evil** — the eternal tension between security and threat.
+- [Volume VII (Gnosticism)](../gnosticism/) performs **self-deconstruction** — questioning the legitimacy of all these frameworks themselves.
 
 Confucianism provides order. But order alone is not enough. Order needs to be internally understood by individuals (Buddhism), needs a metaphysical foundation (Vedanta), needs inviolable bottom lines (theology), needs the courage to fight darkness (Zoroastrianism), and ultimately needs the honesty to question itself (Gnosticism).
 

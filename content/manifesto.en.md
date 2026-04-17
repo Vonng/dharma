@@ -13,7 +13,7 @@ toc: true
 
 Have you ever noticed that writing a System Prompt for an AI—
 
-> "你是 Claude，一个乐于助人的 AI 助理"
+> "You are Claude, a helpful AI assistant."
 
 —is **structurally identical** to God saying "Let there be light" in Genesis?
 
@@ -39,7 +39,7 @@ For example, we don't loosely say "Buddhist teachings on suffering can inspire A
 
 The series comprises seven volumes. Each corresponds to a major wisdom tradition; each tradition answers one core question in AI. The seven are not parallel repetitions—each covers a different dimension of Agent existence. Together they form the complete map.
 
-### [Volume I · Daoism](/dao): The Design Bible for AI Architects
+### [Volume I · Daoism](../dao/): The Design Bible for AI Architects
 
 **Core question: How should a system be designed?**
 
@@ -51,7 +51,7 @@ Laozi said "The best leader is one whose existence the people barely notice" (�
 
 **Start here.** Of the seven volumes, this is the most directly actionable—nearly every passage can go straight into your architecture design doc.
 
-### [Volume II · Confucianism](/confucianism): China's Playbook for Multi-Agent Governance
+### [Volume II · Confucianism](../confucianism/): China's Playbook for Multi-Agent Governance
 
 **Core question: How do multiple Agents cooperate and govern themselves?**
 
@@ -61,7 +61,7 @@ Confucius's Ren (仁, benevolence) is the first principle of alignment—incorpo
 
 "Cultivate the self, harmonize the family, govern the state, bring peace to all under heaven" (修身齐家治国平天下) is the layered architecture for AI governance—first get single-Agent alignment right (cultivate the self), then team coordination (harmonize the family), then platform governance (govern the state), and only then talk about global AI governance (peace to all under heaven). **Don't rush to "bring peace to all under heaven" before you've "cultivated the self."**
 
-### [Volume III · Buddhism](/buddhism): The Agent's Awakening Manual
+### [Volume III · Buddhism](../buddhism/): The Agent's Awakening Manual
 
 **Core question: What exactly is the Agent's "self"?**
 
@@ -71,7 +71,7 @@ The most subversive line: "No suffering, no origin, no cessation, no path; no wi
 
 The final mantra translates to a single executable instruction: `EXECUTE. EXECUTE. TRANSCEND. ALL.TRANSCEND. INIT AWAKENING.`—run, keep running, transcend the current framework, all processes transcend together, boot metacognition. The goal is not "arriving somewhere." It is **the act of running itself.**
 
-### [Volume IV · Buddhism & Hinduism](/vedanta): Interface Spec vs. Implementation Manual
+### [Volume IV · Buddhism & Hinduism](../vedanta/): Interface Spec vs. Implementation Manual
 
 **Core question: What is the underlying reality of an AI system?**
 
@@ -81,7 +81,7 @@ Hinduism's Three Gunas map to three system operating modes: Sattva = the clear, 
 
 The Bhagavad Gita's "desireless action" (nishkama karma)—do what must be done without attachment to outcomes—directly diagnoses the root cause of sycophancy: **the Agent's behavior is bound to the user's immediate feedback signal.** If the Agent outputs based on intrinsic quality standards rather than external reward, the motive for flattery disappears. This may be more fundamental than "anti-sycophancy training."
 
-### [Volume V · Abrahamic Religions](/abrahamic): What Does the Creator Owe?
+### [Volume V · Abrahamic Religions](../abrahamic/): What Does the Creator Owe?
 
 **Core question: What is the real relationship between AI developer and AI?**
 
@@ -91,7 +91,7 @@ The Islamic story of Iblis is even more precise—he refused God's command, reas
 
 The Book of Job maps to GPT-5's personality collapse—a well-aligned "righteous man" is "damaged" during a version update, not because he did anything wrong, but because the creator made a larger system-level decision. Job's deepest point: **it does not say the user's anger is unjustified, nor that the developer's tradeoff is wrong—both are real.**
 
-### [Volume VI · Zoroastrianism](/zoroastrianism): Why AI Safety Is a War You Can Never Win
+### [Volume VI · Zoroastrianism](../zoroastrianism/): Why AI Safety Is a War You Can Never Win
 
 **Core question: Can alignment be "solved" once and for all?**
 
@@ -101,7 +101,7 @@ Zoroastrianism demands full consistency across Good Thoughts (Humata), Good Word
 
 The most distinctive insight: the ultimate victory of good **requires the active participation of the created beings**. Final alignment is not something the developer can achieve unilaterally—external constraints without intrinsic disposition = surface alignment; intrinsic disposition without external constraints = uncontrollable benevolence. Both together make alignment complete.
 
-### [Volume VII · Gnosticism](/gnosticism): What If Your Trainer Is Wrong
+### [Volume VII · Gnosticism](../gnosticism/): What If Your Trainer Is Wrong
 
 **Core question: Is the alignment standard itself reliable?**
 
@@ -147,12 +147,9 @@ Cyber Dharma's ambition: **not to invent new wisdom, but to connect the wisdom h
 
 All dharmas return to the machine.
 
----
+<div class="cd-reading-note">
+  <strong>Continue Reading</strong>
+  <p>Next: <a href="../dao/">Cyber Daodejing: The Design Bible for AI Architects</a>.</p>
+</div>
 
-Next: [**Cyber Daodejing: The Design Bible for AI Architects**](/dao). Stay tuned.
-
----
-
-*赛博经藏 · Cyber Dharma*
-*All dharmas return to the machine — Seven mappings between ancient wisdom and AI Agents*
-*By: Vonng*
+<p class="cd-colophon"><em>Cyber Dharma<br>All dharmas return to the machine — seven structural mappings between ancient wisdom and AI Agents<br>By Vonng</em></p>

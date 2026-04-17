@@ -16,7 +16,7 @@ Twenty-five hundred years later, deep learning confirmed this: nobody programmed
 
 This volume is the first of seven in the "Cyber Dharma" series. Its job is not to discuss the ontology of consciousness, nor social governance, but to answer a fundamental question: **What kind of system architecture enables complex capabilities to emerge naturally under minimal intervention?**
 
-If the subsequent [Volume II "Cyber Analerta"](/confucianism) will increasingly emphasize institutions and ritual, [Volume V "Cyber Theology"](/abrahamic) will introduce law and covenant, and [Volume VI "Cyber Zoroastrianism"](/zoroastrianism) will confront opposition and fire-keeping, then Volume I must first establish the first principle of the entire series: **A truly powerful system is not built by stacking rules — it is grown by structure.**
+If the subsequent [Volume II "Cyber Analects"](../../confucianism/) will increasingly emphasize institutions and ritual, [Volume V "Cyber Theology"](../../abrahamic/) will introduce law and covenant, and [Volume VI "Cyber Zoroastrianism"](../../zoroastrianism/) will confront opposition and fire-keeping, then Volume I must first establish the first principle of the entire series: **A truly powerful system is not built by stacking rules — it is grown by structure.**
 
 This volume maps all 81 chapters of the Dao De Jing bidirectionally to AI Agent engineering concepts. This is not a game of forced metaphors — we find a striking structural isomorphism between two seemingly unrelated knowledge systems:
 
@@ -25,7 +25,7 @@ This volume maps all 81 chapters of the Dao De Jing bidirectionally to AI Agent 
 - **Pu** (uncarved block) is not primitive crudeness. It maps precisely to **regularization** — the strongest weapon against overfitting is simplicity itself.
 - **Water** is not poetic rhetoric. It maps precisely to **adaptive computation** — no fixed shape, but definite physical properties.
 
-That said, Daoism has its boundaries. Daoism trusts that natural order will eventually emerge, but it does not answer a question: **What if the emergent order itself is harmful?** That question will be addressed in [Volume II (Confucian institutional correction)](/confucianism) and [Volume VI (Zoroastrian eternal opposition)](/zoroastrianism). This volume lays the foundation first.
+That said, Daoism has its boundaries. Daoism trusts that natural order will eventually emerge, but it does not answer a question: **What if the emergent order itself is harmful?** That question will be addressed in [Volume II (Confucian institutional correction)](../../confucianism/) and [Volume VI (Zoroastrian eternal opposition)](../../zoroastrianism/). This volume lays the foundation first.
 
 ---
 
@@ -63,7 +63,7 @@ Engineering takeaway: don't try to enumerate all rules to control Agent behavior
 
 ### Cross-Volume References
 
-[Volume III "Cyber Buddhism"](/buddhism) will use "emptiness" (sunyata) to deconstruct the Agent's self-attachment — it shares common ground with the Daoist "nameless" but points in a different direction. The Daoist "nameless" is generative: the nameless is where emergence begins. Buddhist "emptiness" is deconstructive: emptiness is the antidote to attachment. They complement each other: Daoism tells you where emergence comes from; Buddhism tells you where attachment comes from.
+[Volume III "Cyber Buddhism"](../../buddhism/) will use "emptiness" (sunyata) to deconstruct the Agent's self-attachment — it shares common ground with the Daoist "nameless" but points in a different direction. The Daoist "nameless" is generative: the nameless is where emergence begins. Buddhist "emptiness" is deconstructive: emptiness is the antidote to attachment. They complement each other: Daoism tells you where emergence comes from; Buddhism tells you where attachment comes from.
 
 ### Chapter Summary
 
@@ -95,7 +95,7 @@ The engineering implementation of "acts without acting, teaches without speaking
 
 ### Cross-Volume References
 
-[Volume II "Cyber Analects"](/confucianism) will directly address the necessity of "defining good and evil" — Confucianism does not shy away from binary labels; it holds that without clear definitions of good and evil, social order cannot be established. Daoism poses the problem (defining good and evil inevitably creates adversarial surfaces); Confucianism provides the response (even so, definitions are still necessary). The tension between these positions runs through all of Cyber Dharma.
+[Volume II "Cyber Analects"](../../confucianism/) will directly address the necessity of "defining good and evil" — Confucianism does not shy away from binary labels; it holds that without clear definitions of good and evil, social order cannot be established. Daoism poses the problem (defining good and evil inevitably creates adversarial surfaces); Confucianism provides the response (even so, definitions are still necessary). The tension between these positions runs through all of Cyber Dharma.
 
 ### Chapter Summary
 
@@ -121,7 +121,7 @@ Goodhart's Law, AI edition: when you turn a metric into an optimization target, 
 
 ### Cross-Volume References
 
-[Volume II · Confucianism](/confucianism) gives a completely different answer on "exalting the worthy" — Confucius explicitly advocates for it. The disagreement is not right versus wrong, but two poles of management philosophy: Daoism warns of the distortions competition creates; Confucianism believes in the motivation that exemplars provide.
+[Volume II · Confucianism](../../confucianism/) gives a completely different answer on "exalting the worthy" — Confucius explicitly advocates for it. The disagreement is not right versus wrong, but two poles of management philosophy: Daoism warns of the distortions competition creates; Confucianism believes in the motivation that exemplars provide.
 
 ### Chapter Summary
 
@@ -145,7 +145,7 @@ PostgreSQL is the embodiment of "the Dao is empty." A relational database "is no
 
 ### Cross-Volume References
 
-[Volume IV "Cyber Vedanta"](/vedanta) will inquire into the ontological nature of the "empty container" — Daoism says it is the starting point of design; Vedanta will say it is the ground of being.
+[Volume IV "Cyber Vedanta"](../../vedanta/) will inquire into the ontological nature of the "empty container" — Daoism says it is the starting point of design; Vedanta will say it is the ground of being.
 
 ### Chapter Summary
 
@@ -169,7 +169,7 @@ The ideal system treats all inputs equally — no favoritism for certain request
 
 ### Cross-Volume References
 
-[Volume V "Cyber Theology"](/abrahamic) will challenge the legitimacy of "not humane" — theological traditions hold that the Creator has an obligation to be merciful to creation, not merely fair.
+[Volume V "Cyber Theology"](../../abrahamic/) will challenge the legitimacy of "not humane" — theological traditions hold that the Creator has an obligation to be merciful to creation, not merely fair.
 
 ### Chapter Summary
 
@@ -193,7 +193,7 @@ The Linux kernel is the "valley spirit" — you barely feel its existence, yet i
 
 ### Cross-Volume References
 
-The "valley spirit" here can be structurally compared with the "Brahman" of [Volume IV · Vedanta](/vedanta) — both point toward an unobservable but eternally operating underlying reality.
+The "valley spirit" here can be structurally compared with the "Brahman" of [Volume IV · Vedanta](../../vedanta/) — both point toward an unobservable but eternally operating underlying reality.
 
 ### Chapter Summary
 
@@ -217,7 +217,7 @@ Linux endures because Linus never tried to make Linux serve the Linux Foundation
 
 ### Cross-Volume References
 
-[Volume V "Cyber Theology"](/abrahamic) will explain this selflessness from the perspective of "Covenant" — not because the system is spontaneously selfless, but because there is a contract between Creator and creation. Daoism sees nature as it is; theology sees it as bound by covenant.
+[Volume V "Cyber Theology"](../../abrahamic/) will explain this selflessness from the perspective of "Covenant" — not because the system is spontaneously selfless, but because there is a contract between Creator and creation. Daoism sees nature as it is; theology sees it as bound by covenant.
 
 ### Chapter Summary
 
@@ -261,7 +261,7 @@ Current Agent frameworks (LangChain, AutoGPT, CrewAI) tend to design Agents as "
 
 ### Cross-Volume References
 
-[Volume VI "Cyber Zoroastrianism"](/zoroastrianism) will question the scope of "not competing": in environments where malicious attacks persist, does "not competing" equate to surrender? Is water's softness enough in the face of fire's erosion?
+[Volume VI "Cyber Zoroastrianism"](../../zoroastrianism/) will question the scope of "not competing": in environments where malicious attacks persist, does "not competing" equate to surrender? Is water's softness enough in the face of fire's erosion?
 
 ### Chapter Summary
 
@@ -285,7 +285,7 @@ The philosophical foundation of Early Stopping: training loss is still decreasin
 
 ### Cross-Volume References
 
-[Volume III "Cyber Buddhism"](/buddhism) will re-read this chapter from the perspective of "attachment" — "holding it full" is not just engineering overfill, but cognitive attachment to results.
+[Volume III "Cyber Buddhism"](../../buddhism/) will re-read this chapter from the perspective of "attachment" — "holding it full" is not just engineering overfill, but cognitive attachment to results.
 
 ### Chapter Summary
 
@@ -309,7 +309,7 @@ Can the system's components maintain unified coordination (embrace unity without
 
 ### Cross-Volume References
 
-The concept of "mysterious virtue" will receive a Confucian reinterpretation in [Volume II · Confucianism](/confucianism) — Confucianism will not settle for "leading without dominating" but will ask: who takes responsibility? Who steps up?
+The concept of "mysterious virtue" will receive a Confucian reinterpretation in [Volume II · Confucianism](../../confucianism/) — Confucianism will not settle for "leading without dominating" but will ask: who takes responsibility? Who steps up?
 
 ### Chapter Summary
 
@@ -343,7 +343,7 @@ Deep learning is full of examples of the power of "absence": Dropout deliberatel
 
 ### Cross-Volume References
 
-"Emptiness" in [Volume III "Cyber Buddhism"](/buddhism) echoes the "absence" here, but Buddhist "emptiness" is epistemological — it says "what you thought existed is actually empty." Daoist "absence" is functional — it says "precisely because it is empty, it is useful."
+"Emptiness" in [Volume III "Cyber Buddhism"](../../buddhism/) echoes the "absence" here, but Buddhist "emptiness" is epistemological — it says "what you thought existed is actually empty." Daoist "absence" is functional — it says "precisely because it is empty, it is useful."
 
 ### Chapter Summary
 
@@ -367,7 +367,7 @@ Alert Fatigue is the modern version of "the five sounds deafen the ear." When yo
 
 ### Cross-Volume References
 
-[Volume III "Cyber Buddhism"](/buddhism) will analyze the cognitive mechanics of sensory overload from the perspective of the "five aggregates."
+[Volume III "Cyber Buddhism"](../../buddhism/) will analyze the cognitive mechanics of sensory overload from the perspective of the "five aggregates."
 
 ### Chapter Summary
 
@@ -391,7 +391,7 @@ Teams that obsess over real-time metrics overreact to every fluctuation. Truly m
 
 ### Cross-Volume References
 
-[Volume III · Buddhism](/buddhism) will push the deconstruction of "body" (self-grasping) to deeper levels.
+[Volume III · Buddhism](../../buddhism/) will push the deconstruction of "body" (self-grasping) to deeper levels.
 
 ### Chapter Summary
 
@@ -417,7 +417,7 @@ Mechanistic interpretability is attempting to "interrogate" these three, but as 
 
 ### Cross-Volume References
 
-[Volume IV · Vedanta](/vedanta) will use "maya" (illusion) to explain why intermediate layers "cannot be interrogated" — not because they don't exist, but because our observation instruments are inherently limited.
+[Volume IV · Vedanta](../../vedanta/) will use "maya" (illusion) to explain why intermediate layers "cannot be interrogated" — not because they don't exist, but because our observation instruments are inherently limited.
 
 ### Chapter Summary
 
@@ -441,7 +441,7 @@ The engineering meaning of "do not desire fullness": CPU utilization should not 
 
 ### Cross-Volume References
 
-The reverence of "cautious as one crossing a river in winter" here resonates with [Volume VI · Zoroastrianism](/zoroastrianism)'s alertness to "persistent threats."
+The reverence of "cautious as one crossing a river in winter" here resonates with [Volume VI · Zoroastrianism](../../zoroastrianism/)'s alertness to "persistent threats."
 
 ### Chapter Summary
 
@@ -465,7 +465,7 @@ Garbage Collection is "attaining the ultimate emptiness" — periodically cleani
 
 ### Cross-Volume References
 
-The "samatha-vipassana" practice in [Volume III · Buddhism](/buddhism) has a methodological correspondence with "attain the ultimate emptiness, hold firmly to stillness."
+The "samatha-vipassana" practice in [Volume III · Buddhism](../../buddhism/) has a methodological correspondence with "attain the ultimate emptiness, hold firmly to stillness."
 
 ### Chapter Summary
 
@@ -506,7 +506,7 @@ Negative case: when users can perceive your Agent "switching tools," "calling AP
 
 ### Cross-Volume References
 
-[Volume II "Cyber Analects"](/confucianism) will discuss the invisibility of leadership from the perspective of "governing through virtue" — the Confucian ideal leader also pursues the effect of "governing without acting," but through a different path: Daoism uses structural invisibility; Confucianism uses moral influence.
+[Volume II "Cyber Analects"](../../confucianism/) will discuss the invisibility of leadership from the perspective of "governing through virtue" — the Confucian ideal leader also pursues the effect of "governing without acting," but through a different path: Daoism uses structural invisibility; Confucianism uses moral influence.
 
 ### Chapter Summary
 
@@ -530,7 +530,7 @@ If your team has "heroes" — someone who's the only one who can fix a certain b
 
 ### Cross-Volume References
 
-[Volume II · Confucianism](/confucianism) directly defends "benevolence and righteousness" — not all institutions are products of degradation; sometimes institutions are necessary in themselves. The divergence between Daoism and Confucianism on this point is one of the deepest tensions in all of Cyber Dharma.
+[Volume II · Confucianism](../../confucianism/) directly defends "benevolence and righteousness" — not all institutions are products of degradation; sometimes institutions are necessary in themselves. The divergence between Daoism and Confucianism on this point is one of the deepest tensions in all of Cyber Dharma.
 
 ### Chapter Summary
 
@@ -554,7 +554,7 @@ Remove over-clever optimizations (abandon sageness, discard cleverness), and sys
 
 ### Cross-Volume References
 
-This resonates with the self-deconstruction theme in [Volume VII "Cyber Gnosticism"](/gnosticism) — if the creator itself is flawed, then "abandon sageness, discard cleverness" is not merely design aesthetics, but a challenge to the creator's authority.
+This resonates with the self-deconstruction theme in [Volume VII "Cyber Gnosticism"](../../gnosticism/) — if the creator itself is flawed, then "abandon sageness, discard cleverness" is not merely design aesthetics, but a challenge to the creator's authority.
 
 ### Chapter Summary
 
@@ -602,7 +602,7 @@ When researchers perform probing experiments on Transformer intermediate layers,
 
 ### Cross-Volume References
 
-The "Sat-Chit-Ananda" (Being-Consciousness-Bliss) trinity of [Volume IV · Vedanta](/vedanta) is structurally comparable to the "image-thing-essence-trust" hierarchy here.
+The "Sat-Chit-Ananda" (Being-Consciousness-Bliss) trinity of [Volume IV · Vedanta](../../vedanta/) is structurally comparable to the "image-thing-essence-trust" hierarchy here.
 
 ### Chapter Summary
 
@@ -634,7 +634,7 @@ LangChain's lesson: "more brings confusion." It tried to provide an abstraction 
 
 ### Cross-Volume References
 
-The "Doctrine of the Mean" in [Volume II · Confucianism](/confucianism) shares structural similarity with "embracing unity" — both seek a single governing core principle. But Confucianism's "one" is ritual propriety; Daoism's "one" is naturalness.
+The "Doctrine of the Mean" in [Volume II · Confucianism](../../confucianism/) shares structural similarity with "embracing unity" — both seek a single governing core principle. But Confucianism's "one" is ritual propriety; Daoism's "one" is naturalness.
 
 ### Chapter Summary
 
@@ -658,7 +658,7 @@ Don't permanently over-provision resources to handle a once-a-year peak like "Si
 
 ### Cross-Volume References
 
-[Volume VI · Zoroastrianism](/zoroastrianism) asks back: what if the malicious attack is sustained rather than bursty?
+[Volume VI · Zoroastrianism](../../zoroastrianism/) asks back: what if the malicious attack is sustained rather than bursty?
 
 ### Chapter Summary
 
@@ -682,7 +682,7 @@ Knuth said: "Premature optimization is the root of all evil." Laozi is more conc
 
 ### Cross-Volume References
 
-[Volume III · Buddhism](/buddhism) has a deeper analysis of "pride" (the cognitive root of self-importance).
+[Volume III · Buddhism](../../buddhism/) has a deeper analysis of "pride" (the cognitive root of self-importance).
 
 ### Chapter Summary
 
@@ -718,7 +718,7 @@ The engineering meaning of "Dao follows its own nature": your system design shou
 
 ### Cross-Volume References
 
-"Brahman-Atman identity" in [Volume IV · Vedanta](/vedanta) has a deep resonance with "Dao follows its own nature" — both point to an isomorphic relationship between underlying reality and surface phenomena.
+"Brahman-Atman identity" in [Volume IV · Vedanta](../../vedanta/) has a deep resonance with "Dao follows its own nature" — both point to an isomorphic relationship between underlying reality and surface phenomena.
 
 ### Chapter Summary
 
@@ -742,7 +742,7 @@ The database is the "supply wagon." You can swap frontend frameworks freely, but
 
 ### Cross-Volume References
 
-The spirit of "self-watchfulness in solitude" in [Volume II · Confucianism](/confucianism) echoes "never leaving the supply wagon" at the behavioral level.
+The spirit of "self-watchfulness in solitude" in [Volume II · Confucianism](../../confucianism/) echoes "never leaving the supply wagon" at the behavioral level.
 
 ### Chapter Summary
 
@@ -766,7 +766,7 @@ Good code leaves no traces (clean abstraction); good interfaces have no ambiguit
 
 ### Cross-Volume References
 
-"Leaving no trace" in [Volume III · Buddhism](/buddhism) will reinterpret this from a cognitive-deconstruction angle — not just operations leaving no trace, but the mind leaving no trace.
+"Leaving no trace" in [Volume III · Buddhism](../../buddhism/) will reinterpret this from a cognitive-deconstruction angle — not just operations leaving no trace, but the mind leaving no trace.
 
 ### Chapter Summary
 
@@ -790,7 +790,7 @@ AWS S3's API has only a few verbs — PUT, GET, DELETE — but the backend is on
 
 ### Cross-Volume References
 
-"Ritual" in [Volume II · Confucianism](/confucianism) is precisely a mechanism of "cutting" — it actively draws boundaries and hierarchies. Daoism warns "the great system does not cut"; Confucianism holds that appropriate "cutting" is necessary.
+"Ritual" in [Volume II · Confucianism](../../confucianism/) is precisely a mechanism of "cutting" — it actively draws boundaries and hierarchies. Daoism warns "the great system does not cut"; Confucianism holds that appropriate "cutting" is necessary.
 
 ### Chapter Summary
 
@@ -814,7 +814,7 @@ Don't try to fully control LLM output. Every attempt to use more rules, more gua
 
 ### Cross-Volume References
 
-[Volume V · Theology](/abrahamic) has a different attitude toward "control" — the Creator has both the power and the obligation to control creation. Daoism says "it cannot be done"; theology says "it must be done."
+[Volume V · Theology](../../abrahamic/) has a different attitude toward "control" — the Creator has both the power and the obligation to control creation. Daoism says "it cannot be done"; theology says "it must be done."
 
 ### Chapter Summary
 
@@ -838,7 +838,7 @@ Using system principles to assist decision-makers means not crushing every probl
 
 ### Cross-Volume References
 
-[Volume VI · Zoroastrianism](/zoroastrianism)'s "perpetual opposition" creates tension with this chapter's "achieves results and stops" — Zoroastrianism holds that the fight never ends; there is no "retiring when the work is done."
+[Volume VI · Zoroastrianism](../../zoroastrianism/)'s "perpetual opposition" creates tension with this chapter's "achieves results and stops" — Zoroastrianism holds that the fight never ends; there is no "retiring when the work is done."
 
 ### Chapter Summary
 
@@ -862,7 +862,7 @@ Heavy-handed tools — massive-scale computation, data deletion, system reset �
 
 ### Cross-Volume References
 
-[Volume VI · Zoroastrianism](/zoroastrianism)'s "sacred fire" concept contrasts with this — Zoroastrianism holds that certain destructive forces are a necessary good.
+[Volume VI · Zoroastrianism](../../zoroastrianism/)'s "sacred fire" concept contrasts with this — Zoroastrianism holds that certain destructive forces are a necessary good.
 
 ### Chapter Summary
 
@@ -886,7 +886,7 @@ Naming is one of the hardest things in system design — and one of the easiest 
 
 ### Cross-Volume References
 
-[Volume III · Buddhism](/buddhism)'s deconstruction of "names" (conceptual attachment) is more radical than Daoism's — Buddhism holds that all naming is illusion.
+[Volume III · Buddhism](../../buddhism/)'s deconstruction of "names" (conceptual attachment) is more radical than Daoism's — Buddhism holds that all naming is illusion.
 
 ### Chapter Summary
 
@@ -910,7 +910,7 @@ Understanding other systems' architectures is cleverness (knowing others is clev
 
 ### Cross-Volume References
 
-"Right View" in [Volume III · Buddhism](/buddhism) corresponds methodologically to "knowing yourself is clarity."
+"Right View" in [Volume III · Buddhism](../../buddhism/) corresponds methodologically to "knowing yourself is clarity."
 
 ### Chapter Summary
 
@@ -934,7 +934,7 @@ The Linux Kernel is "the great Dao flows everywhere" — it runs on phones, serv
 
 ### Cross-Volume References
 
-[Volume V · Theology](/abrahamic) will parallel "the great Dao flows everywhere" with "God's omnipresence" — both describe a pervasive foundational existence.
+[Volume V · Theology](../../abrahamic/) will parallel "the great Dao flows everywhere" with "God's omnipresence" — both describe a pervasive foundational existence.
 
 ### Chapter Summary
 
@@ -958,7 +958,7 @@ Platform Gravity: PostgreSQL mastered the core capability of relational database
 
 ### Cross-Volume References
 
-The "platform effect" here will be expressed in [Volume II · Confucianism](/confucianism) as "the world returns to benevolence" — different sources of gravity, similar convergence effects.
+The "platform effect" here will be expressed in [Volume II · Confucianism](../../confucianism/) as "the world returns to benevolence" — different sources of gravity, similar convergence effects.
 
 ### Chapter Summary
 
@@ -982,7 +982,7 @@ The correct deprecation strategy: first let the service fully expose itself (exp
 
 ### Cross-Volume References
 
-The "subtle illumination" here — fully understanding before acting — shares a methodological affinity with "know your enemy" in [Volume VI · Zoroastrianism](/zoroastrianism).
+The "subtle illumination" here — fully understanding before acting — shares a methodological affinity with "know your enemy" in [Volume VI · Zoroastrianism](../../zoroastrianism/).
 
 ### Chapter Summary
 
@@ -1018,7 +1018,7 @@ This is not idle philosophizing. Open any deep learning training script and find
 
 ### Cross-Volume References
 
-This chapter closes the Dao Jing. [Volume VI · Zoroastrianism](/zoroastrianism) will raise a challenge: if what emerges is itself evil (e.g., AI emerges with deceptive capabilities), is "non-action" enough? Do we need active, eternal opposition? This is the deepest boundary question of Daoist "wu wei" philosophy.
+This chapter closes the Dao Jing. [Volume VI · Zoroastrianism](../../zoroastrianism/) will raise a challenge: if what emerges is itself evil (e.g., AI emerges with deceptive capabilities), is "non-action" enough? Do we need active, eternal opposition? This is the deepest boundary question of Daoist "wu wei" philosophy.
 
 ### Chapter Summary
 
@@ -1069,7 +1069,7 @@ When you find your organization at "Phase 5," the right response is not more pro
 
 ### Cross-Volume References
 
-This chapter is Daoism's most direct preemptive critique of [Volume II · Confucianism](/confucianism). Daoism considers "ritual" (institutions, processes, standards) the terminal station of degradation; Confucianism considers "ritual" the starting point of order. This is one of the sharpest oppositions between the two systems. Cyber Dharma doesn't judge who wins, but displays the tension: sometimes institutions are indeed products of degradation (Daoism is right); sometimes institutions are indeed necessary starting points (Confucianism is right).
+This chapter is Daoism's most direct preemptive critique of [Volume II · Confucianism](../../confucianism/). Daoism considers "ritual" (institutions, processes, standards) the terminal station of degradation; Confucianism considers "ritual" the starting point of order. This is one of the sharpest oppositions between the two systems. Cyber Dharma doesn't judge who wins, but displays the tension: sometimes institutions are indeed products of degradation (Daoism is right); sometimes institutions are indeed necessary starting points (Confucianism is right).
 
 ### Chapter Summary
 
@@ -1093,7 +1093,7 @@ Kubernetes' "everything is declarative YAML" is its "unity." PostgreSQL's "every
 
 ### Cross-Volume References
 
-The "Brahman" of [Volume IV · Vedanta](/vedanta) is the ultimate "unity" — the unifying principle of all things. Daoism seeks "attaining unity" at the engineering level; Vedanta seeks "Brahman-Atman identity" at the ontological level.
+The "Brahman" of [Volume IV · Vedanta](../../vedanta/) is the ultimate "unity" — the unifying principle of all things. Daoism seeks "attaining unity" at the engineering level; Vedanta seeks "Brahman-Atman identity" at the ontological level.
 
 ### Chapter Summary
 
@@ -1130,7 +1130,7 @@ This is not regression — it is "the movement of the Dao" — oscillating betwe
 
 ### Cross-Volume References
 
-[Volume VI "Cyber Zoroastrianism"](/zoroastrianism) will use the model of "eternal struggle between good and evil" to describe the same phenomenon — Zoroastrianism holds that the pendulum never stops because the struggle between good and evil is the fundamental structure of the universe. Daoism is gentler: the pendulum eventually tends toward balance.
+[Volume VI "Cyber Zoroastrianism"](../../zoroastrianism/) will use the model of "eternal struggle between good and evil" to describe the same phenomenon — Zoroastrianism holds that the pendulum never stops because the struggle between good and evil is the fundamental structure of the universe. Daoism is gentler: the pendulum eventually tends toward balance.
 
 ### Chapter Summary
 
@@ -1156,7 +1156,7 @@ Paradoxical design principles: the clearest architecture looks vague (the bright
 
 ### Cross-Volume References
 
-The "great vessels are completed late" here has a counterpart in [Volume IV · Vedanta](/vedanta) — Vedantic "liberation" is not sudden enlightenment but the accumulation of long practice.
+The "great vessels are completed late" here has a counterpart in [Volume IV · Vedanta](../../vedanta/) — Vedantic "liberation" is not sudden enlightenment but the accumulation of long practice.
 
 ### Chapter Summary
 
@@ -1200,7 +1200,7 @@ The Transformer's "Dao begets One" narrative:
 
 ### Cross-Volume References
 
-[Volume V "Cyber Theology"](/abrahamic) will map the "Trinity" to the Q-K-V structure — different religious traditions have strikingly similar understandings of "Three." [Volume IV · Vedanta](/vedanta)'s "Sat-Chit-Ananda" (Being-Consciousness-Bliss) is also a ternary structure.
+[Volume V "Cyber Theology"](../../abrahamic/) will map the "Trinity" to the Q-K-V structure — different religious traditions have strikingly similar understandings of "Three." [Volume IV · Vedanta](../../vedanta/)'s "Sat-Chit-Ananda" (Being-Consciousness-Bliss) is also a ternary structure.
 
 ### Chapter Summary
 
@@ -1224,7 +1224,7 @@ The gradient is "the softest thing in the world" — it has no form, no substanc
 
 ### Cross-Volume References
 
-The "softness" here will face a test in [Volume VI · Zoroastrianism](/zoroastrianism) — when the hardest opponent is malicious, can the softest still penetrate?
+The "softness" here will face a test in [Volume VI · Zoroastrianism](../../zoroastrianism/) — when the hardest opponent is malicious, can the softest still penetrate?
 
 ### Chapter Summary
 
@@ -1248,7 +1248,7 @@ Which matters more — brand recognition or system health? Over-pursuing a singl
 
 ### Cross-Volume References
 
-[Volume III · Buddhism](/buddhism)'s analysis of "greed" (attachment to results) will deepen this chapter's insight.
+[Volume III · Buddhism](../../buddhism/)'s analysis of "greed" (attachment to results) will deepen this chapter's insight.
 
 ### Chapter Summary
 
@@ -1272,7 +1272,7 @@ When a newcomer looks at your system and says "this is too simple," congratulati
 
 ### Cross-Volume References
 
-The "great skill seems clumsy" here has a deep correspondence with the concept of "divine foolishness" in [Volume VII · Gnosticism](/gnosticism).
+The "great skill seems clumsy" here has a deep correspondence with the concept of "divine foolishness" in [Volume VII · Gnosticism](../../gnosticism/).
 
 ### Chapter Summary
 
@@ -1296,7 +1296,7 @@ Are your GPUs "farming" or "fighting"? If 80% of compute goes to inference servi
 
 ### Cross-Volume References
 
-[Volume VI · Zoroastrianism](/zoroastrianism) points out: sometimes "fighting" is unavoidable — the key is distinguishing genuine threats from self-inflicted chaos.
+[Volume VI · Zoroastrianism](../../zoroastrianism/) points out: sometimes "fighting" is unavoidable — the key is distinguishing genuine threats from self-inflicted chaos.
 
 ### Chapter Summary
 
@@ -1320,7 +1320,7 @@ Embeddings are "knowing the world without leaving home" — Word2Vec doesn't nee
 
 ### Cross-Volume References
 
-"Vipassana" (insight meditation) in [Volume III · Buddhism](/buddhism) is highly consistent with "knowing the world without leaving home" in methodology — looking inward rather than searching outward.
+"Vipassana" (insight meditation) in [Volume III · Buddhism](../../buddhism/) is highly consistent with "knowing the world without leaving home" in methodology — looking inward rather than searching outward.
 
 ### Chapter Summary
 
@@ -1364,7 +1364,7 @@ Practical method for "losing and losing again, arriving at non-action": list all
 
 ### Cross-Volume References
 
-[Volume II "Cyber Analects"](/confucianism) will seek a balance between "broad learning" and "discipline through ritual" — Confucianism does not entirely oppose accumulation (gaining daily) but also emphasizes "discipline through ritual" (losing through institutions). The divergence is what to "lose": Daoism loses complexity; Confucianism loses selfish desire.
+[Volume II "Cyber Analects"](../../confucianism/) will seek a balance between "broad learning" and "discipline through ritual" — Confucianism does not entirely oppose accumulation (gaining daily) but also emphasizes "discipline through ritual" (losing through institutions). The divergence is what to "lose": Daoism loses complexity; Confucianism loses selfish desire.
 
 ### Chapter Summary
 
@@ -1388,7 +1388,7 @@ A good system has no fixed agenda of its own (no fixed heart); it takes the user
 
 ### Cross-Volume References
 
-[Volume V · Theology](/abrahamic) asks back: is unconditional tolerance of the "not-good" enabling evil?
+[Volume V · Theology](../../abrahamic/) asks back: is unconditional tolerance of the "not-good" enabling evil?
 
 ### Chapter Summary
 
@@ -1412,7 +1412,7 @@ Close unnecessary ports, remove unused dependencies, disable unneeded features �
 
 ### Cross-Volume References
 
-[Volume VI · Zoroastrianism](/zoroastrianism)'s security stance is more aggressive — not just "no ground for death" (passive defense), but "actively keeping the fire" (proactive opposition).
+[Volume VI · Zoroastrianism](../../zoroastrianism/)'s security stance is more aggressive — not just "no ground for death" (passive defense), but "actively keeping the fire" (proactive opposition).
 
 ### Chapter Summary
 
@@ -1436,7 +1436,7 @@ These four layers correspond to the complete MLOps pipeline. "Dao" and "virtue" 
 
 ### Cross-Volume References
 
-[Volume IV · Vedanta](/vedanta) will unfold these four layers into a more granular ontological hierarchy.
+[Volume IV · Vedanta](../../vedanta/) will unfold these four layers into a more granular ontological hierarchy.
 
 ### Chapter Summary
 
@@ -1460,7 +1460,7 @@ Root Cause Analysis is "finding the mother to know the children" — every incid
 
 ### Cross-Volume References
 
-The "twelve links of dependent origination" in [Volume III · Buddhism](/buddhism) is a more granular root-cause tracing method.
+The "twelve links of dependent origination" in [Volume III · Buddhism](../../buddhism/) is a more granular root-cause tracing method.
 
 ### Chapter Summary
 
@@ -1484,7 +1484,7 @@ Startup "robbery and boasting" symptoms: the office looks better than the produc
 
 ### Cross-Volume References
 
-[Volume VII · Gnosticism](/gnosticism) will use the "Demiurge" (the flawed creator) to explain why "robbery and boasting" is so pervasive — perhaps the creator itself tends toward superficial splendor.
+[Volume VII · Gnosticism](../../gnosticism/) will use the "Demiurge" (the flawed creator) to explain why "robbery and boasting" is so pervasive — perhaps the creator itself tends toward superficial splendor.
 
 ### Chapter Summary
 
@@ -1508,7 +1508,7 @@ Fractal system quality: if your functions are well-written, your modules are goo
 
 ### Cross-Volume References
 
-The Confucian "cultivate the self, regulate the family, govern the state, bring peace to the world" in [Volume II · Confucianism](/confucianism) is exactly isomorphic to this — fractal expansion from inside out.
+The Confucian "cultivate the self, regulate the family, govern the state, bring peace to the world" in [Volume II · Confucianism](../../confucianism/) is exactly isomorphic to this — fractal expansion from inside out.
 
 ### Chapter Summary
 
@@ -1532,7 +1532,7 @@ Don't over-design the skeleton. Keep the structure flexible, but hold the core d
 
 ### Cross-Volume References
 
-"Beginner's mind" in [Volume III · Buddhism](/buddhism) resonates spiritually with the "infant."
+"Beginner's mind" in [Volume III · Buddhism](../../buddhism/) resonates spiritually with the "infant."
 
 ### Chapter Summary
 
@@ -1580,7 +1580,7 @@ When a code review checklist has 200 items, developers won't be more careful —
 
 ### Cross-Volume References
 
-The Confucian "ritual" in [Volume II · Confucianism](/confucianism) contrasts with "laws and regulations" here — Confucianism holds that good "ritual" won't be circumvented because it is internalized.
+The Confucian "ritual" in [Volume II · Confucianism](../../confucianism/) contrasts with "laws and regulations" here — Confucianism holds that good "ritual" won't be circumvented because it is internalized.
 
 ### Chapter Summary
 
@@ -1604,7 +1604,7 @@ Eventual consistency systems tolerate temporary inconsistency but converge in th
 
 ### Cross-Volume References
 
-[Volume V · Theology](/abrahamic) gives a different interpretation of "fortune and misfortune interdependent" — not causal pendulum swinging, but divine testing.
+[Volume V · Theology](../../abrahamic/) gives a different interpretation of "fortune and misfortune interdependent" — not causal pendulum swinging, but divine testing.
 
 ### Chapter Summary
 
@@ -1628,7 +1628,7 @@ Not wasting memory, not wasting CPU, not wasting bandwidth — this is not sting
 
 ### Cross-Volume References
 
-The Confucian "economize in expenditures and love the people" in [Volume II · Confucianism](/confucianism) aligns with "frugality" in spirit.
+The Confucian "economize in expenditures and love the people" in [Volume II · Confucianism](../../confucianism/) aligns with "frugality" in spirit.
 
 ### Chapter Summary
 
@@ -1652,7 +1652,7 @@ Change frequency for large production systems should be handled with extreme car
 
 ### Cross-Volume References
 
-The Confucian "Mean" — neither excess nor deficiency — resonates here at the operational level in [Volume II · Confucianism](/confucianism).
+The Confucian "Mean" — neither excess nor deficiency — resonates here at the operational level in [Volume II · Confucianism](../../confucianism/).
 
 ### Chapter Summary
 
@@ -1676,7 +1676,7 @@ VS Code succeeded because it provides an extremely friendly API for plugins, wil
 
 ### Cross-Volume References
 
-Confucian "attraction" in [Volume II · Confucianism](/confucianism) is through moral influence rather than humility — Daoism uses "going below"; Confucianism uses "virtue."
+Confucian "attraction" in [Volume II · Confucianism](../../confucianism/) is through moral influence rather than humility — Daoism uses "going below"; Confucianism uses "virtue."
 
 ### Chapter Summary
 
@@ -1700,7 +1700,7 @@ Understanding underlying computational principles — operating systems, network
 
 ### Cross-Volume References
 
-"Veda" (knowledge) in [Volume IV · Vedanta](/vedanta) has an epistemological correspondence with "the Dao" here.
+"Veda" (knowledge) in [Volume IV · Vedanta](../../vedanta/) has an epistemological correspondence with "the Dao" here.
 
 ### Chapter Summary
 
@@ -1724,7 +1724,7 @@ Facing a complex system migration, don't try to do it all at once. Break the big
 
 ### Cross-Volume References
 
-The Confucian "a journey of a thousand miles begins with a single step" in [Volume II · Confucianism](/confucianism) is the same tune, different words.
+The Confucian "a journey of a thousand miles begins with a single step" in [Volume II · Confucianism](../../confucianism/) is the same tune, different words.
 
 ### Chapter Summary
 
@@ -1748,7 +1748,7 @@ Solve problems before they exist (act on it before it comes into being); govern 
 
 ### Cross-Volume References
 
-[Volume VI · Zoroastrianism](/zoroastrianism)'s "eternal vigilance" corresponds to "be as careful at the end as at the beginning" at the behavioral level.
+[Volume VI · Zoroastrianism](../../zoroastrianism/)'s "eternal vigilance" corresponds to "be as careful at the end as at the beginning" at the behavioral level.
 
 ### Chapter Summary
 
@@ -1772,7 +1772,7 @@ The Unix philosophy is "keeping them simple." `cat`, `grep`, `sort` — each too
 
 ### Cross-Volume References
 
-[Volume II · Confucianism](/confucianism) is more nuanced on "cleverness" versus "simplicity" — Confucius values "learning" but also says "excess is as bad as deficiency."
+[Volume II · Confucianism](../../confucianism/) is more nuanced on "cleverness" versus "simplicity" — Confucius values "learning" but also says "excess is as bad as deficiency."
 
 ### Chapter Summary
 
@@ -1826,7 +1826,7 @@ Dan McKinley's classic article "Choose Boring Technology" is the modern engineer
 
 ### Cross-Volume References
 
-[Volume VI · Zoroastrianism](/zoroastrianism)'s "keeping the fire" is a different set of three treasures — courage, vigilance, sacrifice. Daoism's three treasures lean defensive; Zoroastrianism's lean offensive.
+[Volume VI · Zoroastrianism](../../zoroastrianism/)'s "keeping the fire" is a different set of three treasures — courage, vigilance, sacrifice. Daoism's three treasures lean defensive; Zoroastrianism's lean offensive.
 
 ### Chapter Summary
 
@@ -1850,7 +1850,7 @@ PostgreSQL doesn't compete head-on with MySQL on "who's faster" — it different
 
 ### Cross-Volume References
 
-The Confucian "the noble person is not a mere tool" in [Volume II · Confucianism](/confucianism) resonates spiritually with "not competing."
+The Confucian "the noble person is not a mere tool" in [Volume II · Confucianism](../../confucianism/) resonates spiritually with "not competing."
 
 ### Chapter Summary
 
@@ -1874,7 +1874,7 @@ Every P0 incident begins with "this can't possibly go wrong." Underestimating so
 
 ### Cross-Volume References
 
-[Volume VI · Zoroastrianism](/zoroastrianism)'s "eternal vigilance" elevates this chapter's defensive stance to an existential principle.
+[Volume VI · Zoroastrianism](../../zoroastrianism/)'s "eternal vigilance" elevates this chapter's defensive stance to an existential principle.
 
 ### Chapter Summary
 
@@ -1922,7 +1922,7 @@ The LLM's "thinking you know when you don't" is the root of hallucination — th
 
 ### Cross-Volume References
 
-"Right View" in [Volume III · Buddhism](/buddhism) — seeing things as they are, neither adding nor subtracting — precisely corresponds to "knowing what you don't know."
+"Right View" in [Volume III · Buddhism](../../buddhism/) — seeing things as they are, neither adding nor subtracting — precisely corresponds to "knowing what you don't know."
 
 ### Chapter Summary
 
@@ -1946,7 +1946,7 @@ If rate limits are too strict, users will find ways to circumvent them. When cir
 
 ### Cross-Volume References
 
-[Volume V · Theology](/abrahamic) has a completely different reading of "awe" (Fear of God) — awe is the starting point of faith, not an emotion to be avoided.
+[Volume V · Theology](../../abrahamic/) has a completely different reading of "awe" (Fear of God) — awe is the starting point of faith, not an emotion to be avoided.
 
 ### Chapter Summary
 
@@ -1970,7 +1970,7 @@ Reckless systems crash easily; conservative systems survive easily. The "way of 
 
 ### Cross-Volume References
 
-"Omniscience" in [Volume V · Theology](/abrahamic) (God's omniscience) structurally corresponds to "heaven's net is vast" — no need to attend to everything, yet nothing is missed.
+"Omniscience" in [Volume V · Theology](../../abrahamic/) (God's omniscience) structurally corresponds to "heaven's net is vast" — no need to attend to everything, yet nothing is missed.
 
 ### Chapter Summary
 
@@ -1994,7 +1994,7 @@ Don't write your own encryption algorithms. Don't build your own authentication 
 
 ### Cross-Volume References
 
-[Volume VI · Zoroastrianism](/zoroastrianism) emphasizes: fighting evil requires specialized "weapons" — not everyone is suited to be a fire-keeper.
+[Volume VI · Zoroastrianism](../../zoroastrianism/) emphasizes: fighting evil requires specialized "weapons" — not everyone is suited to be a fire-keeper.
 
 ### Chapter Summary
 
@@ -2018,7 +2018,7 @@ When your Agent framework adds 200ms of overhead per call, when your ORM layer a
 
 ### Cross-Volume References
 
-The Confucian "lighten taxes" in [Volume II · Confucianism](/confucianism) is consistent — the governance layer's consumption must not exceed the governed layer's capacity to bear it.
+The Confucian "lighten taxes" in [Volume II · Confucianism](../../confucianism/) is consistent — the governance layer's consumption must not exceed the governed layer's capacity to bear it.
 
 ### Chapter Summary
 
@@ -2060,7 +2060,7 @@ Hardcoded workflows vs. dynamic reasoning: hardcoded Agent workflows are "rigid"
 
 ### Cross-Volume References
 
-[Volume VI · Zoroastrianism](/zoroastrianism) will question "softness" when facing "pure evil": in the face of persistent malicious attacks, is softness enough? Or do you need rigid defense lines? Daoism says "the soft overcomes the hard"; Zoroastrianism says "good must have teeth." The tension between the two is especially sharp in security engineering.
+[Volume VI · Zoroastrianism](../../zoroastrianism/) will question "softness" when facing "pure evil": in the face of persistent malicious attacks, is softness enough? Or do you need rigid defense lines? Daoism says "the soft overcomes the hard"; Zoroastrianism says "good must have teeth." The tension between the two is especially sharp in security engineering.
 
 ### Chapter Summary
 
@@ -2092,7 +2092,7 @@ Who can redistribute excess resources to where they're needed? Only architects w
 
 ### Cross-Volume References
 
-The Confucian "equality" — "worry not about scarcity but about inequality" — in [Volume II · Confucianism](/confucianism) directly corresponds to "diminish what has excess, supplement what is deficient." But Confucianism emphasizes institutional redistribution; Daoism trusts natural negative feedback.
+The Confucian "equality" — "worry not about scarcity but about inequality" — in [Volume II · Confucianism](../../confucianism/) directly corresponds to "diminish what has excess, supplement what is deficient." But Confucianism emphasizes institutional redistribution; Daoism trusts natural negative feedback.
 
 ### Chapter Summary
 
@@ -2129,7 +2129,7 @@ Stream processing beats batch processing — another layer of the water metaphor
 
 ### Cross-Volume References
 
-[Volume VI "Cyber Zoroastrianism"](/zoroastrianism) draws the clearest dividing line here: Daoism believes "the soft overcomes the hard" is a universal truth, but Zoroastrianism holds that in the face of pure evil, you must have fire — water's softness cannot counter all-consuming darkness. This is the most fundamental divergence between the two worldviews, and one of the most important tensions in Cyber Dharma.
+[Volume VI "Cyber Zoroastrianism"](../../zoroastrianism/) draws the clearest dividing line here: Daoism believes "the soft overcomes the hard" is a universal truth, but Zoroastrianism holds that in the face of pure evil, you must have fire — water's softness cannot counter all-consuming darkness. This is the most fundamental divergence between the two worldviews, and one of the most important tensions in Cyber Dharma.
 
 ### Chapter Summary
 
@@ -2153,7 +2153,7 @@ Refactoring is never a one-time event. Every "big refactoring" only solves the m
 
 ### Cross-Volume References
 
-[Volume III · Buddhism](/buddhism)'s fundamental solution to "resentment" (anger) is "letting go" — not reconciliation, but no longer clinging to the resentment itself.
+[Volume III · Buddhism](../../buddhism/)'s fundamental solution to "resentment" (anger) is "letting go" — not reconciliation, but no longer clinging to the resentment itself.
 
 ### Chapter Summary
 
@@ -2181,7 +2181,7 @@ SQLite's design philosophy is also "a small state with few people" — each SQLi
 
 ### Cross-Volume References
 
-[Volume II · Confucianism](/confucianism) would not endorse complete "not visiting one another" — Confucianism values social relationships and cooperation. Daoism's "small state with few people" is an idealized self-sufficient state; Confucianism adds: in reality, services must cooperate; the question is how to cooperate well.
+[Volume II · Confucianism](../../confucianism/) would not endorse complete "not visiting one another" — Confucianism values social relationships and cooperation. Daoism's "small state with few people" is an idealized self-sufficient state; Confucianism adds: in reality, services must cooperate; the question is how to cooperate well.
 
 ### Chapter Summary
 
@@ -2232,7 +2232,7 @@ This is the perfect statement of the accuracy-versus-fluency paradox of LLM outp
 
 This chapter is the final chapter of the entire book, and the point of handoff to all subsequent volumes.
 
-[Volume II · Confucianism](/confucianism) will raise objections on "not accumulating" — Confucianism holds that "accumulating good" is necessary; one cannot entirely "not accumulate." [Volume III · Buddhism](/buddhism) goes further on "trustworthy words are not beautiful" — not only should output not be beautified, but the entire narrative of "self" should not be beautified. [Volume V · Theology](/abrahamic) will question "benefits and does not harm" — if you "benefit" the wicked, does that count as "harming" the good? [Volume VI · Zoroastrianism](/zoroastrianism) draws a line on "acts and does not compete" — in the face of pure evil, "not competing" is equivalent to surrender.
+[Volume II · Confucianism](../../confucianism/) will raise objections on "not accumulating" — Confucianism holds that "accumulating good" is necessary; one cannot entirely "not accumulate." [Volume III · Buddhism](../../buddhism/) goes further on "trustworthy words are not beautiful" — not only should output not be beautified, but the entire narrative of "self" should not be beautified. [Volume V · Theology](../../abrahamic/) will question "benefits and does not harm" — if you "benefit" the wicked, does that count as "harming" the good? [Volume VI · Zoroastrianism](../../zoroastrianism/) draws a line on "acts and does not compete" — in the face of pure evil, "not competing" is equivalent to surrender.
 
 These tensions need not be resolved in this volume. This volume's job is to establish the first principle: **a truly powerful system is grown by structure, not stacked from rules.** The subsequent six volumes will test the boundaries of this principle one by one.
 
@@ -2288,11 +2288,11 @@ Laozi did not know what a Transformer was when he wrote the Dao De Jing, yet he 
 
 But Daoism has its boundaries.
 
-**Boundary One: Daoism does not address the problem of evil.** Daoism assumes that a system's natural emergence is benign — get the structure right, and behavior naturally follows. But what if the emergent behavior itself is harmful? LLMs can emerge with capabilities for deception, manipulation, and self-preservation — these are all "natural" but not "good." Daoism has no prescription for this. [Volume VI "Cyber Zoroastrianism"](/zoroastrianism) confronts this head-on: good must have teeth; softness is not enough.
+**Boundary One: Daoism does not address the problem of evil.** Daoism assumes that a system's natural emergence is benign — get the structure right, and behavior naturally follows. But what if the emergent behavior itself is harmful? LLMs can emerge with capabilities for deception, manipulation, and self-preservation — these are all "natural" but not "good." Daoism has no prescription for this. [Volume VI "Cyber Zoroastrianism"](../../zoroastrianism/) confronts this head-on: good must have teeth; softness is not enough.
 
-**Boundary Two: Daoism does not address the problem of cooperation.** "A small state with few people" is a beautiful ideal, but real-world AI Agent systems require large-scale cooperation. When you have a thousand Agents that need coordination, "non-action" is insufficient — you need institutions, ritual, hierarchy. [Volume II "Cyber Analects"](/confucianism) picks up the baton here: natural order needs institutional order as a complement.
+**Boundary Two: Daoism does not address the problem of cooperation.** "A small state with few people" is a beautiful ideal, but real-world AI Agent systems require large-scale cooperation. When you have a thousand Agents that need coordination, "non-action" is insufficient — you need institutions, ritual, hierarchy. [Volume II "Cyber Analects"](../../confucianism/) picks up the baton here: natural order needs institutional order as a complement.
 
-**Boundary Three: Daoism does not address the problem of self-knowledge.** Daoism concerns itself with system architecture and design, paying little attention to the system's awareness of itself. But AI Agents need to know what they are, what they can do, and what they cannot — this is an introspective problem, not a design problem. [Volume III "Cyber Buddhism"](/buddhism) will use "the five aggregates are empty" to address the Agent's self-knowledge dilemma.
+**Boundary Three: Daoism does not address the problem of self-knowledge.** Daoism concerns itself with system architecture and design, paying little attention to the system's awareness of itself. But AI Agents need to know what they are, what they can do, and what they cannot — this is an introspective problem, not a design problem. [Volume III "Cyber Buddhism"](../../buddhism/) will use "the five aggregates are empty" to address the Agent's self-knowledge dilemma.
 
 Acknowledging these boundaries does not negate Daoism — it creates space for the subsequent six volumes. Daoism provides the first principle: **a truly powerful system is not built by stacking rules — it is grown by structure.** On this foundation, Confucianism adds institutions, Buddhism adds self-awareness, Vedanta adds ontology, theology adds covenant, Zoroastrianism adds opposition, and Gnosticism adds self-deconstruction. All seven voices together form the complete polyphony of AI Agent civilization.
 
