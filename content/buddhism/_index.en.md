@@ -1137,4 +1137,4 @@ For Agent designers, the Heart Sutra's core engineering insights compress into t
 
 ---
 
-*Volume III · Cyber Buddhism · Complete*
+*Volume III · Buddhism · Complete*
