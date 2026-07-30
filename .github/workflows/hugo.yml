@@ -21,33 +21,34 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     env:
-      GO_VERSION: 1.26.2
+      HUGO_VERSION: 0.164.0
       HUGO_ENVIRONMENT: production
       HUGO_ENV: production
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           submodules: recursive
           fetch-depth: 0
 
       - name: Setup Go
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v7
         with:
-          go-version: ${{ env.GO_VERSION }}
+          go-version-file: go.mod
+          cache-dependency-path: go.sum
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
+        uses: peaceiris/actions-hugo@v3.2.1
         with:
-          hugo-version: "0.160.1"
+          hugo-version: "${{ env.HUGO_VERSION }}"
           extended: true
 
       - name: Build site
-        run: hugo --gc --minify
+        run: hugo --gc --minify --panicOnWarning
 
       - name: Deploy
         if: github.ref == 'refs/heads/main'
-        uses: peaceiris/actions-gh-pages@v4
+        uses: peaceiris/actions-gh-pages@v4.1.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
