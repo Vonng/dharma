@@ -4,6 +4,8 @@ description: "卷一，道家：系统怎么设计？"
 linkTitle: "卷一 · 道家"
 type: docs
 weight: 40
+search_keywords: [道家, 道德经, 无为, 系统设计, 最小干预]
+search_boost: 1.25
 volume: 1
 title_en: "Cyber Tao Te Ching"
 tradition: "道家"
@@ -11,8 +13,6 @@ core_question: "系统怎么设计？"
 accent: "#2d6d63"
 aliases:
   - /vol/1-dao/
-breadcrumbs: false
-toc: true
 ---
 
 <p class="cd-kicker">卷一 · 道家 · Cyber Tao Te Ching</p>

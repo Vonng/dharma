@@ -4,8 +4,8 @@ description: "项目宣言：为什么要做赛博经藏，以及它不是什么
 linkTitle: "宣言"
 type: docs
 weight: 10
-breadcrumbs: false
-toc: true
+search_keywords: [AI Agent, 结构同构, 古老智慧, 工程隐喻, 七卷经藏]
+search_boost: 1.4
 ---
 
 <p class="cd-kicker">宣言</p>

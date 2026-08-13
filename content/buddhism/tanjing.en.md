@@ -4,8 +4,6 @@ description: "Starting from the contest between Huineng and Shenxiu, rewriting t
 linkTitle: "Platform Sutra: Architectural Awakening"
 type: docs
 weight: 40
-toc: true
-breadcrumbs: false
 ---
 
 > *Huineng was illiterate. That is the first engineering metaphor of this entire document, and the last.*

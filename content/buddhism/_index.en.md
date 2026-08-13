@@ -4,6 +4,8 @@ description: "Volume III, Buddhism: What is the self of an Agent?"
 linkTitle: "Vol. III · Buddhism"
 type: docs
 weight: 60
+search_keywords: [Buddhism, five aggregates, dependent origination, emptiness, selfhood, metacognition]
+search_boost: 1.25
 volume: 3
 title_en: "Cyber Heart Sutra"
 tradition: "Buddhism"
@@ -11,8 +13,6 @@ core_question: "What is the self of an Agent?"
 accent: "#9d7b2f"
 aliases:
   - /en/vol/3-buddhism/
-breadcrumbs: false
-toc: true
 ---
 
 <p class="cd-kicker">Volume III · Buddhism · Cyber Heart Sutra</p>

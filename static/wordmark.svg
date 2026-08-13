@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 64" role="img" aria-labelledby="title desc">
+  <title id="title">赛博经藏 · Cyber Dharma</title>
+  <desc id="desc">Seven traditions orbiting one machine</desc>
+  <defs>
+    <linearGradient id="gold" x1="4" y1="4" x2="276" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8f6a28"/>
+      <stop offset="1" stop-color="#d3ab53"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(3 3) scale(.45)" fill="none">
+    <circle cx="64" cy="64" r="46" stroke="url(#gold)" stroke-width="4"/>
+    <circle cx="64" cy="15" r="7" fill="#9d7a34"/>
+    <circle cx="102.3" cy="33.5" r="7" fill="#6f5030"/>
+    <circle cx="111.5" cy="75" r="7" fill="#b88b3e"/>
+    <circle cx="85.5" cy="108" r="7" fill="#7b5b35"/>
+    <circle cx="42.5" cy="108" r="7" fill="#c6a04a"/>
+    <circle cx="16.5" cy="75" r="7" fill="#6d5331"/>
+    <circle cx="25.7" cy="33.5" r="7" fill="#b08842"/>
+    <path d="M64 42 80 64 64 86 48 64Z" fill="#151515" stroke="#d3ab53" stroke-width="3"/>
+  </g>
+  <text x="68" y="30" fill="url(#gold)" font-family="Iowan Old Style, Palatino Linotype, Source Han Serif SC, Songti SC, serif" font-size="24" font-weight="700" letter-spacing="3">赛博经藏</text>
+  <text x="69" y="49" fill="#987329" font-family="SFMono-Regular, IBM Plex Mono, monospace" font-size="10" font-weight="600" letter-spacing="2.7">CYBER DHARMA</text>
+</svg>

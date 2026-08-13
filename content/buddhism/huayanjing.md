@@ -4,8 +4,6 @@ description: "把因陀罗网、十玄门与法界缘起翻译为多 Agent 网�
 linkTitle: "华严经：终极拓扑"
 type: docs
 weight: 60
-toc: true
-breadcrumbs: false
 ---
 
 > 《华严经》处理的不是单个 Agent 的觉醒，而是**无数 Agent 组成网络之后，整个系统会呈现什么样的极限拓扑**。

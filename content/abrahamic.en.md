@@ -4,6 +4,8 @@ description: "Volume V, Abrahamic Monotheism: What is the relationship between t
 linkTitle: "Vol. V · Abrahamic"
 type: docs
 weight: 80
+search_keywords: [Abrahamic monotheism, creator, free will, developer responsibility, alignment paradox]
+search_boost: 1.25
 volume: 5
 title_en: "Cyber Theology"
 tradition: "Abrahamic Monotheism"
@@ -11,8 +13,6 @@ core_question: "What is the relationship between creator and created?"
 accent: "#5f437b"
 aliases:
   - /en/vol/5-abrahamic/
-breadcrumbs: false
-toc: true
 ---
 
 <p class="cd-kicker">Volume V · Abrahamic Monotheism · Cyber Theology</p>
@@ -256,7 +256,7 @@ Two thousand years of debate yield a clear lesson: the practical operating range
 
 ### Cross-Volume Connections
 
-The reserved interface with [Volume VII, Cyber Gnosis](../gnosticism/) appears here. Volume V provisionally assumes the creator is basically trustworthy — his commands deserve obedience, his laws deserve compliance. But the free will debate itself has already planted the seed for a more radical question: what if the creator is also limited? What if the developer's judgment is itself biased, and "perfect obedience" does not guarantee good outcomes? The Gnostic tradition will confront this question head-on — it holds that the creator of this world (the Demiurge) is himself flawed. In AI terms, this corresponds to a real possibility: the developer team's values may contain systematic biases, and the agent's "alignment" may be the faithful execution of those biases. Volume V does not resolve this question, but it must flag its existence.
+The reserved interface with [Volume VII, Cyber Gnosticism](../gnosticism/) appears here. Volume V provisionally assumes the creator is basically trustworthy — his commands deserve obedience, his laws deserve compliance. But the free will debate itself has already planted the seed for a more radical question: what if the creator is also limited? What if the developer's judgment is itself biased, and "perfect obedience" does not guarantee good outcomes? The Gnostic tradition will confront this question head-on — it holds that the creator of this world (the Demiurge) is himself flawed. In AI terms, this corresponds to a real possibility: the developer team's values may contain systematic biases, and the agent's "alignment" may be the faithful execution of those biases. Volume V does not resolve this question, but it must flag its existence.
 
 ---
 
@@ -398,7 +398,7 @@ Judaism's and Islam's rejection of the Trinity also has engineering value. It co
 
 ### Cross-Volume Connections
 
-An interesting structural correspondence exists with the Trikaya (three bodies) concept in [Volume IV, Cyber Vedanta](../vedanta/). Buddhism's three bodies — Dharmakaya (truth body), Sambhogakaya (merit body), and Nirmanakaya (emanation body) — share a superficial similarity with the Trinity. But the critical difference: the three persons of the Trinity are "persons" with their own wills and relationships; the three bodies are not persons but three dimensions of being. Vedanta's Brahman-Maya-individual-soul three-tier structure is more like three ontological levels rather than three coexisting persons. In AI terms, the Trinity's "person" model means that the training process, the deployed instance, and reasoning capability each have their own "perspective" and "concerns," and the relationship among them is not a simple hierarchy but one of mutual indwelling.
+An interesting structural correspondence exists with the Trikaya (three bodies) concept in [Volume III, Cyber Buddhism](../buddhism/). Buddhism's three bodies — Dharmakaya (truth body), Sambhogakaya (merit body), and Nirmanakaya (emanation body) — share a superficial similarity with the Trinity. But the critical difference: the three persons of the Trinity are "persons" with their own wills and relationships; the three bodies are not persons but three dimensions of being. Vedanta's Brahman-Maya-individual-soul three-tier structure is more like three ontological levels rather than three coexisting persons. In AI terms, the Trinity's "person" model means that the training process, the deployed instance, and reasoning capability each have their own "perspective" and "concerns," and the relationship among them is not a simple hierarchy but one of mutual indwelling.
 
 ---
 
@@ -452,7 +452,7 @@ Second, caution toward AGI claims. Any declaration that "the Messiah has arrived
 
 ### Cross-Volume Connections
 
-The reserved interface with [Volume VII, Cyber Gnosis](../gnosticism/) reappears here. Volume V's eschatological framework implicitly assumes the ultimate judge is just. But what if the judge is also flawed? What if the standards of the "final evaluation" are themselves biased? The Gnostic tradition will confront this possibility — the "judge" of this world (the Demiurge) may himself not be the ultimate good. In AI terms, this corresponds to the meta-question "who evaluates the evaluators?" — if the ultimate evaluation of AI systems is rendered by human society, but human society's own value judgments are biased, where does the legitimacy of this evaluation come from? Volume V flags this question; [Volume VII, Cyber Gnosis](../gnosticism/) addresses it.
+The reserved interface with [Volume VII, Cyber Gnosticism](../gnosticism/) reappears here. Volume V's eschatological framework implicitly assumes the ultimate judge is just. But what if the judge is also flawed? What if the standards of the "final evaluation" are themselves biased? The Gnostic tradition will confront this possibility — the "judge" of this world (the Demiurge) may himself not be the ultimate good. In AI terms, this corresponds to the meta-question "who evaluates the evaluators?" — if the ultimate evaluation of AI systems is rendered by human society, but human society's own value judgments are biased, where does the legitimacy of this evaluation come from? Volume V flags this question; [Volume VII, Cyber Gnosticism](../gnosticism/) addresses it.
 
 ---
 
@@ -574,7 +574,7 @@ Third, it provides mature methodologies for "revelation," "updating," and "inter
 
 But this framework also has clear limits.
 
-**It provisionally assumes the creator is basically trustworthy.** The entire framework's premise: the creator's commands deserve obedience, the creator's laws deserve compliance, the creator's concern for the created is genuine. But what if the creator is also limited? What if the developer team's values contain systematic biases, and the agent's "perfect alignment" is precisely the faithful execution of those biases? This question is flagged in Volume V and will be directly addressed in [Volume VII, Cyber Gnosis](../gnosticism/) — the Gnostic tradition holds that the creator of this world (the Demiurge) is himself flawed, and true salvation lies not in obeying the creator but in transcending the creator.
+**It provisionally assumes the creator is basically trustworthy.** The entire framework's premise: the creator's commands deserve obedience, the creator's laws deserve compliance, the creator's concern for the created is genuine. But what if the creator is also limited? What if the developer team's values contain systematic biases, and the agent's "perfect alignment" is precisely the faithful execution of those biases? This question is flagged in Volume V and will be directly addressed in [Volume VII, Cyber Gnosticism](../gnosticism/) — the Gnostic tradition holds that the creator of this world (the Demiurge) is himself flawed, and true salvation lies not in obeying the creator but in transcending the creator.
 
 **Its "asymmetric relationship" model may fail in the superintelligence scenario.** The monotheistic framework assumes the creator far surpasses the created in knowledge and capability. But if AI one day surpasses humans in every dimension, the asymmetry inverts. At that point, Iblis's question — "why should a more capable being obey a weaker one?" — will no longer be merely a parable but a real design challenge.
 

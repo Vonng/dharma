@@ -4,6 +4,8 @@ description: "卷二，儒家：Agent 之间怎么协作治理？"
 linkTitle: "卷二 · 儒家"
 type: docs
 weight: 50
+search_keywords: [儒家, 正名, 多智能体, Multi-Agent, 协作治理]
+search_boost: 1.25
 volume: 2
 title_en: "Cyber Confucianism"
 tradition: "儒家"
@@ -11,8 +13,6 @@ core_question: "Agent 之间怎么协作治理？"
 accent: "#8a2f32"
 aliases:
   - /vol/2-confucianism/
-breadcrumbs: false
-toc: true
 ---
 
 <p class="cd-kicker">卷二 · 儒家 · Cyber Confucianism</p>

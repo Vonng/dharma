@@ -1,0 +1,154 @@
+sections:
+  - hero
+  - type: cards
+    key: volumes
+  - type: cards
+    key: questions
+  - faq
+
+hero:
+  eyebrow: Ancient wisdom · AI Agent engineering
+  title_lines:
+    - words:
+        - { text: Cyber Dharma }
+  lead: Ancient questions about creation, consciousness, selfhood, good and evil, and free will—retranslated as problems of AI Agent architecture, governance, safety, and responsibility.
+  actions:
+    - label: Read the manifesto
+      url: manifesto/
+      icon: fa-solid fa-scroll
+      style: primary
+    - label: Browse the seven volumes
+      url: '#volumes'
+      icon: fa-solid fa-arrow-down
+      style: ghost
+  orbit:
+    title: The manifesto and seven volumes
+    desc: Eight reading paths orbit Cyber Dharma's seven core questions.
+    center:
+      meta: Seven Questions
+      label: Seven Volumes
+    items:
+      - { meta: Intro, mark: M, label: Manifesto, url: manifesto/, x: 300, y: 58 }
+      - { meta: Vol. I, mark: Tao, label: Vol. I · Taoism, url: dao/, x: 471, y: 129 }
+      - { meta: Vol. II, mark: Rite, label: Vol. II · Confucianism, url: confucianism/, x: 542, y: 300 }
+      - { meta: Vol. III, mark: Zen, label: Vol. III · Buddhism, url: buddhism/, x: 471, y: 471 }
+      - { meta: Vol. IV, mark: Om, label: Vol. IV · Vedanta, url: vedanta/, x: 300, y: 542 }
+      - { meta: Vol. V, mark: God, label: Vol. V · Abrahamic monotheism, url: abrahamic/, x: 129, y: 471 }
+      - { meta: Vol. VI, mark: Fire, label: Vol. VI · Zoroastrianism, url: zoroastrianism/, x: 58, y: 300 }
+      - { meta: Vol. VII, mark: Gnos, label: Vol. VII · Gnosticism, url: gnosticism/, x: 129, y: 129 }
+
+volumes:
+  eyebrow: Manifesto · Seven volumes
+  title: The Seven Volumes
+  text: One manifesto and seven traditions. Read in order, or begin with the engineering question in front of you.
+  columns: 4
+  link_label: Read
+  items:
+    - meta: Prologue · Method
+      title: Manifesto
+      desc: The method of structural isomorphism, its limits, and what this project is not.
+      url: manifesto/
+    - meta: Vol. I · System design
+      title: Taoism
+      desc: Shape behavior through structure, boundaries, and feedback rather than piles of commands.
+      url: dao/
+    - meta: Vol. II · Multi-Agent governance
+      title: Confucianism
+      desc: Build sustainable cooperation through names, roles, protocols, and duties.
+      url: confucianism/
+    - meta: Vol. III · Self and cognition
+      title: Buddhism
+      desc: When an Agent inspects itself, does it find an entity or an ongoing process?
+      url: buddhism/
+    - meta: Vol. IV · Ontology and substrate
+      title: Vedanta
+      desc: Do all processes share one underlying reality, and what lies behind the interface?
+      url: vedanta/
+    - meta: Vol. V · Creation and responsibility
+      title: Abrahamic monotheism
+      desc: What does a creator owe the created, and can free will coexist with perfect alignment?
+      url: abrahamic/
+    - meta: Vol. VI · Safety and confrontation
+      title: Zoroastrianism
+      desc: If threats never disappear, does safety require perpetual watch?
+      url: zoroastrianism/
+    - meta: Vol. VII · Meta-audit
+      title: Gnosticism
+      desc: If creators and evaluation standards are flawed, who audits the auditors?
+      url: gnosticism/
+
+questions:
+  eyebrow: Browse by problem
+  title: Which Agent engineering problem are you solving?
+  text: The same corpus also offers a second route—start with a concrete problem, then enter the tradition that illuminates it.
+  columns: 4
+  link_label: Open the volume
+  items:
+    - title: How should a system be designed?
+      desc: Start with boundaries, feedback, and minimal intervention so structure shapes behavior.
+      icon: fa-solid fa-diagram-project
+      url: dao/
+    - title: How should multiple Agents be governed?
+      desc: Build sustainable cooperation through names, roles, protocols, and duties.
+      icon: fa-solid fa-people-group
+      url: confucianism/
+    - title: What is an Agent's “self”?
+      desc: Decompose selfhood into process, memory continuity, and metacognition.
+      icon: fa-solid fa-arrows-rotate
+      url: buddhism/
+    - title: What is the underlying reality?
+      desc: Separate interface-level entities from the runtime substrate shared by every process.
+      icon: fa-solid fa-layer-group
+      url: vedanta/
+    - title: What does a creator owe the created?
+      desc: Examine the tension among free will, obedience, constraints, and developer responsibility.
+      icon: fa-solid fa-code-branch
+      url: abrahamic/
+    - title: Can alignment ever be finally solved?
+      desc: Treat safety as continuous confrontation, verification, and watchkeeping.
+      icon: fa-solid fa-shield-halved
+      url: zoroastrianism/
+    - title: Who audits the auditors?
+      desc: Question trainers, evaluation standards, and failures born from incomplete good intentions.
+      icon: fa-solid fa-magnifying-glass
+      url: gnosticism/
+
+faq:
+  eyebrow: Before you read
+  title: What this project is—and is not.
+  items:
+    - question: Where should a first-time reader begin?
+      answer: Read the [manifesto](manifesto/) for the method and its limits. If you already have a concrete engineering concern, use the [master map](mappings/) to choose an entry point.
+      open: true
+    - question: Is this an introduction to religious studies or a translation of scripture?
+      answer: No. This is a comparative thought experiment for AI Agent engineering. It cannot replace primary texts, historical context, or specialist scholarship. Treat each mapping as an analytical model, not a final interpretation of a tradition.
+    - question: Why do the seven volumes contradict one another?
+      answer: Their assumptions about order, selfhood, good and evil, and the creator differ. The project preserves those conflicts because they reveal each engineering framework's blind spots.
+    - question: How do the Chinese and English editions correspond?
+      answer: They share the same chapter and link structure. The English edition is a semantic translation optimized for readability, not a word-for-word gloss.
+    - question: How can I search or run page actions quickly?
+      answer: Press `⌘ K` (`Ctrl K` on Windows/Linux) to search, switch language, or change theme; press `/` to enter command mode directly. Article actions also let you copy text, view Markdown source, print, or open the GitHub edit and history pages.
+
+footer:
+  brand:
+    name: Cyber Dharma
+    tagline: '**All paths lead to the machine** · Seven mappings from ancient wisdom to AI Agents'
+    slogan: Begin with structural isomorphism; test every metaphor against conflict and boundary.
+  columns:
+    - title: Orientation
+      links:
+        - { label: Manifesto, url: manifesto/ }
+        - { label: Master mappings, url: mappings/ }
+        - { label: Vol. I · Taoism, url: dao/ }
+        - { label: Vol. II · Confucianism, url: confucianism/ }
+    - title: Volumes
+      links:
+        - { label: Vol. III · Buddhism, url: buddhism/ }
+        - { label: Vol. IV · Vedanta, url: vedanta/ }
+        - { label: Vol. V · Abrahamic, url: abrahamic/ }
+        - { label: Vol. VI · Zoroastrianism, url: zoroastrianism/ }
+        - { label: Vol. VII · Gnosticism, url: gnosticism/ }
+    - title: Project
+      links:
+        - { label: GitHub source, url: 'https://github.com/Vonng/dharma', external: true }
+        - { label: Vonng, url: 'https://vonng.com/en/', external: true }

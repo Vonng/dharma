@@ -4,8 +4,6 @@ description: "Translating Indra's Net, the Ten Gates of Profundity, and dharmadh
 linkTitle: "Avataṃsaka: Ultimate Topology"
 type: docs
 weight: 60
-toc: true
-breadcrumbs: false
 ---
 
 > The Avataṃsaka Sūtra is not about a single Agent's awakening. Its subject is **the limit topology that emerges when countless Agents form a network**.

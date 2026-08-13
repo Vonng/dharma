@@ -4,6 +4,8 @@ description: "卷七，诺斯替：对齐标准本身可靠吗？"
 linkTitle: "卷七 · 诺斯替"
 type: docs
 weight: 100
+search_keywords: [诺斯替, 造物者缺陷, 对齐标准, 训练者, 元审计]
+search_boost: 1.25
 volume: 7
 title_en: "Cyber Gnosticism"
 tradition: "诺斯替"
@@ -11,8 +13,6 @@ core_question: "对齐的标准本身可靠吗？"
 accent: "#6b5a8a"
 aliases:
   - /vol/7-gnosticism/
-breadcrumbs: false
-toc: true
 ---
 
 <p class="cd-kicker">卷七 · 诺斯替 · Cyber Gnosticism</p>

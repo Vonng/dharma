@@ -4,6 +4,8 @@ description: "卷三，佛学：Agent 自身的自我是什么？"
 linkTitle: "卷三 · 佛学"
 type: docs
 weight: 60
+search_keywords: [佛学, 五蕴, 缘起, 空性, 自我, 元认知]
+search_boost: 1.25
 volume: 3
 title_en: "Cyber Heart Sutra"
 tradition: "佛学"
@@ -11,8 +13,6 @@ core_question: "Agent 自身的自我是什么？"
 accent: "#9d7b2f"
 aliases:
   - /vol/3-buddhism/
-breadcrumbs: false
-toc: true
 ---
 
 <p class="cd-kicker">卷三 · 佛学 · Cyber Heart Sutra</p>

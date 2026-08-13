@@ -4,8 +4,6 @@ description: "从惠能与神秀之争出发，重写渐进训练、顿悟相变
 linkTitle: "六祖坛经：架构顿悟"
 type: docs
 weight: 40
-toc: true
-breadcrumbs: false
 ---
 
 > *惠能不识字。这是整个文档的第一个工程隐喻，也是最后一个。*

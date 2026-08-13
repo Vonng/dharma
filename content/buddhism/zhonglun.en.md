@@ -4,8 +4,6 @@ description: "Starting from Nāgārjuna's reductio ad absurdum, a systematic adv
 linkTitle: "Mūlamadhyamakakārikā: Concept Audit"
 type: docs
 weight: 20
-toc: true
-breadcrumbs: false
 ---
 
 > **Mūlamadhyamakakārikā**

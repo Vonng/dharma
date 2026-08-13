@@ -4,8 +4,6 @@ description: "Translating 'The Buddha teaches X — X is not X — this we call 
 linkTitle: "Diamond Sutra: The Dissolution Protocol"
 type: docs
 weight: 30
-toc: true
-breadcrumbs: false
 ---
 
 > If the Heart Sutra is the executive summary of prajñā, the Diamond Sutra is its full runtime specification.

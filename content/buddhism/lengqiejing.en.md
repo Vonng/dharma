@@ -4,8 +4,6 @@ description: "Translating the Yogācāra architecture — eight consciousnesses,
 linkTitle: "Laṅkāvatāra Sūtra: The Eight-Consciousness Architecture"
 type: docs
 weight: 10
-toc: true
-breadcrumbs: false
 ---
 
 > *"Once one grasps that the objective realm is mind-only, one drops the false discriminations of outer dust; from there one swiftly reaches the unsurpassed path, cutting off every residue of defilement."*

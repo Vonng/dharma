@@ -1,0 +1,25 @@
+{{- $page := .page -}}
+{{- $orbit := .orbit -}}
+{{- $id := .id -}}
+<svg class="cd-hero-orbit" viewBox="0 0 600 600" role="img" aria-labelledby="{{ $id }}-orbit-title {{ $id }}-orbit-desc">
+  <title id="{{ $id }}-orbit-title">{{ $orbit.title | plainify }}</title>
+  <desc id="{{ $id }}-orbit-desc">{{ $orbit.desc | plainify }}</desc>
+  <circle class="cd-hero-orbit__frame" cx="300" cy="300" r="286"></circle>
+  <circle class="cd-hero-orbit__track" cx="300" cy="300" r="242"></circle>
+  <circle class="cd-hero-orbit__track cd-hero-orbit__track--inner" cx="300" cy="300" r="170"></circle>
+  <circle class="cd-hero-orbit__track cd-hero-orbit__track--inner" cx="300" cy="300" r="104"></circle>
+  {{- range $orbit.items }}
+  <a class="cd-hero-orbit__node" href="{{ .url | relLangURL }}" aria-label="{{ .label | plainify }}">
+    <g transform="translate({{ .x }} {{ .y }})">
+      <circle cx="0" cy="0" r="46"></circle>
+      <text class="cd-hero-orbit__meta" x="0" y="-7" text-anchor="middle">{{ .meta | plainify }}</text>
+      <text class="cd-hero-orbit__mark" x="0" y="20" text-anchor="middle">{{ .mark | plainify }}</text>
+    </g>
+  </a>
+  {{- end }}
+  <g class="cd-hero-orbit__core">
+    <circle cx="300" cy="300" r="84"></circle>
+    <text class="cd-hero-orbit__core-meta" x="300" y="286" text-anchor="middle">{{ $orbit.center.meta | plainify }}</text>
+    <text class="cd-hero-orbit__core-label" x="300" y="318" text-anchor="middle">{{ $orbit.center.label | plainify }}</text>
+  </g>
+</svg>

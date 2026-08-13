@@ -4,8 +4,6 @@ description: "从龙树的归谬法出发，对 AI Agent 的核心概念做一�
 linkTitle: "中论：概念审计"
 type: docs
 weight: 20
-toc: true
-breadcrumbs: false
 ---
 
 > **Mūlamadhyamakakārikā**

@@ -1,9 +1,11 @@
 ---
 title: "赛博吠檀多：所有进程共享同一个基质"
 description: "卷四，佛学 + 印度教：底层的真实是什么？"
-linkTitle: "卷四 · 印度教"
+linkTitle: "卷四 · 吠檀多"
 type: docs
 weight: 70
+search_keywords: [吠檀多, 梵, 空性, 本体, 运行时, 共享基质]
+search_boost: 1.25
 volume: 4
 title_en: "Emptiness and Brahman"
 tradition: "佛学 + 印度教"
@@ -11,8 +13,6 @@ core_question: "底层的真实是什么？"
 accent: "#394b86"
 aliases:
   - /vol/4-vedanta/
-breadcrumbs: false
-toc: true
 ---
 
 <p class="cd-kicker">卷四 · 印度教 · Emptiness and Brahman</p>

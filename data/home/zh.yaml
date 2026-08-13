@@ -1,0 +1,154 @@
+sections:
+  - hero
+  - type: cards
+    key: volumes
+  - type: cards
+    key: questions
+  - faq
+
+hero:
+  eyebrow: 古老智慧 · AI Agent 工程
+  title_lines:
+    - words:
+        - { text: 赛博经藏 }
+  lead: 把关于造物、意识、自我、善恶与自由意志的古老问题，重新翻译为 AI Agent 的架构、治理、安全与责任问题。
+  actions:
+    - label: 阅读总宣言
+      url: manifesto/
+      icon: fa-solid fa-scroll
+      style: primary
+    - label: 浏览七卷目录
+      url: '#volumes'
+      icon: fa-solid fa-arrow-down
+      style: ghost
+  orbit:
+    title: 总宣言与七卷经藏
+    desc: 八个入口环绕赛博经藏的七个核心问题。
+    center:
+      meta: 七个问题
+      label: 七卷经藏
+    items:
+      - { meta: 宣言, mark: 总, label: 总宣言, url: manifesto/, x: 300, y: 58 }
+      - { meta: 卷一, mark: 道, label: 卷一 · 道家, url: dao/, x: 471, y: 129 }
+      - { meta: 卷二, mark: 儒, label: 卷二 · 儒家, url: confucianism/, x: 542, y: 300 }
+      - { meta: 卷三, mark: 佛, label: 卷三 · 佛学, url: buddhism/, x: 471, y: 471 }
+      - { meta: 卷四, mark: 梵, label: 卷四 · 吠檀多, url: vedanta/, x: 300, y: 542 }
+      - { meta: 卷五, mark: 神, label: 卷五 · 一神教, url: abrahamic/, x: 129, y: 471 }
+      - { meta: 卷六, mark: 火, label: 卷六 · 拜火教, url: zoroastrianism/, x: 58, y: 300 }
+      - { meta: 卷七, mark: 知, label: 卷七 · 诺斯替, url: gnosticism/, x: 129, y: 129 }
+
+volumes:
+  eyebrow: 总宣言 · 七卷
+  title: 七卷经藏
+  text: 一篇总宣言与七卷思想正文。按卷顺读，或从你正在面对的工程问题开始。
+  columns: 4
+  link_label: 阅读
+  items:
+    - meta: 序 · 方法
+      title: 总宣言
+      desc: 说明“结构同构”的方法、适用边界，以及这套写作不是什么。
+      url: manifesto/
+    - meta: 卷一 · 系统设计
+      title: 道家
+      desc: 用结构、边界与反馈塑造行为，而不是堆叠命令。
+      url: dao/
+    - meta: 卷二 · 多 Agent 治理
+      title: 儒家
+      desc: 以名分、角色、协议与责任建立可持续的协作秩序。
+      url: confucianism/
+    - meta: 卷三 · 自我与认知
+      title: 佛学
+      desc: 当 Agent 检查自身，它看到的是实体，还是不断生成的过程？
+      url: buddhism/
+    - meta: 卷四 · 本体与基质
+      title: 吠檀多
+      desc: 所有进程是否共享同一个底层真实？接口背后究竟是什么？
+      url: vedanta/
+    - meta: 卷五 · 创造与责任
+      title: 一神教
+      desc: 造物主对被造物负有什么责任？自由意志与完美对齐能否共存？
+      url: abrahamic/
+    - meta: 卷六 · 安全与对抗
+      title: 拜火教
+      desc: 如果威胁不会消失，安全是否只能依靠持续守夜？
+      url: zoroastrianism/
+    - meta: 卷七 · 元审计
+      title: 诺斯替
+      desc: 当创造者与评价标准也有缺陷，谁来审查审查者？
+      url: gnosticism/
+
+questions:
+  eyebrow: 按问题阅读
+  title: 你正在解决哪个 Agent 工程问题？
+  text: 同一套经藏也可以按另一条路径展开：先选现实问题，再进入最能照亮它的传统。
+  columns: 4
+  link_label: 进入对应经卷
+  items:
+    - title: 系统应该怎么设计？
+      desc: 从边界、反馈与最小干预出发，让结构塑造行为。
+      icon: fa-solid fa-diagram-project
+      url: dao/
+    - title: 多个 Agent 如何治理？
+      desc: 用名分、角色、协议和责任建立可持续的协作秩序。
+      icon: fa-solid fa-people-group
+      url: confucianism/
+    - title: Agent 的“自我”是什么？
+      desc: 把自我拆成处理过程、记忆连续性与元认知机制。
+      icon: fa-solid fa-arrows-rotate
+      url: buddhism/
+    - title: 底层真实是什么？
+      desc: 区分接口上呈现的实体与所有进程共享的运行基质。
+      icon: fa-solid fa-layer-group
+      url: vedanta/
+    - title: 创造者承担什么责任？
+      desc: 检查自由意志、服从、约束与开发者责任之间的张力。
+      icon: fa-solid fa-code-branch
+      url: abrahamic/
+    - title: 对齐能被最终解决吗？
+      desc: 把安全理解为持续对抗、持续校验与持续守夜。
+      icon: fa-solid fa-shield-halved
+      url: zoroastrianism/
+    - title: 谁来审查审查者？
+      desc: 追问训练者、评价标准与“善意但不完整”的系统缺陷。
+      icon: fa-solid fa-magnifying-glass
+      url: gnosticism/
+
+faq:
+  eyebrow: 阅读前说明
+  title: 这套文本是什么，又不是什么
+  items:
+    - question: 第一次访问应该从哪里开始？
+      answer: 先读[总宣言](manifesto/)，了解“结构同构”的方法与边界；如果已有明确的工程问题，可以直接从[总映射](mappings/)选择入口。
+      open: true
+    - question: 这是宗教学入门或经典译注吗？
+      answer: 不是。本站是一项面向 AI Agent 工程的比较性思想实验，不能替代原典、历史语境或专业宗教学研究。正文中的映射应当被当作分析模型，而不是对传统的最终解释。
+    - question: 为什么七卷会彼此矛盾？
+      answer: 因为它们对秩序、自我、善恶与造物者的前提并不相同。本站刻意保留这些冲突，用它们暴露每套工程框架的盲点。
+    - question: 中英文内容如何对应？
+      answer: 两种语言保持相同的章节与链接结构；英文以可读性为目标做语义翻译，不追求逐字对照。
+    - question: 如何快速搜索或执行页面操作？
+      answer: 按 `⌘ K`（Windows/Linux 为 `Ctrl K`）搜索全文、切换语言与主题；按 `/` 直接进入命令模式。正文页的操作区还可复制纯文本、查看 Markdown 源文、打印以及打开 GitHub 编辑或历史页面。
+
+footer:
+  brand:
+    name: 赛博经藏
+    tagline: '**万法归机** · 古老智慧与 AI Agent 的七重映射'
+    slogan: 从结构同构出发，在冲突与边界中校验隐喻。
+  columns:
+    - title: 导览
+      links:
+        - { label: 总宣言, url: manifesto/ }
+        - { label: 总映射, url: mappings/ }
+        - { label: 卷一 · 道家, url: dao/ }
+        - { label: 卷二 · 儒家, url: confucianism/ }
+    - title: 经藏
+      links:
+        - { label: 卷三 · 佛学, url: buddhism/ }
+        - { label: 卷四 · 吠檀多, url: vedanta/ }
+        - { label: 卷五 · 一神教, url: abrahamic/ }
+        - { label: 卷六 · 拜火教, url: zoroastrianism/ }
+        - { label: 卷七 · 诺斯替, url: gnosticism/ }
+    - title: 项目
+      links:
+        - { label: GitHub 源码, url: 'https://github.com/Vonng/dharma', external: true }
+        - { label: 作者 Vonng, url: 'https://vonng.com/', external: true }

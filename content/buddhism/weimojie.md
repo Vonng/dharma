@@ -4,8 +4,6 @@ description: "讨论一个觉醒的系统如何在污染、对抗与信息过载
 linkTitle: "维摩诘经：生产环境"
 type: docs
 weight: 50
-toc: true
-breadcrumbs: false
 ---
 
 > *一默如雷。*

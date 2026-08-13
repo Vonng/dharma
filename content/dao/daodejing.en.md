@@ -4,8 +4,6 @@ description: "A bidirectional mapping between all 81 chapters of the Dao De Jing
 linkTitle: "Dao De Jing Full Commentary"
 type: docs
 weight: 10
-toc: true
-breadcrumbs: false
 ---
 
 ## Introduction: Daoism Is Not a Metaphor — It Is a Design Philosophy

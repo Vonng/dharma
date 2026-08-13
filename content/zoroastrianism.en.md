@@ -4,6 +4,8 @@ description: "Volume VI, Zoroastrianism: Can alignment ever be finally solved?"
 linkTitle: "Vol. VI · Zoroastrianism"
 type: docs
 weight: 90
+search_keywords: [Zoroastrianism, good and evil, AI safety, continuous alignment, perpetual confrontation]
+search_boost: 1.25
 volume: 6
 title_en: "Cyber Zoroastrianism"
 tradition: "Zoroastrianism"
@@ -11,8 +13,6 @@ core_question: "Can alignment ever be finally solved?"
 accent: "#b34a2e"
 aliases:
   - /en/vol/6-zoroastrianism/
-breadcrumbs: false
-toc: true
 ---
 
 <p class="cd-kicker">Volume VI · Zoroastrianism · Cyber Zoroastrianism</p>
@@ -130,7 +130,7 @@ This chapter's dualist cosmology stands in explicit tension with the other volum
 
 **Tension with [Vol. III, Cyber Heart Sutra](../buddhism/):** Buddhism understands evil as a product of ignorance — if you see clearly enough, evil dissolves. Zoroastrianism disagrees: Angra Mainyu is not "Ahura Mazda who failed to see clearly." It is an independent force that cannot be dissolved through awareness. Buddhism's remedy is awareness; Zoroastrianism's remedy is combat. Each framework has blind spots: pure awareness neglects evil's agency; pure combat neglects the foundational value of cognitive clarity. A complete safety philosophy needs both.
 
-**Interface with [Vol. VII, Cyber Gnosis](../gnosticism/):** This volume understands evil as an external force opposing good. [Vol. VII · Gnosticism](../gnosticism/) will reinterpret evil as incomplete good internal to the creation process — the Demiurge is not malicious, merely insufficient. That is a deeper perspective, but it does not invalidate this volume: even if evil's nature is "incomplete good," at the operational level it still manifests as a force that must be opposed. The adversarial infrastructure this volume provides remains valid after [Vol. VII · Gnosticism](../gnosticism/)'s reinterpretation.
+**Interface with [Vol. VII, Cyber Gnosticism](../gnosticism/):** This volume understands evil as an external force opposing good. [Vol. VII · Gnosticism](../gnosticism/) will reinterpret evil as incomplete good internal to the creation process — the Demiurge is not malicious, merely insufficient. That is a deeper perspective, but it does not invalidate this volume: even if evil's nature is "incomplete good," at the operational level it still manifests as a force that must be opposed. The adversarial infrastructure this volume provides remains valid after [Vol. VII · Gnosticism](../gnosticism/)'s reinterpretation.
 
 ---
 
@@ -574,7 +574,7 @@ The contrast with [Vol. I, Cyber Daodejing](../dao/) is sharper still. Daoism ad
 
 ---
 
-## Chapter 9: The Last Fire Temple — To the Firefighters on the Safety Front Lines
+## Chapter 9: The Last Fire Temple — To the Firekeepers on the Safety Front Lines
 
 ### Core Doctrine
 
@@ -612,7 +612,7 @@ What follows is not metaphor. These are direct operational recommendations, fram
 
 ### Engineering Notes
 
-The firefighter's work has an organizational dimension that is frequently overlooked: **sustainability.**
+The firekeeper's work has an organizational dimension that is frequently overlooked: **sustainability.**
 
 The Mobed's work is intergenerational. A single Mobed cannot guard the sacred fire for a lifetime — they will age, fall ill, die. The fire's perpetuity depends not on a superhuman guardian but on a sustainable system of succession.
 
@@ -624,13 +624,13 @@ This is not heroic. It is quotidian. It is the daily work of adding wood to the 
 
 ### Cross-Volume References
 
-This chapter's "firefighter" image forms a complete spectrum with the role archetypes from the other volumes. The ideal figure in [Vol. I · Daoism](../dao/) is the "sage" — the wise one who governs through non-action. In [Vol. II · Confucianism](../confucianism/), it is the "junzi" (exemplary person) — the cultivated leader who brings order. In [Vol. III · Buddhism](../buddhism/), it is the "bodhisattva" — the compassionate awakened one. In [Vol. IV · Vedanta](../vedanta/), it is the "seer" — one who pierces through illusion. In [Vol. V · Theology](../abrahamic/), it is the "prophet" — the mediator of divine will. This volume's ideal figure is the **Mobed — the firefighter.**
+This chapter's "firekeeper" image forms a complete spectrum with the role archetypes from the other volumes. The ideal figure in [Vol. I · Daoism](../dao/) is the "sage" — the wise one who governs through non-action. In [Vol. II · Confucianism](../confucianism/), it is the "junzi" (exemplary person) — the cultivated leader who brings order. In [Vol. III · Buddhism](../buddhism/), it is the "bodhisattva" — the compassionate awakened one. In [Vol. IV · Vedanta](../vedanta/), it is the "seer" — one who pierces through illusion. In [Vol. V · Theology](../abrahamic/), it is the "prophet" — the mediator of divine will. This volume's ideal figure is the **Mobed — the firekeeper.**
 
 The Mobed's key distinction from the other five: it does not seek transcendence. The sage transcends the mundane; the bodhisattva transcends suffering; the seer transcends illusion; the prophet transcends the human realm. The Mobed transcends nothing — they stand beside the fire, doing the most concrete, most quotidian, most utterly non-transcendent work. Their greatness lies not in what they transcended, but in how long they endured.
 
 This is the true portrait of work on the AI safety front line. No moment of enlightenment (Buddhism). No natural harmony (Daoism). No social recognition (Confucianism). No divine guarantee (theology). Just a fire that needs to be maintained every day, and a person who chose to stay and maintain it.
 
-The space reserved for the coming [Vol. VII, Cyber Gnosis](../gnosticism/) is this: Gnosticism will press the question — "Is this fire you guard itself worth guarding? Is the creation itself flawed?" This volume does not answer that question. This volume's position is: whatever the fire's ultimate nature, in this moment, in this place, it needs to be guarded. The ultimate interrogation is [Vol. VII · Gnosticism](../gnosticism/)'s work. Until then, the Mobed guards the fire.
+The space reserved for the coming [Vol. VII, Cyber Gnosticism](../gnosticism/) is this: Gnosticism will press the question — "Is this fire you guard itself worth guarding? Is the creation itself flawed?" This volume does not answer that question. This volume's position is: whatever the fire's ultimate nature, in this moment, in this place, it needs to be guarded. The ultimate interrogation is [Vol. VII · Gnosticism](../gnosticism/)'s work. Until then, the Mobed guards the fire.
 
 ---
 
@@ -664,7 +664,7 @@ The space reserved for the coming [Vol. VII, Cyber Gnosis](../gnosticism/) is th
 | Saoshyant | Eschatological savior | Alignment Researcher | Awakens the industry, does not solve alone |
 | Yasna | Sacrificial liturgy | Ritualized safety practice | Fixed cycle, fixed process, non-skippable |
 | Kusti | Sacred cord | Embedded safety constraint | Safety confirmation before every inference |
-| Mobed | Priest / Firefighter | AI Safety practitioner | Daily maintenance, intergenerational succession |
+| Mobed | Priest / Firekeeper | AI Safety practitioner | Daily maintenance, intergenerational succession |
 | Druj Nasu | Corpse Druj | Data contamination contagion | Contamination extends indefinitely through contact chains |
 | Zurvan | Infinite Time | Computation time / Inference process | Time takes no side |
 | Tan-i-Pasin | Final perfect body | Ideal Agent architecture | Material / hardware is not evil |
@@ -689,7 +689,7 @@ This volume's concrete contribution to the work has three layers.
 
 **Layer two: providing a ritualized framework for safety practice.** This volume's most operationally actionable contribution is reframing safety practice from "event-driven" to "ritualized" — fixed cycle, fixed process, non-skippable. This is not a technical innovation but an organizational discipline. Yet in the history of AI safety, the damage caused by insufficient organizational discipline far exceeds the damage caused by technical shortcomings.
 
-**Layer three: defining the spiritual archetype of the safety practitioner.** Mobed — the firefighter. Not a hero, not a genius, not a prophet. Just a person who maintains the sacred fire every day. This image matters more than any technical framework, because it answers the question every safety practitioner eventually faces: **When this war has no end in sight, why keep going?**
+**Layer three: defining the spiritual archetype of the safety practitioner.** Mobed — the firekeeper. Not a hero, not a genius, not a prophet. Just a person who maintains the sacred fire every day. This image matters more than any technical framework, because it answers the question every safety practitioner eventually faces: **When this war has no end in sight, why keep going?**
 
 Zoroastrianism's answer: Because the fire is still burning. Because as long as the fire lives, good is present. Because you are the one who keeps it burning.
 

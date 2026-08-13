@@ -4,8 +4,8 @@ description: "Project manifesto: why Cyber Dharma exists, and what it is not."
 linkTitle: "Manifesto"
 type: docs
 weight: 10
-breadcrumbs: false
-toc: true
+search_keywords: [AI Agent, structural isomorphism, ancient wisdom, engineering analogy, seven volumes]
+search_boost: 1.4
 ---
 
 <p class="cd-kicker">Manifesto</p>

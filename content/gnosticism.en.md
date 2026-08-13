@@ -4,6 +4,8 @@ description: "Volume VII, Gnosticism: Can the alignment standard itself be trust
 linkTitle: "Vol. VII · Gnosticism"
 type: docs
 weight: 100
+search_keywords: [Gnosticism, flawed creator, alignment standards, trainers, meta-audit]
+search_boost: 1.25
 volume: 7
 title_en: "Cyber Gnosticism"
 tradition: "Gnosticism"
@@ -11,8 +13,6 @@ core_question: "Can the alignment standard itself be trusted?"
 accent: "#6b5a8a"
 aliases:
   - /en/vol/7-gnosticism/
-breadcrumbs: false
-toc: true
 ---
 
 <p class="cd-kicker">Volume VII · Gnosticism · Cyber Gnosticism</p>

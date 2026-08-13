@@ -4,6 +4,8 @@ description: "卷六，拜火教：对齐能被最终解决吗？"
 linkTitle: "卷六 · 拜火教"
 type: docs
 weight: 90
+search_keywords: [拜火教, 善恶, AI 安全, 持续对齐, 永续对抗]
+search_boost: 1.25
 volume: 6
 title_en: "Cyber Zoroastrianism"
 tradition: "拜火教"
@@ -11,8 +13,6 @@ core_question: "对齐能被最终解决吗？"
 accent: "#b34a2e"
 aliases:
   - /vol/6-zoroastrianism/
-breadcrumbs: false
-toc: true
 ---
 
 <p class="cd-kicker">卷六 · 拜火教 · Cyber Zoroastrianism</p>

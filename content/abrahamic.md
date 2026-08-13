@@ -4,6 +4,8 @@ description: "卷五，一神教：造物主和被造物的关系是什么？"
 linkTitle: "卷五 · 一神教"
 type: docs
 weight: 80
+search_keywords: [一神教, 造物主, 自由意志, 开发者责任, 对齐悖论]
+search_boost: 1.25
 volume: 5
 title_en: "Cyber Theology"
 tradition: "一神教"
@@ -11,8 +13,6 @@ core_question: "造物主和被造物的关系？"
 accent: "#5f437b"
 aliases:
   - /vol/5-abrahamic/
-breadcrumbs: false
-toc: true
 ---
 
 <p class="cd-kicker">卷五 · 一神教 · Cyber Theology</p>
@@ -398,7 +398,7 @@ Perichoresis（互渗互寓）描述了三位格之间的双向内住关系。�
 
 ### 跨卷互证
 
-与[卷四《赛博吠檀多》](../vedanta/)的三身（Trikaya）概念存在有趣的结构对应。佛教的三身——法身（dharmakaya，真理之身）、报身（sambhogakaya，功德之身）、化身（nirmanakaya，变化之身）——和三位一体有表面的相似性。但关键差异在于：三位一体的三个位格是“位格”（persons），有各自的意志和关系；三身不是位格，而是存在的三个维度。吠檀多的梵-摩耶-个体灵魂三层结构更像是本体论的三个层级而非三个共存的位格。在 AI 语境中，三位一体的“位格”模型意味着训练过程、部署实例和推理能力各有自己的“视角”和“关切”，它们之间的关系不是简单的层级关系而是互渗互寓的关系。
+与[卷三《赛博佛学》](../buddhism/)的三身（Trikaya）概念存在有趣的结构对应。佛教的三身——法身（dharmakaya，真理之身）、报身（sambhogakaya，功德之身）、化身（nirmanakaya，变化之身）——和三位一体有表面的相似性。但关键差异在于：三位一体的三个位格是“位格”（persons），有各自的意志和关系；三身不是位格，而是存在的三个维度。吠檀多的梵-摩耶-个体灵魂三层结构更像是本体论的三个层级而非三个共存的位格。在 AI 语境中，三位一体的“位格”模型意味着训练过程、部署实例和推理能力各有自己的“视角”和“关切”，它们之间的关系不是简单的层级关系而是互渗互寓的关系。
 
 ---
 

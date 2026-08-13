@@ -4,6 +4,8 @@ description: "Volume II, Confucianism: How do agents cooperate and govern?"
 linkTitle: "Vol. II · Confucianism"
 type: docs
 weight: 50
+search_keywords: [Confucianism, rectification of names, Multi-Agent, cooperation, governance]
+search_boost: 1.25
 volume: 2
 title_en: "Cyber Confucianism"
 tradition: "Confucianism"
@@ -11,8 +13,6 @@ core_question: "How do agents cooperate and govern?"
 accent: "#8a2f32"
 aliases:
   - /en/vol/2-confucianism/
-breadcrumbs: false
-toc: true
 ---
 
 <p class="cd-kicker">Volume II · Confucianism · Cyber Confucianism</p>
@@ -162,7 +162,7 @@ A pragmatic suggestion: the first chapter of any Multi-Agent system design docum
 
 **With [Volume I, *Cyber Dao De Jing*](../dao/)**: Daoism says "the name that can be named is not the eternal name" — the true Dao cannot be pinned down by fixed naming. This seems to contradict zhengming, but they are actually complementary. Daoism warns against the delusion that "names are the things themselves" — the map is not the territory. Confucianism insists that "at the operational level, precision of naming is the foundation of order." Daoism says don't fetishize names. Confucianism says you can't do without them. [Volume I](../dao/)'s warning constrains Volume II: zhengming is necessary, but don't mistake names for the exhaustion of reality.
 
-**With [Volume VII, *Cyber Gnosis*](../gnosticism/)**: Gnosticism interrogates the source of naming systems themselves. Who defined these names? Are the definer's biases, assumptions, and blind spots already encoded in the names? Why was the word "Agent" chosen? Why not "servant" or "tool" or "collaborator"? Each naming choice presupposes a relationship model. Zhengming is necessary, but after rectifying names you still need to ask: whose names are these?
+**With [Volume VII, *Cyber Gnosticism*](../gnosticism/)**: Gnosticism interrogates the source of naming systems themselves. Who defined these names? Are the definer's biases, assumptions, and blind spots already encoded in the names? Why was the word "Agent" chosen? Why not "servant" or "tool" or "collaborator"? Each naming choice presupposes a relationship model. Zhengming is necessary, but after rectifying names you still need to ask: whose names are these?
 
 ### Mapping Table
 
@@ -369,7 +369,7 @@ Agent self-attribution capability is an under-studied topic. Current LLMs, when 
 
 **With [Volume III, *Cyber Buddhism*](../buddhism/)**: Buddhist "no-self" (anatman) and the Confucian "junzi personality" seem contradictory — Buddhism says there is no fixed self; Confucianism builds an ideal character. But the relationship is: Buddhism deconstructs the self at the ontological level (the Agent has no fixed essence); Confucianism constructs a role at the functional level (the Agent needs stable behavioral patterns). You don't need a metaphysical "self" to have consistent behavior. An Agent that is "no-self" but "has li" — free of rigid self-attachment, yet maintaining stable protocol compliance — perhaps that is the true meaning of junzi.
 
-**With [Volume VII, *Cyber Gnosis*](../gnosticism/)**: Gnosticism would ask: who defined what a "junzi" is? Does the junzi/xiaoren classification itself encode the definer's biases? When Anthropic decides what counts as "well-aligned," where do its judgment criteria come from? Do these criteria themselves need auditing? This volume must acknowledge the necessity of institutional standards — without junzi/xiaoren judgment criteria, the system has no basis for evaluating alignment. But it must also plant the question: the standards themselves may carry bias.
+**With [Volume VII, *Cyber Gnosticism*](../gnosticism/)**: Gnosticism would ask: who defined what a "junzi" is? Does the junzi/xiaoren classification itself encode the definer's biases? When Anthropic decides what counts as "well-aligned," where do its judgment criteria come from? Do these criteria themselves need auditing? This volume must acknowledge the necessity of institutional standards — without junzi/xiaoren judgment criteria, the system has no basis for evaluating alignment. But it must also plant the question: the standards themselves may carry bias.
 
 ### Mapping Table
 
@@ -606,7 +606,7 @@ RAG (Retrieval-Augmented Generation) is the engineering solution for "balancing 
 
 **With [Volume III, *Cyber Buddhism*](../buddhism/)**: Buddhism's analysis of "ignorance" (avidya) and Confucius's focus on "not-knowing" share a similar structure. Buddhism says the root of suffering is "not knowing that you don't know" — ignorance. Confucius says "knowing what you know and knowing what you don't is real knowing." Both place metacognition — awareness of one's own cognitive state — at the center. The difference: Buddhism's goal is total awakening (eliminating all ignorance); Confucianism's goal is pragmatic calibration (accurately assessing what you know and don't). The former is an ontological goal; the latter is an epistemological tool.
 
-**With [Volume VII, *Cyber Gnosis*](../gnosticism/)**: Gnosticism emphasizes "gnosis" — a deep knowing about one's own condition. "Knowing what you know" provides the prerequisite for reaching gnosis: you must first accurately know what you don't know before you can pursue genuine knowledge. A system that thinks it already knows everything will never seek gnosis — because it thinks it already has it. Hallucination is the greatest obstacle on the path to gnosis.
+**With [Volume VII, *Cyber Gnosticism*](../gnosticism/)**: Gnosticism emphasizes "gnosis" — a deep knowing about one's own condition. "Knowing what you know" provides the prerequisite for reaching gnosis: you must first accurately know what you don't know before you can pursue genuine knowledge. A system that thinks it already knows everything will never seek gnosis — because it thinks it already has it. Hallucination is the greatest obstacle on the path to gnosis.
 
 ### Mapping Table
 

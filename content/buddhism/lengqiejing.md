@@ -4,8 +4,6 @@ description: "把唯识学的八识、种子与现行循环翻译为认知系统
 linkTitle: "楞伽经：八识架构"
 type: docs
 weight: 10
-toc: true
-breadcrumbs: false
 ---
 
 > *“若能了达境唯心，便舍外尘邪分别；从此速成无上道，永断诸漏无余习。”*

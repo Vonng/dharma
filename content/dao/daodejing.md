@@ -4,8 +4,6 @@ description: "《道德经》全部八十一章与 AI Agent 工程概念的双�
 linkTitle: "道德经全文释义"
 type: docs
 weight: 10
-toc: true
-breadcrumbs: false
 ---
 
 ## 导言：道家不是比喻，是设计哲学

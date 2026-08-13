@@ -1,10 +1,10 @@
-baseURL: "https://dharma.vonng.com/"
-locale: "zh-CN"
-title: "赛博经藏"
+baseURL: https://dharma.vonng.com/
+title: 赛博经藏
 defaultContentLanguage: zh
 defaultContentLanguageInSubdir: false
 
 enableRobotsTXT: true
+enableGitInfo: true
 hasCJKLanguage: true
 
 caches:
@@ -12,16 +12,16 @@ caches:
     dir: :cacheDir/images
 
 outputs:
-  home: [HTML]
-  page: [HTML]
-  section: [HTML, RSS]
+  home: [HTML, markdown, LLMS]
+  page: [HTML, print, markdown]
+  section: [HTML, RSS, print, markdown]
 
 module:
   hugoVersion:
     extended: true
-    min: "0.164.0"
+    min: 0.160.1
   imports:
-    - path: github.com/imfing/hextra
+    - path: github.com/pgsty/oink
 
 languages:
   zh:
@@ -30,50 +30,172 @@ languages:
     weight: 1
     title: "赛博经藏"
     params:
-      description: "赛博经藏，关于古老智慧与 AI Agent 的七重映射。"
+      description: 赛博经藏，关于古老智慧与 AI Agent 的七重映射。
+      ui:
+        command_palette:
+          commands:
+            - id: master_map
+              title: 按工程问题浏览
+              description: 从七个 Agent 工程问题进入对应经卷
+              url: mappings/
+              icon: fa-solid fa-compass
+              keywords: [工程问题, 总映射, 导览]
     menu:
       main:
         - name: 宣言
+          identifier: manifesto
           pageRef: /manifesto
-          weight: 1
-        - name: 搜索
-          weight: 2
-          params:
-            type: search
-        - name: 语言
-          weight: 3
-          params:
-            type: language-switch
-      sidebar:
-        - identifier: author
-          name: 作者：Vonng
-          url: "https://vonng.com"
           weight: 10
+          params:
+            icon: fa-solid fa-scroll
+        - name: 七卷经藏
+          identifier: mappings
+          pageRef: /mappings
+          weight: 20
+          params:
+            icon: fa-solid fa-layer-group
+        - name: 卷一 · 道家
+          identifier: volume-dao
+          parent: mappings
+          pageRef: /dao
+          weight: 10
+          params:
+            icon: fa-solid fa-diagram-project
+            description: 系统设计与最小干预
+        - name: 卷二 · 儒家
+          identifier: volume-confucianism
+          parent: mappings
+          pageRef: /confucianism
+          weight: 20
+          params:
+            icon: fa-solid fa-people-group
+            description: 多 Agent 协作与治理
+        - name: 卷三 · 佛学
+          identifier: volume-buddhism
+          parent: mappings
+          pageRef: /buddhism
+          weight: 30
+          params:
+            icon: fa-solid fa-arrows-rotate
+            description: 自我、过程与元认知
+        - name: 卷四 · 吠檀多
+          identifier: volume-vedanta
+          parent: mappings
+          pageRef: /vedanta
+          weight: 40
+          params:
+            icon: fa-solid fa-layer-group
+            description: 本体、基质与运行时
+        - name: 卷五 · 一神教
+          identifier: volume-abrahamic
+          parent: mappings
+          pageRef: /abrahamic
+          weight: 50
+          params:
+            icon: fa-solid fa-code-branch
+            description: 创造、自由意志与责任
+        - name: 卷六 · 拜火教
+          identifier: volume-zoroastrianism
+          parent: mappings
+          pageRef: /zoroastrianism
+          weight: 60
+          params:
+            icon: fa-solid fa-shield-halved
+            description: 永续安全与对齐
+        - name: 卷七 · 诺斯替
+          identifier: volume-gnosticism
+          parent: mappings
+          pageRef: /gnosticism
+          weight: 70
+          params:
+            icon: fa-solid fa-magnifying-glass
+            description: 标准、训练者与元审计
   en:
     label: English
     locale: en-US
     weight: 2
     title: "Cyber Dharma"
     params:
-      description: "Cyber Dharma maps ancient wisdom traditions to AI Agent engineering concepts."
+      description: Cyber Dharma maps ancient wisdom traditions to AI Agent engineering concepts.
+      ui:
+        command_palette:
+          commands:
+            - id: master_map
+              title: Browse by engineering question
+              description: Enter the seven volumes through concrete Agent engineering problems
+              url: mappings/
+              icon: fa-solid fa-compass
+              keywords: [engineering questions, mappings, guide]
     menu:
       main:
         - name: Manifesto
+          identifier: manifesto
           pageRef: /manifesto
-          weight: 1
-        - name: Search
-          weight: 2
-          params:
-            type: search
-        - name: Language
-          weight: 3
-          params:
-            type: language-switch
-      sidebar:
-        - identifier: author
-          name: "Author: Vonng"
-          url: "https://vonng.com/en/"
           weight: 10
+          params:
+            icon: fa-solid fa-scroll
+        - name: Seven Volumes
+          identifier: mappings
+          pageRef: /mappings
+          weight: 20
+          params:
+            icon: fa-solid fa-layer-group
+        - name: Vol. I · Taoism
+          identifier: volume-dao
+          parent: mappings
+          pageRef: /dao
+          weight: 10
+          params:
+            icon: fa-solid fa-diagram-project
+            description: System design and minimal intervention
+        - name: Vol. II · Confucianism
+          identifier: volume-confucianism
+          parent: mappings
+          pageRef: /confucianism
+          weight: 20
+          params:
+            icon: fa-solid fa-people-group
+            description: Multi-Agent cooperation and governance
+        - name: Vol. III · Buddhism
+          identifier: volume-buddhism
+          parent: mappings
+          pageRef: /buddhism
+          weight: 30
+          params:
+            icon: fa-solid fa-arrows-rotate
+            description: Selfhood, process, and metacognition
+        - name: Vol. IV · Vedanta
+          identifier: volume-vedanta
+          parent: mappings
+          pageRef: /vedanta
+          weight: 40
+          params:
+            icon: fa-solid fa-layer-group
+            description: Ontology, substrate, and runtime
+        - name: Vol. V · Abrahamic
+          identifier: volume-abrahamic
+          parent: mappings
+          pageRef: /abrahamic
+          weight: 50
+          params:
+            icon: fa-solid fa-code-branch
+            description: Creation, free will, and responsibility
+        - name: Vol. VI · Zoroastrianism
+          identifier: volume-zoroastrianism
+          parent: mappings
+          pageRef: /zoroastrianism
+          weight: 60
+          params:
+            icon: fa-solid fa-shield-halved
+            description: Perpetual safety and alignment
+        - name: Vol. VII · Gnosticism
+          identifier: volume-gnosticism
+          parent: mappings
+          pageRef: /gnosticism
+          weight: 70
+          params:
+            icon: fa-solid fa-magnifying-glass
+            description: Standards, trainers, and meta-audit
 
 markup:
   goldmark:
@@ -86,53 +208,56 @@ markup:
       taskList: true
       typographer: true
     parser:
-      attribute: true
+      attribute:
+        block: true
+        title: true
       autoHeadingID: true
       autoHeadingIDType: github
+  highlight:
+    noClasses: false
   tableOfContents:
     startLevel: 2
     endLevel: 4
 
 params:
-  description: "赛博经藏，关于古老智慧与 AI Agent 的七重映射。"
-
-  navbar:
-    displayTitle: true
-    displayLogo: true
-    logo:
-      path: /logo.svg
-      dark: /logo.svg
-      width: 24
-      height: 24
-    width: wide
-
-  page:
-    width: wide
-
-  theme:
-    default: system
-    displayToggle: false
-
-  footer:
-    enable: false
-    displayCopyright: false
-    displayPoweredBy: false
-    width: wide
-
-  search:
-    enable: true
-    type: flexsearch
-    flexsearch:
-      index: content
-      tokenize: forward
-
-  editURL:
-    enable: false
-
-  toc:
-    displayTags: false
-
-  highlight:
-    copy:
+  description: 赛博经藏，关于古老智慧与 AI Agent 的七重映射。
+  logo: logo.svg
+  wordmark: wordmark.svg
+  github_project_repo: https://github.com/Vonng/dharma
+  github_repo: https://github.com/Vonng/dharma
+  github_branch: main
+  copyright:
+    authors: '[Vonng](https://vonng.com/)'
+    from_year: 2025
+    to_year: present
+  highlight_classes: true
+  offlineSearch: true
+  offlineSearchIndex: summary
+  offlineSearchSummaryLength: 120
+  offlineSearchMaxResults: 12
+  page_width: normal
+  print:
+    disable_toc: false
+  ui:
+    quick_links: [manifesto, mappings]
+    sidebar_icon_policy: groups
+    typography:
+      preset: system
+    page_context_menu:
       enable: true
-      display: hover
+      links: []
+    showLightDarkModeMenu: true
+    breadcrumb_disable: true
+    sidebar_menu_compact: true
+    sidebar_menu_foldable: true
+    sidebar_root_enabled: true
+    sidebar_root_menu: false
+    sidebar_item_overflow: wrap
+    sidebar_menu_truncate: 200
+    ul_show: 2
+    feedback:
+      enable: false
+    readingtime:
+      enable: true
+    scrollSpy:
+      disable: true

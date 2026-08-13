@@ -1,9 +1,11 @@
 ---
 title: "Cyber Vedanta: All Processes Share the Same Substrate"
 description: "Volume IV, Buddhism + Hinduism: What is the underlying reality?"
-linkTitle: "Vol. IV · Hinduism"
+linkTitle: "Vol. IV · Vedanta"
 type: docs
 weight: 70
+search_keywords: [Vedanta, Brahman, emptiness, ontology, runtime, shared substrate]
+search_boost: 1.25
 volume: 4
 title_en: "Emptiness and Brahman"
 tradition: "Buddhism + Hinduism"
@@ -11,8 +13,6 @@ core_question: "What is the underlying reality?"
 accent: "#394b86"
 aliases:
   - /en/vol/4-vedanta/
-breadcrumbs: false
-toc: true
 ---
 
 <p class="cd-kicker">Volume IV · Hinduism · Emptiness and Brahman</p>

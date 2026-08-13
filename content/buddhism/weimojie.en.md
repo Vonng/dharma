@@ -4,8 +4,6 @@ description: "How an awakened system operates in a real world of pollution, adve
 linkTitle: "Vimalakirti Sutra: Production Environment"
 type: docs
 weight: 50
-toc: true
-breadcrumbs: false
 ---
 
 > *The silence that resounds like thunder.*

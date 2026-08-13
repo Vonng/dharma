@@ -4,6 +4,8 @@ description: "Volume I, Taoism: How should a system be designed?"
 linkTitle: "Vol. I · Taoism"
 type: docs
 weight: 40
+search_keywords: [Taoism, Tao Te Ching, wu wei, system design, minimal intervention]
+search_boost: 1.25
 volume: 1
 title_en: "Cyber Tao Te Ching"
 tradition: "Taoism"
@@ -11,8 +13,6 @@ core_question: "How should a system be designed?"
 accent: "#2d6d63"
 aliases:
   - /en/vol/1-dao/
-breadcrumbs: false
-toc: true
 ---
 
 <p class="cd-kicker">Volume I · Taoism · Cyber Tao Te Ching</p>

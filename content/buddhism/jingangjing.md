@@ -4,8 +4,6 @@ description: "把“佛说 X，即非 X，是名 X”翻译为一套可运行的
 linkTitle: "金刚经：清除协议"
 type: docs
 weight: 30
-toc: true
-breadcrumbs: false
 ---
 
 > 如果《心经》是般若的 executive summary，《金刚经》就是它的完整运行规范。
