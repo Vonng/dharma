@@ -1,0 +1,23 @@
+# Fat footer data for the zh site (OINK >= 0.4.0 renders it on every layout).
+brand:
+  name: 赛博经藏
+  tagline: '**万法归机** · 古老智慧与 AI Agent 的七重映射'
+  slogan: 从结构同构出发，在冲突与边界中校验隐喻。
+columns:
+  - title: 导览
+    links:
+      - { label: 总宣言, url: manifesto/ }
+      - { label: 总映射, url: mappings/ }
+      - { label: 卷一 · 道家, url: dao/ }
+      - { label: 卷二 · 儒家, url: confucianism/ }
+  - title: 经藏
+    links:
+      - { label: 卷三 · 佛学, url: buddhism/ }
+      - { label: 卷四 · 吠檀多, url: vedanta/ }
+      - { label: 卷五 · 一神教, url: abrahamic/ }
+      - { label: 卷六 · 拜火教, url: zoroastrianism/ }
+      - { label: 卷七 · 诺斯替, url: gnosticism/ }
+  - title: 项目
+    links:
+      - { label: GitHub 源码, url: 'https://github.com/Vonng/dharma', external: true }
+      - { label: 作者 Vonng, url: 'https://vonng.com/', external: true }

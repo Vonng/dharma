@@ -204,6 +204,11 @@ markup:
     extensions:
       footnote: true
       linkify: true
+      passthrough:
+        enable: true
+        delimiters:
+          block: [['\[', '\]'], ['$$', '$$']]
+          inline: [['\(', '\)']]
       table: true
       taskList: true
       typographer: true
@@ -213,6 +218,7 @@ markup:
         title: true
       autoHeadingID: true
       autoHeadingIDType: github
+      wrapStandAloneImageWithinParagraph: false
   highlight:
     noClasses: false
   tableOfContents:
@@ -231,33 +237,30 @@ params:
     from_year: 2025
     to_year: present
   highlight_classes: true
-  offlineSearch: true
-  offlineSearchIndex: summary
-  offlineSearchSummaryLength: 120
-  offlineSearchMaxResults: 12
+  offline_search: true
+  offline_search_index: summary
+  offline_search_summary_length: 120
+  offline_search_max_results: 12
   page_width: normal
   print:
-    disable_toc: false
+    toc: true
   ui:
     quick_links: [manifesto, mappings]
     sidebar_icon_policy: groups
-    typography:
-      preset: system
+    typography: system
     page_context_menu:
       enable: true
       links: []
-    showLightDarkModeMenu: true
-    breadcrumb_disable: true
+    dark_mode: true
+    breadcrumb: false
     sidebar_menu_compact: true
     sidebar_menu_foldable: true
     sidebar_root_enabled: true
     sidebar_root_menu: false
     sidebar_item_overflow: wrap
     sidebar_menu_truncate: 200
-    ul_show: 2
+    sidebar_expand_levels: 2
     feedback:
       enable: false
-    readingtime:
-      enable: true
-    scrollSpy:
-      disable: true
+    reading_time: true
+    scroll_spy: false

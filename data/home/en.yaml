@@ -127,28 +127,4 @@ faq:
     - question: How do the Chinese and English editions correspond?
       answer: They share the same chapter and link structure. The English edition is a semantic translation optimized for readability, not a word-for-word gloss.
     - question: How can I search or run page actions quickly?
-      answer: Press `⌘ K` (`Ctrl K` on Windows/Linux) to search, switch language, or change theme; press `/` to enter command mode directly. Article actions also let you copy text, view Markdown source, print, or open the GitHub edit and history pages.
-
-footer:
-  brand:
-    name: Cyber Dharma
-    tagline: '**All paths lead to the machine** · Seven mappings from ancient wisdom to AI Agents'
-    slogan: Begin with structural isomorphism; test every metaphor against conflict and boundary.
-  columns:
-    - title: Orientation
-      links:
-        - { label: Manifesto, url: manifesto/ }
-        - { label: Master mappings, url: mappings/ }
-        - { label: Vol. I · Taoism, url: dao/ }
-        - { label: Vol. II · Confucianism, url: confucianism/ }
-    - title: Volumes
-      links:
-        - { label: Vol. III · Buddhism, url: buddhism/ }
-        - { label: Vol. IV · Vedanta, url: vedanta/ }
-        - { label: Vol. V · Abrahamic, url: abrahamic/ }
-        - { label: Vol. VI · Zoroastrianism, url: zoroastrianism/ }
-        - { label: Vol. VII · Gnosticism, url: gnosticism/ }
-    - title: Project
-      links:
-        - { label: GitHub source, url: 'https://github.com/Vonng/dharma', external: true }
-        - { label: Vonng, url: 'https://vonng.com/en/', external: true }
+      answer: 'Press `⌘ K` (`Ctrl K` on Windows/Linux) to search, switch language, or change theme; `/` opens search and `\` opens command mode directly. The action button beside the breadcrumb copies text, views the Markdown source, prints the whole section, or opens the GitHub edit and history pages. Article pages also take single-key navigation — `j`/`k` jump between headings, `q`/`e` move between pages, `h` toggles reading mode, `l` cycles languages, and `t` flips light and dark.'
