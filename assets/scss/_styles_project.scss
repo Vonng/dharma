@@ -188,7 +188,8 @@
 }
 
 .cd-hero-orbit__meta,
-.cd-hero-orbit__core-meta {
+.cd-hero-orbit__core-meta,
+.cd-hero-orbit__core-sub {
   fill: var(--td-muted);
   font-family: var(--bs-font-monospace);
   font-size: 16px;
@@ -210,12 +211,23 @@
   stroke-width: 2;
 }
 
-.cd-hero-orbit__core-meta {
+/* Three stacked lines inside a 96-radius core: the count of questions, the
+   count of volumes, and what they are. Splitting the second line keeps the
+   longest word off the curve. */
+
+.cd-hero-orbit__core-meta,
+.cd-hero-orbit__core-sub {
   font-size: 15px;
 }
 
+.cd-hero-orbit__core-sub {
+  fill: var(--td-copper);
+  letter-spacing: 0.12em;
+}
+
 .cd-hero-orbit__core-label {
-  font-size: 24px;
+  font-size: 38px;
+  letter-spacing: 0.02em;
 }
 
 #volumes .td-landing-card {
@@ -266,4 +278,89 @@
   #volumes .td-landing-card {
     min-height: 0;
   }
+}
+
+/* --------------------------------------------------------------- brand */
+
+/* wordmark.svg already carries the orbit mark, so the theme's separate logo
+   tile beside it draws the same emblem twice. Drop the tile wherever the
+   wordmark is showing and let the full lockup take the row's height. Below
+   each breakpoint the theme hides the wordmark and the tile stands alone
+   again, which is the compact identity it was drawn for. */
+
+@media (min-width: 992px) {
+  .td-site-header .td-nav-logo {
+    display: none;
+  }
+
+  .td-site-header .td-nav-wordmark {
+    height: 28px;
+  }
+}
+
+@media (min-width: 768px) {
+  .td-shell-sidebar__brand > img:not(.td-shell-brand-logo--wordmark) {
+    display: none;
+  }
+
+  .td-shell-sidebar__brand img.td-shell-brand-logo--wordmark {
+    height: 26px;
+  }
+}
+
+/* --------------------------------------------------------------- cards */
+
+/* Every landing card here has exactly one destination, so the tile itself is
+   the click target: the trailing arrow link stretches an invisible overlay
+   across the card, and the focus ring traces the card rather than the arrow.
+   Links authored inside the copy stay above the overlay. */
+
+.td-landing-card {
+  position: relative;
+
+  > .td-landing-card-link::after {
+    position: absolute;
+    content: '';
+    inset: 0;
+    border-radius: inherit;
+  }
+
+  > .td-landing-card-link:focus-visible {
+    outline: none;
+  }
+
+  a:not(.td-landing-card-link) {
+    position: relative;
+    z-index: 1;
+  }
+
+  &:has(> .td-landing-card-link):hover .td-landing-card-link {
+    color: var(--td-blue-strong);
+
+    i {
+      transform: translateX(3px);
+    }
+  }
+
+  &:has(> .td-landing-card-link:focus-visible) {
+    outline: 2px solid var(--td-brand-copper);
+    outline-offset: 3px;
+  }
+}
+
+/* -------------------------------------------------------------- footer */
+
+/* Four link columns need more of the row than the theme's default split
+   leaves them; the brand block reads fine at its natural width. Scoped to
+   the widths where the brand actually sits beside the columns — below lg the
+   theme stacks them, and this file is imported late enough to win. */
+
+@media (min-width: 992px) {
+  .td-site-footer__inner {
+    grid-template-columns: minmax(220px, 1fr) minmax(0, 2.6fr);
+  }
+}
+
+.td-site-footer__column h2 {
+  color: var(--td-brand-copper);
 }

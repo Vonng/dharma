@@ -7,6 +7,10 @@ enableRobotsTXT: true
 enableGitInfo: true
 hasCJKLanguage: true
 
+services:
+  googleAnalytics:
+    id: G-1YSSNFDRW6
+
 caches:
   images:
     dir: :cacheDir/images
@@ -31,6 +35,10 @@ languages:
     title: "赛博经藏"
     params:
       description: 赛博经藏，关于古老智慧与 AI Agent 的七重映射。
+      comments:
+        giscus:
+          ariaLabel: 评论
+          errorMessage: 评论加载失败，请稍后重试。
       ui:
         command_palette:
           commands:
@@ -48,7 +56,7 @@ languages:
           weight: 10
           params:
             icon: fa-solid fa-scroll
-        - name: 七卷经藏
+        - name: 经藏
           identifier: mappings
           pageRef: /mappings
           weight: 20
@@ -117,6 +125,10 @@ languages:
     title: "Cyber Dharma"
     params:
       description: Cyber Dharma maps ancient wisdom traditions to AI Agent engineering concepts.
+      comments:
+        giscus:
+          ariaLabel: Comments
+          errorMessage: Comments could not be loaded. Please try again later.
       ui:
         command_palette:
           commands:
@@ -134,7 +146,7 @@ languages:
           weight: 10
           params:
             icon: fa-solid fa-scroll
-        - name: Seven Volumes
+        - name: Volumes
           identifier: mappings
           pageRef: /mappings
           weight: 20
@@ -244,6 +256,21 @@ params:
   page_width: normal
   print:
     toc: true
+  comments:
+    enable: true
+    type: giscus
+    giscus:
+      repo: Vonng/dharma
+      repoId: R_kgDOSD1kng
+      category: Announcements
+      categoryId: DIC_kwDOSD1kns4C67_H
+      mapping: pathname
+      strict: 0
+      reactionsEnabled: 1
+      emitMetadata: 0
+      inputPosition: bottom
+      theme: auto
+      loading: lazy
   ui:
     quick_links: [manifesto, mappings]
     sidebar_icon_policy: groups
@@ -257,7 +284,7 @@ params:
     sidebar_menu_foldable: true
     sidebar_root_enabled: true
     sidebar_root_menu: false
-    sidebar_item_overflow: wrap
+    sidebar_item_overflow: ellipsis
     sidebar_menu_truncate: 200
     sidebar_expand_levels: 2
     feedback:

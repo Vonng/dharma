@@ -26,16 +26,17 @@ hero:
     desc: 八个入口环绕赛博经藏的七个核心问题。
     center:
       meta: 七个问题
-      label: 七卷经藏
+      label: 七卷
+      sub: 经藏
     items:
-      - { meta: 宣言, mark: 总, label: 总宣言, url: manifesto/, x: 300, y: 58 }
-      - { meta: 卷一, mark: 道, label: 卷一 · 道家, url: dao/, x: 471, y: 129 }
-      - { meta: 卷二, mark: 儒, label: 卷二 · 儒家, url: confucianism/, x: 542, y: 300 }
-      - { meta: 卷三, mark: 佛, label: 卷三 · 佛学, url: buddhism/, x: 471, y: 471 }
-      - { meta: 卷四, mark: 梵, label: 卷四 · 吠檀多, url: vedanta/, x: 300, y: 542 }
-      - { meta: 卷五, mark: 神, label: 卷五 · 一神教, url: abrahamic/, x: 129, y: 471 }
-      - { meta: 卷六, mark: 火, label: 卷六 · 拜火教, url: zoroastrianism/, x: 58, y: 300 }
-      - { meta: 卷七, mark: 知, label: 卷七 · 诺斯替, url: gnosticism/, x: 129, y: 129 }
+      - { meta: 宣言, mark: 总, label: 总宣言, url: manifesto/, x: 300, y: 76 }
+      - { meta: 卷一, mark: 道, label: 卷一 · 道家, url: dao/, x: 458, y: 142 }
+      - { meta: 卷二, mark: 儒, label: 卷二 · 儒家, url: confucianism/, x: 524, y: 300 }
+      - { meta: 卷三, mark: 佛, label: 卷三 · 佛学, url: buddhism/, x: 458, y: 458 }
+      - { meta: 卷四, mark: 梵, label: 卷四 · 吠檀多, url: vedanta/, x: 300, y: 524 }
+      - { meta: 卷五, mark: 神, label: 卷五 · 一神教, url: abrahamic/, x: 142, y: 458 }
+      - { meta: 卷六, mark: 火, label: 卷六 · 拜火教, url: zoroastrianism/, x: 76, y: 300 }
+      - { meta: 卷七, mark: 知, label: 卷七 · 诺斯替, url: gnosticism/, x: 142, y: 142 }
 
 volumes:
   eyebrow: 总宣言 · 七卷
@@ -84,6 +85,10 @@ questions:
   columns: 4
   link_label: 进入对应经卷
   items:
+    - title: 先看总体概览？
+      desc: 一张总映射表列出七卷的宗教概念与工程概念对照，按问题挑选入口。
+      icon: fa-solid fa-compass
+      url: mappings/
     - title: 系统应该怎么设计？
       desc: 从边界、反馈与最小干预出发，让结构塑造行为。
       icon: fa-solid fa-diagram-project

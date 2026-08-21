@@ -25,17 +25,18 @@ hero:
     title: The manifesto and seven volumes
     desc: Eight reading paths orbit Cyber Dharma's seven core questions.
     center:
-      meta: Seven Questions
-      label: Seven Volumes
+      meta: 7 questions
+      label: '7'
+      sub: volumes
     items:
-      - { meta: Intro, mark: M, label: Manifesto, url: manifesto/, x: 300, y: 58 }
-      - { meta: Vol. I, mark: Tao, label: Vol. I · Taoism, url: dao/, x: 471, y: 129 }
-      - { meta: Vol. II, mark: Rite, label: Vol. II · Confucianism, url: confucianism/, x: 542, y: 300 }
-      - { meta: Vol. III, mark: Zen, label: Vol. III · Buddhism, url: buddhism/, x: 471, y: 471 }
-      - { meta: Vol. IV, mark: Om, label: Vol. IV · Vedanta, url: vedanta/, x: 300, y: 542 }
-      - { meta: Vol. V, mark: God, label: Vol. V · Abrahamic monotheism, url: abrahamic/, x: 129, y: 471 }
-      - { meta: Vol. VI, mark: Fire, label: Vol. VI · Zoroastrianism, url: zoroastrianism/, x: 58, y: 300 }
-      - { meta: Vol. VII, mark: Gnos, label: Vol. VII · Gnosticism, url: gnosticism/, x: 129, y: 129 }
+      - { meta: Intro, mark: M, label: Manifesto, url: manifesto/, x: 300, y: 76 }
+      - { meta: Vol. I, mark: Tao, label: Vol. I · Taoism, url: dao/, x: 458, y: 142 }
+      - { meta: Vol. II, mark: Rite, label: Vol. II · Confucianism, url: confucianism/, x: 524, y: 300 }
+      - { meta: Vol. III, mark: Zen, label: Vol. III · Buddhism, url: buddhism/, x: 458, y: 458 }
+      - { meta: Vol. IV, mark: Om, label: Vol. IV · Vedanta, url: vedanta/, x: 300, y: 524 }
+      - { meta: Vol. V, mark: God, label: Vol. V · Abrahamic monotheism, url: abrahamic/, x: 142, y: 458 }
+      - { meta: Vol. VI, mark: Fire, label: Vol. VI · Zoroastrianism, url: zoroastrianism/, x: 76, y: 300 }
+      - { meta: Vol. VII, mark: Gnos, label: Vol. VII · Gnosticism, url: gnosticism/, x: 142, y: 142 }
 
 volumes:
   eyebrow: Manifesto · Seven volumes
@@ -79,11 +80,15 @@ volumes:
 
 questions:
   eyebrow: Browse by problem
-  title: Which Agent engineering problem are you solving?
+  title: Any agent engineering problems?
   text: The same corpus also offers a second route—start with a concrete problem, then enter the tradition that illuminates it.
   columns: 4
   link_label: Open the volume
   items:
+    - title: Want the whole map first?
+      desc: One master table lines up every religious concept with its engineering counterpart across the seven volumes.
+      icon: fa-solid fa-compass
+      url: mappings/
     - title: How should a system be designed?
       desc: Start with boundaries, feedback, and minimal intervention so structure shapes behavior.
       icon: fa-solid fa-diagram-project
