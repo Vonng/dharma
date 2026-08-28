@@ -1,5 +1,5 @@
 module github.com/vonng/dharma
 
-go 1.26.5
+go 1.27.0
 
-require github.com/pgsty/oink v0.7.0 // indirect
+require github.com/pgsty/oink v0.8.0 // indirect
