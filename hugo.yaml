@@ -279,6 +279,8 @@ params:
       enable: true
       links: []
     dark_mode: true
+    preset: paper
+    preset_menu: [paper, slate, ink, terminal]
     breadcrumb: false
     sidebar_menu_compact: true
     sidebar_menu_foldable: true

@@ -1,5 +1,6 @@
-:root,
-[data-bs-theme="light"] {
+// Keep the site's warm palette on Paper; other presets use their own tokens.
+:root[data-td-preset="paper"],
+[data-td-preset="paper"][data-bs-theme="light"] {
   --td-display-font-family: var(--td-heading-font-family);
   --bs-body-bg: #f6f0e2;
   --bs-body-bg-rgb: 246, 240, 226;
@@ -29,7 +30,8 @@
   --td-brand-mark-to: #b88b3e;
 }
 
-[data-bs-theme="dark"] {
+[data-td-preset="paper"][data-bs-theme="dark"],
+[data-td-preset="paper"] [data-bs-theme="dark"] {
   --bs-body-bg: #0f1217;
   --bs-body-bg-rgb: 15, 18, 23;
   --bs-body-color: #ede5d3;
