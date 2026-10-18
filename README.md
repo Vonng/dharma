@@ -3,7 +3,7 @@
 [![网站](https://img.shields.io/badge/Website-dharma.vonng.com-987329?style=flat-square)](https://dharma.vonng.com/)
 [![中文](https://img.shields.io/badge/Language-中文-2d6d63?style=flat-square)](https://dharma.vonng.com/)
 [![Hugo](https://img.shields.io/badge/Built%20with-Hugo-ff4088?style=flat-square)](https://dharma.vonng.com/)
-[![OINK](https://img.shields.io/badge/Theme-OINK%201.3.0-987329?style=flat-square)](https://oink.pgsty.com/)
+[![OINK](https://img.shields.io/badge/Theme-OINK%201.3.2-987329?style=flat-square)](https://oink.pgsty.com/)
 
 赛博经藏是一个将古老宗教与哲学传统，映射到 AI Agent 工程问题上的写作项目。它不把宗教当作 AI 的外部评论，而是把其中关于自我、秩序、约束、治理、责任与失控的高密度概念，重新翻译成面向系统设计、Agent 架构和多智能体协作的工程语言。
 
@@ -13,7 +13,7 @@
 
 ## 项目特点
 
-- 以 Hugo Extended 构建，主题固定为 OINK 1.3.0。
+- 以 Hugo Extended 构建，主题固定为 OINK 1.3.2。
 - 提供结构对齐的中英文内容、离线全文检索、命令面板与明暗主题，以及 Paper、Slate、Ink、Terminal 四种风格切换。
 - 为正文生成 Markdown 输出，为首页生成 `llms.txt`，并为章节页提供打印与页面动作。
 - 采用“结构同构”方法，把宗教概念映射为可操作的 AI Agent 工程概念。
@@ -30,7 +30,8 @@ make dev
 make check
 ```
 
-`make dev` 使用 `~/pgsty/oink` 的当前工作树，要求 Hugo Extended 0.166.0。
+`make dev` 使用 `~/pgsty/oink` 的当前工作树，要求 Hugo Extended 0.168.0。
+
 可用 `make dev OINK_LOCAL=/path/to/oink PORT=1314` 指定主题目录和端口。
 开发入口禁用 Go/Hugo workspace，并绕过 OINK 的 vendor 副本；`make build`、
 `make check` 和已有的生产预览入口使用 `go.mod` 中固定的版本。

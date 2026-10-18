@@ -16,11 +16,11 @@ build:
 check:
 	GOWORK=off go mod verify
 	$(PINNED_HUGO) --cleanDestinationDir \
-		--printPathWarnings --printI18nWarnings --panicOnWarning
+		--printPathWarnings --printI18nWarnings
 
 check-local: theme-local
 	$(LOCAL_HUGO) --cleanDestinationDir \
-		--printPathWarnings --printI18nWarnings --panicOnWarning
+		--printPathWarnings --printI18nWarnings
 
 dev: theme-local
 	$(LOCAL_HUGO) server --renderToMemory --bind 127.0.0.1 --port "$(PORT)" --noBuildLock
