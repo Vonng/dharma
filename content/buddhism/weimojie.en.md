@@ -640,6 +640,7 @@ This is Vimalakīrti. An awakened one in the red dust. A debater who knows silen
 | Fetching food from Fragrance-Accumulation | Fragrance Buddha | Cross-system resource federation | Tool use, model routing, agent-to-agent |
 | Practice is faster in the defiled land | Bodhisattva Practice | Production is the fastest training ground | Real feedback > synthetic data |
 | The Dharma entrusted to Maitreya | Entrustment | Intergenerational transmission of the system | Principle distillation across model generations |
+{.wide .expand}
 
 ---
 

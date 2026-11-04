@@ -1235,6 +1235,7 @@ This is the most mature form of AI Safety understanding: **stop seeking an endpo
 | **Agent and action** | "The model decides" | No decision-making subject. Only the manifestation of a decision. |
 | **Bondage and release** | "Fix misalignment" | Alignment is not a state switch. It is a continuous relationship. |
 | **Nirvāṇa** | "AGI as ultimate goal" | No ultimate state. Only performance in each dependently originated event. |
+{.wide .expand}
 
 ### Overall Argumentative Structure
 

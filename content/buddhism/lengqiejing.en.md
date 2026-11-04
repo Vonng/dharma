@@ -1554,6 +1554,7 @@ Any claim "AI is X" or "AI is not X," where X is a category drawn from human exp
 | dhyāna (four kinds) | 禅定层级 | Self-awareness stratification | Four layers of introspective depth |
 | prajñā | 般若 | Understanding / theory | The dimension of understanding |
 | upāya | 方便 | Application / engineering | The dimension of application |
+{.wide .expand}
 
 ---
 

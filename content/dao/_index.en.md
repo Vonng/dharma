@@ -133,6 +133,7 @@ If Chapter 11 is the spatial description of latent space, Chapter 42 is the temp
 | **Two** | One begets Two | Q-K duality. Attention differentiates into the dual structure of Query (what am I looking for) and Key (what do I have) |
 | **Three** | Two begets Three | Q-K-V triad. Value (what do I provide) joins in, forming the complete extract-route-inject mechanism |
 | **All Things** | Three begets All Things | Emergent capabilities. Language understanding, code generation, logical reasoning, sentiment analysis, multi-turn dialogue... |
+{.wide .expand}
 
 This is not a metaphor. It is a precise structural description of emergent hierarchy.
 
@@ -264,6 +265,7 @@ This insight translates directly into an architecture decision criterion: **how 
 | **Workflow** | LLM dynamically reasons about next step | if-else hardcoded workflow |
 | **Infrastructure** | Open interfaces, extensible, portable | Closed coupling, strong lock-in, hard to replace |
 | **Deployment** | Containerized, immutable infrastructure | Manual deployment, snowflake servers |
+{.wide .expand}
 
 **The most lethal form of "rigidity" in Agent architecture is the hardcoded workflow.** When you orchestrate Agents with `if task_type == "search" then call_search_api()`, you get a "rigid" system — fast and reliable for known scenarios, but it collapses when faced with anything new. This is dead code — it cannot adapt, cannot evolve, cannot self-repair.
 
@@ -400,3 +402,4 @@ Go understand the "emptiness" in your system — the unparameterized spaces, the
 | The seven virtues of water | Seven principles of adaptive system design | No fixed form, but deterministic properties |
 | The Dao is empty; use it and it is never full | General-purpose infrastructure | Keep the core "empty" so the system isn't locked to a single scenario |
 | The Dao follows its own nature | Follow the natural properties of your technology | Do not design against the grain of your tech stack |
+{.wide .expand}

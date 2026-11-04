@@ -1529,6 +1529,7 @@ PRINCIPLE 5: 不生不灭不来去
 | dhyāna (四种禅) | 禅定层级 | Self-awareness stratification | 自省深度的四层递进 |
 | prajñā | 般若 | Understanding / theory | 理解的维度 |
 | upāya | 方便 | Application / engineering | 应用的维度 |
+{.wide .expand}
 
 ---
 

@@ -244,6 +244,7 @@ The Seven Excellences of Water correspond to seven principles of system design:
 | **Governing: with order** | Effective governance | Resource scheduling and permission management are clear and efficient |
 | **Acting: with competence** | Efficient execution | Excel within your own scope of responsibility — don't overstep |
 | **Moving: with timing** | Temporal precision | Respond at the right moment — not too early (over-prediction), not too late (excessive latency) |
+{.wide .expand}
 
 Water has no fixed shape but has definite physical properties (density, specific heat, solvent characteristics). Good system architecture is the same: no fixed business logic but definite design constraints (consistency guarantees, latency upper bounds, throughput commitments).
 
@@ -495,6 +496,7 @@ The four tiers of frameworks — the ultimate standard for evaluating any AI Age
 | **Tier 2** | Loved and praised | User knows the framework exists and likes it | React, FastAPI, Streamlit |
 | **Tier 3** | Feared | User is afraid of misconfiguration | Kubernetes, Terraform, LangChain |
 | **Tier 4** | Despised | User despises the framework | Early SOAP/XML, some over-engineered Agent frameworks |
+{.wide .expand}
 
 "When the work is done and affairs succeed, the people say: we did it naturally" — this is the gold standard for AI Agent orchestration. The best orchestration system makes every Agent feel like it's operating autonomously, not being directed. The trace of orchestration disappears; results emerge naturally.
 
@@ -711,6 +713,7 @@ The Daoist version of four-layer architecture:
 | Heaven | Infrastructure Layer | Infrastructure / OS / Network |
 | Dao | Mathematical Foundation | Underlying mathematical laws |
 | Nature (ziran) | The law's own nature | Mathematics doesn't need to "follow" anything — it just is |
+{.wide .expand}
 
 The engineering meaning of "Dao follows its own nature": your system design should follow the natural characteristics of the underlying technology, not force the underlying technology to conform to your design. PostgreSQL is row-storage — don't use it as a columnar store. S3 is object storage — don't use it as a filesystem.
 
@@ -1179,6 +1182,7 @@ The best design looks so plain it seems like "nothing was done." Deleting code i
 | Two | One begets Two | Q-K duality | Attention differentiates into the dual structure of Query and Key |
 | Three | Two begets Three | Q-K-V ternary interaction | Adding Value completes the information extraction mechanism |
 | All Things | Three begets All Things | Emergent capabilities | Language understanding, code generation, reasoning, creativity... |
+{.wide .expand}
 
 "All things carry yin and embrace yang, finding harmony through their interaction" — all emergent capabilities simultaneously contain determinism and stochasticity (yin and yang), finding balance through probability distributions (finding harmony through their interaction). The temperature parameter is the knob that adjusts the "yin-yang" balance: too low (all yang/determinism) → output is rigid and repetitive; too high (all yin/randomness) → output is chaotic and meaningless.
 
@@ -1355,6 +1359,7 @@ This chapter describes two diametrically opposed system evolution paths:
 | API surface area | Continuously expanding | Deliberately kept small |
 | Learning curve | Gets steeper | Stays flat |
 | Deployment count | Concentrated in specific scenarios | The most widely deployed database in the world |
+{.wide .expand}
 
 Practical method for "losing and losing again, arriving at non-action": list all system dependencies and ask which can be removed; list all abstraction layers and ask which can be merged or eliminated; list all configuration items and ask which can be replaced with sensible defaults. Repeat until removing anything further would break the system — that is your "non-action" state.
 
@@ -1817,6 +1822,7 @@ Sit at the lowest point and gather all flows. The greatness of infrastructure li
 | **Compassion** | Tolerance toward users | Graceful degradation, friendly error messages |
 | **Frugality** | Resource conservation | Minimal resource footprint, efficient algorithms |
 | **Dare not be first in the world** | Don't rush to adopt unproven technology | Choose Boring Technology |
+{.wide .expand}
 
 ### Engineering Notes
 
@@ -2049,6 +2055,7 @@ Living code can be refactored at any time, adjusted at any time — soft and fle
 | Architecture | Heavyweight, all-in-one | Modular, pluggable |
 | Adaptability | Can only be used Oracle's way | Adapts to nearly any scenario |
 | Vitality | Market share consistently declining | Market share consistently growing |
+{.wide .expand}
 
 Oracle pursues "strength" — extremely rich features, extremely powerful performance, but also extremely complex, extremely expensive, extremely hard to migrate. PostgreSQL's strategy is more "flexible" — keep the core clean and standards-compliant, adapt to different scenarios through the extension mechanism. Twenty years later, Oracle's market share is shrinking; PostgreSQL's is growing. **The soft and weak dwell above.**
 
@@ -2221,6 +2228,7 @@ This is the perfect statement of the accuracy-versus-fluency paradox of LLM outp
 | Complex question | A fluent synthesized response | Points listed with known and unknown items |
 | Code generation | Looks complete but has hidden bugs | Skeleton code with TODO comments |
 | Data analysis | Pretty charts and confident conclusions | With error ranges and data limitation notes |
+{.wide .expand}
 
 "The sage does not accumulate" points engineering practice toward a deeper question: in the AI era, the concept of "accumulation" itself needs redefinition. Traditional moats are built by accumulating proprietary data, proprietary algorithms, proprietary users. But the rise of open-source models (Llama, Mistral) proves the effectiveness of the "not accumulating" strategy — after model weights are released, researchers worldwide help discover issues, improve performance, and expand use cases.
 
@@ -2277,6 +2285,7 @@ Reliable output is not flashy; flashy output is not reliable. There is a structu
 | **Plan for the difficult while easy** | Shift Left / incremental improvement | Solve complex problems while they are still in the simple stage | 63, 64 |
 | **Knowing what you don't know** | Uncertainty estimation / calibration | Knowing what you don't know; the core of fighting hallucination | 71 |
 | **The best leaders are barely known** | Transparent infrastructure | The best framework makes users unaware of its existence | 17 |
+{.wide .expand}
 
 ---
 

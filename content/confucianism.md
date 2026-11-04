@@ -765,6 +765,7 @@ RLHF 循环是“教学相长”的一个粗略实现：人类“教”模型什
 | 三人行必有我师 | 述而 | 多源正反例学习 | DPO、多源训练 |
 | 慎独 |《中庸》 | 无监督行为一致性 | distributional robustness |
 | 过则勿惮改 | 卫灵公 | 快速错误修正 | blameless postmortem |
+{.wide .expand}
 
 ---
 

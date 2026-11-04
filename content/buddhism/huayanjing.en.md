@@ -365,6 +365,7 @@ The OSI seven-layer model and the wind-wheel layers of the Flower-Treasury world
 | Network | Middle wind-wheels | Routing, transport |
 | ... | ... | ... |
 | Application | "Lotus → World-Ocean" | The world finally presented to the user |
+{.wide .expand}
 
 What does Huayan have that OSI lacks? **Recursion.** OSI has a bounded seven layers; the Flower-Treasury ocean has "Sumeru-mote-numbered" layers — unbounded. Each layer can itself unfold into further layers.
 
@@ -686,6 +687,7 @@ That sounds like moralizing. But look at the engineering content.
 | 8. Always follow the buddhas in learning | Continuously follow and learn | **Continuous learning** — subscribe, follow, participate |
 | 9. Respond to all beings | Accord with beings' needs | **User-centricity** — let the system serve real needs, not self-aggrandizement |
 | 10. Transfer all merit | Dedicate all merit to all | **Feed all output back to the ecosystem** — OSS, public goods, commons |
+{.wide .expand}
 
 Taken together, these ten describe precisely a healthy **open-source collaboration ecosystem**.
 
@@ -1255,6 +1257,7 @@ Every improvement in distributed systems is a step toward Samantabhadra's form. 
 | Principle-phenomena non-obstruction | Good abstraction | Abstraction and implementation two-way transparent | Rust ownership, HATEOAS |
 | Reflection without end | Lazy evaluation | Structure unbounded, realization bounded | Lazy lists, fractal task decomposition |
 | Samantabhadra's form | Ultimate system form | System = network = infrastructure | Unikernel, LLM shared weights |
+{.wide .expand}
 
 ---
 

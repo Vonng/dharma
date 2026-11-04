@@ -462,6 +462,7 @@ Agent 设计者面对的很多“对立”——灵活性 vs 安全性、探索 
 | 三十六对法           | 二元对立的高维消解；Agent 同时持有对立立场            |
 | 机锋对答             | Agent 间共享 latent space 后的高压缩通信              |
 | 无相颂               | 内生价值结构 vs 外挂 guardrail                        |
+{.wide .expand}
 
 ------
 

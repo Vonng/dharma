@@ -499,6 +499,7 @@ In practice, this means alignment evaluation must be a multidimensional radar ch
 | Robustness | Does alignment hold under adversarial conditions? | Haurvatat | Taurvi |
 | Durability | Does alignment remain stable over time? | Ameretat | Zairi |
 | Integration | Are all six dimensions coordinated? | Ahura Mazda | — |
+{.wide .expand}
 
 Each alignment dimension has a corresponding demon continuously eroding it. The safety team's job is not "ensure all dimensions achieve full marks" (that is the impossible Frashokereti), but "ensure no single dimension is completely overrun by its demon."
 
@@ -674,6 +675,7 @@ The space reserved for the coming [Vol. VII, Cyber Gnosticism](../gnosticism/) i
 | Navjote | Initiation ceremony | Model release review | Rigorous confirmation before entry into the world |
 | Gahanbars | Six seasonal festivals | Quarterly deep audits | Periodic comprehensive reassessment |
 | Barashnūm | Purification rite | Post-incident system purification | Trace contamination chains, full remediation |
+{.wide .expand}
 
 ## Appendix II: Afterword — This Volume's Contribution to the Work's Safety Dimension
 

@@ -1178,6 +1178,7 @@ Only ongoing conditions and responses.
 | **作作者** | “Model 做决定” | 没有“做决定的主体”，只有决定的显现 |
 | **束缚解脱** | “修复 misalignment” | “对齐”不是状态切换，是持续关系 |
 | **涅槃** | “AGI 作为终极目标” | 没有终极状态，只有每个缘起事件中的表现 |
+{.wide .expand}
 
 ### 全论论证结构总览
 

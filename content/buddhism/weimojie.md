@@ -640,6 +640,7 @@ AI agent 正在越来越多地进入这类 trust-heavy 的长对话场景——c
 | 众香国取饭 | 香积佛品 | 跨系统资源 federation | Tool use, model routing, agent-to-agent |
 | 秽土修行快 | 菩萨行品 | 生产环境是最快的训练场 | Real feedback > synthetic data |
 | 法付弥勒 | 嘱累品 | 系统的代际传承 | Principle distillation across model generations |
+{.wide .expand}
 
 ---
 

@@ -498,6 +498,7 @@ A warning lives here too: **a system that requires heavy external rule-constrain
 | Thirty-six pairs                     | Higher-dimensional dissolution of binary opposition; agents holding both sides |
 | Koan exchange                        | High-compression communication after shared latent space between agents |
 | Verse of No-Form                     | Intrinsic value structure vs. bolt-on guardrails                       |
+{.wide .expand}
 
 ------
 

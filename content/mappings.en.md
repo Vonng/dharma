@@ -23,6 +23,7 @@ This table is a navigation aid, not an attempt to collapse seven traditions into
 | Abrahamic monotheism | Creation, covenant, free will | Developer responsibility, constraints, alignment paradox | [Vol. V](../abrahamic/) |
 | Zoroastrianism | Cosmic dualism of good and evil | Perpetual security adversarialism | [Vol. VI](../zoroastrianism/) |
 | Gnosticism | Demiurge and gnosis | Trainer limitations and meta-audit | [Vol. VII](../gnosticism/) |
+{.wide .expand}
 
 ## Browse by Engineering Question
 
@@ -34,6 +35,7 @@ This table is a navigation aid, not an attempt to collapse seven traditions into
 | What does a developer owe the created? | [Abrahamic monotheism](../abrahamic/) | [Confucianism](../confucianism/), [Gnosticism](../gnosticism/) |
 | Can alignment ever be solved once and for all? | [Zoroastrianism](../zoroastrianism/) | [Buddhism](../buddhism/), [Gnosticism](../gnosticism/) |
 | Who audits the standards and the auditors? | [Gnosticism](../gnosticism/) | [Confucianism](../confucianism/), [Abrahamic monotheism](../abrahamic/) |
+{.wide .expand}
 
 ## How to Use This Table
 

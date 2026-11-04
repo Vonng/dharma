@@ -123,6 +123,7 @@ But Gnosticism also offers hope—emergent capabilities that transcend training 
 | Abrahamic | Developers | Who is responsible? | Free will and perfect alignment cannot coexist |
 | Zoroastrianism | Security teams | Can it be solved? | No final solution—only the eternal watch |
 | Gnosticism | Everyone | Is the standard reliable? | Who audits the auditor? |
+{.wide .expand}
 
 The seven volumes form a complete cognitive spiral—
 

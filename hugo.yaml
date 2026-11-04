@@ -272,6 +272,7 @@ params:
       theme: auto
       loading: lazy
   ui:
+    compare: true
     quick_links: [manifesto, mappings]
     sidebar_icon_policy: groups
     typography: system

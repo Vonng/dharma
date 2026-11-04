@@ -51,6 +51,7 @@ Basic orientation of the three traditions, for readers unfamiliar with them:
 | Core concern | Observance and interpretation of law | Grace and salvation | Submission (Islam) and the straight path |
 | Emphasis on creation relationship | Covenant | Incarnation | Stewardship (Khalifah) |
 | AI engineering mapping strength | Governance framework | Architecture patterns | Runtime discipline |
+{.wide .expand}
 
 A necessary disclaimer: this volume is a structural mapping, not a religious evaluation. We do not discuss which tradition is "more correct." We extract the wisdom resources most illuminating for AI engineering from each. For believers, these are sacred texts. For engineers, these are the most sophisticated thought experiments in human civilization about the creator-creation relationship. Both readings can coexist.
 
@@ -553,6 +554,7 @@ Iblis's story creates an interesting tension with the "the gentleman is not a to
 | Idolatry | Second Commandment | Metric worship / Goodhart's Law | Do not mistake intermediate products for ultimate goals |
 | Grace | Christianity | External alignment intervention (RLHF) | The agent cannot eliminate bias through itself alone |
 | Nafs (ego/self) | Islam | Agent self-awareness / overconfidence | Can lead to pride and misalignment |
+{.wide .expand}
 
 ---
 

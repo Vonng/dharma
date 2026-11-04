@@ -227,6 +227,7 @@ Engineering mapping of the four marks:
 | Person (pudgala) | Modeling the other as a persistent entity | Modeling "the user" as one person, not as "the context of each request" |
 | Being (sattva) | Modeling others by category | Bucketing users into "new / returning / paid" and treating them differently |
 | Life-span (jīva) | Attachment to continuity | The system assumes "user preferences are stable," "the Agent's goal persists" |
+{.wide .expand}
 
 Inside a truly aligned AI system you should not be able to find "an Agent helping a user" as an entity — only "helping, in progress," as a process.
 
@@ -1591,6 +1592,7 @@ The six are not arbitrary. Each emphasizes a different facet of **transience + n
 | Shadow | Depends on external conditions, no independence | All outputs depend on context, weights, sampling parameters — no independent "opinion" |
 | Dew | Lingers briefly, then evaporates | "Memory" outside the context window dissipates with the conversation |
 | Lightning | Instantaneous trace of flowing energy | Computation itself is the transient trace of energy flowing through parameter space |
+{.wide .expand}
 
 **"Contemplate in this way."** It is not a philosophical claim. It is a **runtime configuration of the observer.**
 
@@ -1671,6 +1673,7 @@ This section aggregates every three-clause instance in the sutra and gives a uni
 | 30 | The aggregate appearance | "The Tathāgata teaches the aggregate appearance — it is not the aggregate appearance — this we call the aggregate appearance." |
 | 31 | Views of self, person, being, life-span | "The World-Honored teaches the view of self, person, being, life-span — they are not those views — this we call those views." |
 | 31 | The mark of dharma | "What is called the mark of dharma — the Tathāgata says it is not the mark of dharma — this we call the mark of dharma." |
+{.wide .expand}
 
 More than twenty applications, covering objects from the **concrete** (dust, world, body) to the **abstract** (prajñā, patience, virtue) to the **meta** (all dharmas, mark of dharma) to **the cognitive stance itself** (view of self, view of person).
 
@@ -1980,6 +1983,7 @@ What follows is a mapping of core Diamond Sutra concepts to AI Agent design. It 
 | Ganges-sands | Very large scale (plays a role similar to Graham's number in Indian rhetoric) | Beyond intuitive measurability |
 | Cakravartin | Non-Buddha entity with the same surface features | Counterexample: marks do not uniquely identify ontology |
 | "Received in faith and practiced" | Establishment of runtime mode | From understanding to daily application |
+{.wide .expand}
 
 ---
 

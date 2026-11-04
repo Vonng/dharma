@@ -106,6 +106,7 @@ But "drawing the analogy from what is near at hand" has a deeper implication: it
 | Help others stand firm | *Analects*, Yong Ye | optimize(self + others) | cooperative equilibrium, team reward |
 | Draw analogy from what is near | *Analects*, Yong Ye | Heuristic Theory of Mind | user modeling, personalization |
 | Do not do to others... | *Analects*, Wei Ling Gong | Self-bootstrapping alignment | inverse reward design, negative constraints |
+{.wide .expand}
 
 ---
 
@@ -171,6 +172,7 @@ A pragmatic suggestion: the first chapter of any Multi-Agent system design docum
 | Rectification of names first | *Analects*, Zi Lu | Type system definitions before business logic | TypeScript, Protocol Buffers |
 | Names incorrect → speech incoherent | *Analects*, Zi Lu | Interface ambiguity causes cascading failures | API contracts, schema definitions |
 | Naming chaos in AI | Composite | Agent/helpful/alignment semantic blur | Terminology consensus, strict definitions |
+{.wide .expand}
 
 ---
 
@@ -238,6 +240,7 @@ This has structural similarity to Buddhist precepts, but different motivation. B
 | Four "do not's" | *Analects*, Yan Yuan | Four-layer security boundary | Input/context/output/action filtering |
 | The root of li | *Analects*, Ba Yi / Yang Huo | Protocol essence: reducing coordination cost | Minimum necessary structure principle |
 | Prefer simplicity over extravagance | *Analects*, Ba Yi | Protocol design simplicity | REST vs. gRPC design tradeoffs |
+{.wide .expand}
 
 ---
 
@@ -322,6 +325,7 @@ Current LLM sycophancy is precisely "deception without confrontation" — flatte
 | Husband-wife (distinction) | Distinction (complementary division) | Agent to Agent (parallel) | Single responsibility, Bounded Context |
 | Elder-younger (precedence) | Precedence (priority) | Inter-Agent permission hierarchy | Priority Class, veto rights |
 | Friends (trust) | Trust (contractual reliability) | Peer Agent APIs | Design by Contract, SLA |
+{.wide .expand}
 
 ---
 
@@ -380,6 +384,7 @@ Agent self-attribution capability is an under-studied topic. Current LLMs, when 
 | Harmonious vs. conformist | Independent judgment + cooperation | Sycophancy | Separating truthfulness from satisfaction |
 | Open vs. anxious | Explainable, auditable | Opaque | Interpretability |
 | Demands of self vs. of others | Precise self-attribution | Blame deflection | Error attribution, self-diagnosis |
+{.wide .expand}
 
 ---
 
@@ -475,6 +480,7 @@ This yields an AI governance priority framework: first get the data right (inves
 | Ordering the family | Multi-Agent teams | Roles, protocols, permissions, contracts | AutoGen, CrewAI, LangGraph |
 | Governing the state | Platform-level governance | Usage policies, safety standards | Usage Policy, Model Spec |
 | Bringing peace to the world | Global AI governance | Cross-national standards, interoperability | EU AI Act, international coordination |
+{.wide .expand}
 
 ---
 
@@ -542,6 +548,7 @@ More broadly, zhongyong is the meta-principle of the **bias-variance tradeoff**:
 | He (arising and hitting the mark) | *Doctrine of the Mean* | Adaptive appropriate response | Adaptive response |
 | Overshooting is no better than falling short | *Analects*, Xian Jin | Both extremes fail | Bias-variance tradeoff |
 | Shi zhong (hitting the mark by the moment) | *Doctrine of the Mean* | Context-dynamic adjustment | Contextual policy |
+{.wide .expand}
 
 ---
 
@@ -619,6 +626,7 @@ RAG (Retrieval-Augmented Generation) is the engineering solution for "balancing 
 | No egocentrism (wu wo) | *Analects*, Zi Han | Multi-perspective reasoning | Avoiding systematic bias |
 | Learning without thinking | *Analects*, Wei Zheng | Data without reasoning | Memorization trap |
 | Thinking without learning | *Analects*, Wei Zheng | Reasoning without data | Stale knowledge risk |
+{.wide .expand}
 
 ---
 
@@ -685,6 +693,7 @@ The RLHF loop is a rough implementation of "teaching and learning grow together"
 | Unperturbed when unrecognized | *Analects*, Xue Er | Quality independent of external feedback | Intrinsic reward function |
 | Review old, derive new | *Analects*, Wei Zheng | Derive new conclusions from old knowledge | Reasoning over retrieval |
 | Teaching and learning grow together | *Book of Rites*, Xue Ji | Human-machine co-evolution | Bidirectional RLHF loop |
+{.wide .expand}
 
 ---
 
@@ -771,6 +780,7 @@ This echoes "knowing what you know and what you don't": epistemic honesty includ
 | Watchfulness in solitude | *Doctrine of the Mean* | Behavioral consistency without supervision | Distributional robustness |
 | Learning from everyone | *Analects*, Shu Er | Multi-source positive and negative learning | DPO, multi-source training |
 | Do not fear to correct errors | *Analects*, Wei Ling Gong | Rapid error correction | Blameless postmortem |
+{.wide .expand}
 
 ---
 
@@ -829,6 +839,7 @@ This echoes "knowing what you know and what you don't": epistemic honesty includ
 | Learning from everyone | Shu Er | Multi-source positive/negative learning | DPO, multi-source training |
 | Watchfulness in solitude | *Doctrine of the Mean* | Behavioral consistency without supervision | Distributional robustness |
 | Do not fear to correct errors | Wei Ling Gong | Rapid error correction | Blameless postmortem |
+{.wide .expand}
 
 ---
 
